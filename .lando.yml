@@ -1,0 +1,6 @@
+name: builders-trust-capital
+recipe: pantheon
+config:
+  framework: wordpress
+  site: builders-trust-capital
+  id: 5f427295-e5f4-4259-9e75-46367d6fbfa3
