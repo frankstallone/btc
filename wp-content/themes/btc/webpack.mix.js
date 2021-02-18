@@ -12,9 +12,7 @@ require('@tinypixelco/laravel-mix-wp-blocks');
  |
  */
 
-mix
-  .setPublicPath('./public')
-  .browserSync('sage.test');
+mix.setPublicPath('./public').browserSync('builders-trust-capital.lndo.site');
 
 mix
   .sass('resources/styles/app.scss', 'styles')
@@ -35,6 +33,4 @@ mix
   .copyDirectory('resources/images', 'public/images')
   .copyDirectory('resources/fonts', 'public/fonts');
 
-mix
-  .sourceMaps()
-  .version();
+mix.sourceMaps().version();
