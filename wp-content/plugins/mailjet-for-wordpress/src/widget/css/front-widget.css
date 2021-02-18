@@ -1,0 +1,39 @@
+.mailjet_widget_front_container {
+    margin-bottom: 20px;
+}
+
+#mailjet-widget-title-wrap {
+    display: inline;
+    font-size: 12px;
+}
+
+.mj_form_property{
+    
+}
+
+.mailjet-widget-form-group {
+    margin-bottom: 10px;
+}
+
+.mailjet-widget-form-date {
+    display: flex;
+    flex-direction: column;
+}
+
+.mailjet-widget-label {
+    font-weight: 500;
+    display: inline;
+    cursor: pointer;
+}
+
+#mailjetSubscriptionForm{
+    
+}
+
+#mailjet_widget_email{
+    
+}
+
+.mailjet_widget_front_container input[type=date] {
+    width: fit-content;
+}
