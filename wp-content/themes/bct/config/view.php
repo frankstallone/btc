@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'compiled' => get_theme_file_path('/storage/framework/views'),
+    'compiled' => wp_upload_dir()['basedir'].'/storage/framework/views',
 
     /*
     |--------------------------------------------------------------------------
