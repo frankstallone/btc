@@ -3,7 +3,7 @@
 Plugin Name: WP-CFM
 Plugin URI: https://forumone.github.io/wp-cfm/
 Description: WordPress Configuration Management
-Version: 1.6
+Version: 1.7.2
 Author: Forum One
 Author URI: http://forumone.com/
 License: GPLv3
@@ -44,7 +44,7 @@ class WPCFM_Core
     function __construct() {
 
         // setup variables
-        define( 'WPCFM_VERSION', '1.6' );
+        define( 'WPCFM_VERSION', '1.7.2' );
         define( 'WPCFM_DIR', dirname( __FILE__ ) );
 
         $config_dir = WP_CONTENT_DIR . '/config';
@@ -62,7 +62,7 @@ class WPCFM_Core
 
             // Change the config directory to private/config on Pantheon
             $config_dir = $_SERVER['DOCUMENT_ROOT'] . '/private/config';
-            $config_url = WP_HOME . '/private/config';
+            $config_url = home_url() . '/private/config';
         }
 
         // Register multiple environments.
