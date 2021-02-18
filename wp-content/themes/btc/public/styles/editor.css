@@ -1,11 +1,3 @@
-.block-editor-block-list__layout {
-  font-family: BRHendrix, sans-serif;
-}
+.block-editor-block-list__layout{font-family:BRHendrix,sans-serif}.wp-block{max-width:768px}.wp-block.editor-post-title__block .editor-post-title__input{font-family:BRHendrix,sans-serif!important}
 
-.wp-block {
-  max-width: 768px;
-}
-
-.wp-block.editor-post-title__block .editor-post-title__input {
-  font-family: BRHendrix, sans-serif !important;
-}
+/*# sourceMappingURL=editor.css.map*/
