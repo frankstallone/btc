@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'a1c90e210915e23a2cf8df455349d29c4ea3318a',
+    'reference' => '1bb0c3bd89e51478bc046d1344b1795ee6ee9cb3',
     'name' => 'roots/sage',
   ),
   'versions' => 
@@ -28,15 +28,6 @@
       array (
       ),
       'reference' => '9cf661f4eb38f7c881cac67c75ea9b00bf97b210',
-    ),
-    'filp/whoops' => 
-    array (
-      'pretty_version' => '2.9.2',
-      'version' => '2.9.2.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => 'df7933820090489623ce0be5e85c7e693638e536',
     ),
     'graham-campbell/result-type' => 
     array (
@@ -336,7 +327,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'a1c90e210915e23a2cf8df455349d29c4ea3318a',
+      'reference' => '1bb0c3bd89e51478bc046d1344b1795ee6ee9cb3',
     ),
     'roots/support' => 
     array (
@@ -346,15 +337,6 @@
       array (
       ),
       'reference' => '0c5231dc194407e32bfee000d49a36775040289a',
-    ),
-    'squizlabs/php_codesniffer' => 
-    array (
-      'pretty_version' => '3.5.8',
-      'version' => '3.5.8.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '9d583721a7157ee997f235f327de038e7ea6dac4',
     ),
     'symfony/console' => 
     array (
