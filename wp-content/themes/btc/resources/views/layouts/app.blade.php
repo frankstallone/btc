@@ -1,4 +1,4 @@
-<div class="max-w-3xl mx-auto">
+<div class="flex flex-col min-h-screen">
 
   <a class="sr-only focus:not-sr-only" href="#main">
     {{ __('Skip to content') }}
@@ -6,7 +6,7 @@
 
   @include('partials.header')
 
-    <main id="main" class="py-8 prose main">
+    <main id="main" class="max-w-screen-xl mx-auto p-4 prose main">
       @yield('content')
     </main>
 

@@ -13,15 +13,6 @@ module.exports = {
       fontFamily: {
         sans: ['BRHendrix', 'sans-serif'],
       },
-      typography: {
-        DEFAULT: {
-          css: {
-            h1: {
-              fontWeight: '600',
-            },
-          },
-        },
-      },
       colors: {
         blueWaves: {
           50: 'var(--blueWaves-50)',
@@ -96,6 +87,16 @@ module.exports = {
           900: '#620042',
         },
       },
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            h1: {
+              color: theme('colors.quicksilver.800'),
+              fontWeight: '600',
+            },
+          },
+        },
+      }),
     },
   },
   variants: {
