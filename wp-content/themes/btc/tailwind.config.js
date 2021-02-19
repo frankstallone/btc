@@ -13,6 +13,15 @@ module.exports = {
       fontFamily: {
         sans: ['BRHendrix', 'sans-serif'],
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            h1: {
+              fontWeight: '600',
+            },
+          },
+        },
+      },
       colors: {
         blueWaves: {
           50: 'var(--blueWaves-50)',
