@@ -1,8 +1,8 @@
 header {
   .nav-primary {
-    @apply flex items-center;
+    @apply sm:flex sm:flex-row items-center;
     ul {
-      @apply flex items-center;
+      @apply sm:flex sm:flex-row items-center;
       li {
         @apply px-2;
       }
