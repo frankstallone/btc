@@ -23,5 +23,7 @@ return array(
     'e39a8b23c42d4e1452234d762b03835a' => $vendorDir . '/ramsey/uuid/src/functions.php',
     '7018e3dbeb54682c59da60bb2ff4f971' => $vendorDir . '/roots/support/helpers.php',
     'b6b991a57620e2fb6b2f66f03fe9ddc2' => $vendorDir . '/symfony/string/Resources/functions.php',
+    '306c972fefb706292e68f312a9e19301' => $vendorDir . '/log1x/sage-directives/src/Directives.php',
+    '2c3fde97f0f2b20397a293f71447ab39' => $vendorDir . '/log1x/sage-directives/src/Utilities.php',
     '8f15f9ff549eb573a8fa9fc1521408d9' => $vendorDir . '/roots/acorn/src/helpers.php',
 );

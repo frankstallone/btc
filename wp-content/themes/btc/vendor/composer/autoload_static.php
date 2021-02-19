@@ -24,6 +24,8 @@ class ComposerStaticInitb51ded2acc39b9dfc2640d35377878cb
         'e39a8b23c42d4e1452234d762b03835a' => __DIR__ . '/..' . '/ramsey/uuid/src/functions.php',
         '7018e3dbeb54682c59da60bb2ff4f971' => __DIR__ . '/..' . '/roots/support/helpers.php',
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
+        '306c972fefb706292e68f312a9e19301' => __DIR__ . '/..' . '/log1x/sage-directives/src/Directives.php',
+        '2c3fde97f0f2b20397a293f71447ab39' => __DIR__ . '/..' . '/log1x/sage-directives/src/Utilities.php',
         '8f15f9ff549eb573a8fa9fc1521408d9' => __DIR__ . '/..' . '/roots/acorn/src/helpers.php',
     );
 

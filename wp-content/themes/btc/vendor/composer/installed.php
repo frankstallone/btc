@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'd6854d0392708b692f1b2d57a65c289bb505c16a',
+    'reference' => '7ec9ed2beba1a2582c6379945f1fed9fb779be82',
     'name' => 'roots/sage',
   ),
   'versions' => 
@@ -200,6 +200,15 @@
       ),
       'reference' => '3b9dff8aaf7323590c1d2e443db701eb1f9aa0d3',
     ),
+    'log1x/sage-directives' => 
+    array (
+      'pretty_version' => 'v1.1.9',
+      'version' => '1.1.9.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '1162c9fa46aea11cd1495d6a8e6a1a120833308d',
+    ),
     'monolog/monolog' => 
     array (
       'pretty_version' => '2.2.0',
@@ -327,7 +336,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'd6854d0392708b692f1b2d57a65c289bb505c16a',
+      'reference' => '7ec9ed2beba1a2582c6379945f1fed9fb779be82',
     ),
     'roots/support' => 
     array (
