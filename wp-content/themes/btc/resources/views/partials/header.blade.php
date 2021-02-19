@@ -1,5 +1,5 @@
-<div class="py-4">
-  <header class="flex justify-between items-center">
+<div class="bg-bigWaves-50 py-4">
+  <header class="md:w-full md:max-w-6xl md:mx-auto flex justify-between items-center">
     <a class="brand flex mr-4" href="{{ home_url('/') }}">
       {{ $siteName }}
     </a>

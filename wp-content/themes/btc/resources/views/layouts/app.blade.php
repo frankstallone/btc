@@ -6,7 +6,7 @@
 
   @include('partials.header')
 
-    <main id="main" class="max-w-screen-xl mx-auto p-4 prose main">
+    <main id="main" class="prose main">
       @yield('content')
     </main>
 

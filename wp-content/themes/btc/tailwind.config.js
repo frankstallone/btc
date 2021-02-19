@@ -14,17 +14,17 @@ module.exports = {
         sans: ['BRHendrix', 'sans-serif'],
       },
       colors: {
-        blueWaves: {
-          50: 'var(--blueWaves-50)',
-          100: 'var(--blueWaves-100)',
-          200: 'var(--blueWaves-200)',
-          300: 'var(--blueWaves-300)',
-          400: 'var(--blueWaves-400)',
-          500: 'var(--blueWaves-500)',
-          600: 'var(--blueWaves-600)',
-          700: 'var(--blueWaves-700)',
-          800: 'var(--blueWaves-800)',
-          900: 'var(--blueWaves-900)',
+        bigWaves: {
+          50: 'var(--bigWaves-50)',
+          100: 'var(--bigWaves-100)',
+          200: 'var(--bigWaves-200)',
+          300: 'var(--bigWaves-300)',
+          400: 'var(--bigWaves-400)',
+          500: 'var(--bigWaves-500)',
+          600: 'var(--bigWaves-600)',
+          700: 'var(--bigWaves-700)',
+          800: 'var(--bigWaves-800)',
+          900: 'var(--bigWaves-900)',
         },
         quicksilver: {
           50: 'var(--quicksilver-50)',
