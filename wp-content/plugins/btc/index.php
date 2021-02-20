@@ -68,7 +68,7 @@ function reusable_section_post_type() {
 		'supports'              => array( 'title', 'editor', 'custom-fields'),
         'taxonomies'            => array(),
 		'hierarchical'          => false,
-		'public'                => false,
+		'public'                => true,
 		'show_ui'               => true,
 		'show_in_menu'          => true,
 		'menu_position'         => 20,
@@ -78,7 +78,7 @@ function reusable_section_post_type() {
 		'can_export'            => true,
 		'has_archive'           => false,
 		'exclude_from_search'   => true,
-		'publicly_queryable'    => false,
+		'publicly_queryable'    => true,
 		'capability_type'       => 'page',
 	);
 	register_post_type( 'reusable_section', $args );

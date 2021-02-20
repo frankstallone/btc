@@ -1,0 +1,11 @@
+footer {
+  .nav-footer {
+    @apply sm:flex sm:flex-row items-center;
+    ul {
+      @apply sm:flex sm:flex-row items-center;
+      li {
+        @apply px-2;
+      }
+    }
+  }
+}
