@@ -3,9 +3,11 @@
     <a class="brand font-display flex mr-4" href="{{ home_url('/') }}">
       {{ $siteName }}
     </a>
+    <span id="nav-mobile-toggle" class="sm:hidden">MENU</span>
 
     <nav class="nav-primary">
       @if (has_nav_menu('primary_navigation'))
+      <span class="nav-mobile-close absolute top-0 pt-2 right-0 mr-4 sm:hidden">Close</span>
         {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav', 'echo' => false]) !!}
       @endif
     </nav>
