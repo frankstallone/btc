@@ -11,6 +11,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        display: ['Guerrer', 'sans-serif'],
         sans: ['BRHendrix', 'sans-serif'],
       },
       colors: {
@@ -92,6 +93,26 @@ module.exports = {
           css: {
             h1: {
               color: theme('colors.quicksilver.800'),
+              fontWeight: '600',
+            },
+            h2: {
+              color: theme('colors.quicksilver.700'),
+              fontWeight: '600',
+            },
+            h3: {
+              color: theme('colors.quicksilver.600'),
+              fontWeight: '600',
+            },
+            h4: {
+              color: theme('colors.quicksilver.600'),
+              fontWeight: '600',
+            },
+            h5: {
+              color: theme('colors.quicksilver.600'),
+              fontWeight: '600',
+            },
+            h6: {
+              color: theme('colors.quicksilver.600'),
               fontWeight: '600',
             },
           },
