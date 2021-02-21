@@ -1,4 +1,4 @@
-<footer class="content-info bg-bigWaves-50 py-4">
+<footer class="content-info bg-quicksilver-50 py-4">
   <div class="sm:w-full sm:max-w-6xl sm:mx-auto px-4 flex justify-between items-center">
     <nav class="nav-footer">
         @if (has_nav_menu('primary_navigation'))

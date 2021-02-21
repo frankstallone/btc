@@ -1,5 +1,5 @@
 @hasfield('headline')
-<header class="bg-bigWaves-50">
+<header class="bg-quicksilver-50">
   <div class="mx-auto max-w-3xl px-4 py-20 prose">
     <h1>@field('headline')</h1>
     @hasfield('subheading')
