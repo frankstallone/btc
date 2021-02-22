@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '21b049813c2686f4566151d44637f0d4f15ba244',
+    'reference' => '66883d81875abf7ccce8f18d6177736440c504e4',
     'name' => 'roots/sage',
   ),
   'versions' => 
@@ -233,6 +233,15 @@ private static $installed = array (
       ),
       'reference' => '1162c9fa46aea11cd1495d6a8e6a1a120833308d',
     ),
+    'log1x/sage-svg' => 
+    array (
+      'pretty_version' => 'v1.0.6',
+      'version' => '1.0.6.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '923f0c286b57180883ffd61cbcf4a854b20e8f91',
+    ),
     'monolog/monolog' => 
     array (
       'pretty_version' => '2.2.0',
@@ -360,7 +369,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '21b049813c2686f4566151d44637f0d4f15ba244',
+      'reference' => '66883d81875abf7ccce8f18d6177736440c504e4',
     ),
     'roots/support' => 
     array (

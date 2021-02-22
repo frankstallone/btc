@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "40ebcf0f5448595e094989f3994600b8",
+    "content-hash": "89ed35ba1e2ec3769644f28961c8f293",
     "packages": [
         {
             "name": "brick/math",
@@ -1302,6 +1302,70 @@
                 }
             ],
             "time": "2021-02-19T15:19:22+00:00"
+        },
+        {
+            "name": "log1x/sage-svg",
+            "version": "v1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Log1x/sage-svg.git",
+                "reference": "923f0c286b57180883ffd61cbcf4a854b20e8f91"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Log1x/sage-svg/zipball/923f0c286b57180883ffd61cbcf4a854b20e8f91",
+                "reference": "923f0c286b57180883ffd61cbcf4a854b20e8f91",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5"
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "^3.5"
+            },
+            "type": "package",
+            "extra": {
+                "acorn": {
+                    "providers": [
+                        "Log1x\\SageSvg\\SageSvgServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Log1x\\SageSvg\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brandon Nifong",
+                    "email": "brandon@tendency.me"
+                }
+            ],
+            "description": "A simple package for using inline SVGs in Sage 10 projects.",
+            "keywords": [
+                "sage",
+                "svg",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/log1x/sage-svg/issues",
+                "source": "https://github.com/Log1x/sage-svg/tree/v1.0.6"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/Log1x",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-12-06T04:44:28+00:00"
         },
         {
             "name": "monolog/monolog",

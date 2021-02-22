@@ -26,6 +26,7 @@ class ComposerStaticInitb51ded2acc39b9dfc2640d35377878cb
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
         '306c972fefb706292e68f312a9e19301' => __DIR__ . '/..' . '/log1x/sage-directives/src/Directives.php',
         '2c3fde97f0f2b20397a293f71447ab39' => __DIR__ . '/..' . '/log1x/sage-directives/src/Utilities.php',
+        '2fb983e63247f84d8365e00e3015e40b' => __DIR__ . '/..' . '/log1x/sage-svg/src/helpers.php',
         '8f15f9ff549eb573a8fa9fc1521408d9' => __DIR__ . '/..' . '/roots/acorn/src/helpers.php',
     );
 
@@ -80,6 +81,7 @@ class ComposerStaticInitb51ded2acc39b9dfc2640d35377878cb
         ),
         'L' => 
         array (
+            'Log1x\\SageSvg\\' => 14,
             'League\\MimeTypeDetection\\' => 25,
             'League\\Flysystem\\' => 17,
         ),
@@ -256,6 +258,10 @@ class ComposerStaticInitb51ded2acc39b9dfc2640d35377878cb
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
+        ),
+        'Log1x\\SageSvg\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/log1x/sage-svg/src',
         ),
         'League\\MimeTypeDetection\\' => 
         array (
@@ -1010,6 +1016,8 @@ class ComposerStaticInitb51ded2acc39b9dfc2640d35377878cb
         'League\\MimeTypeDetection\\FinfoMimeTypeDetector' => __DIR__ . '/..' . '/league/mime-type-detection/src/FinfoMimeTypeDetector.php',
         'League\\MimeTypeDetection\\GeneratedExtensionToMimeTypeMap' => __DIR__ . '/..' . '/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php',
         'League\\MimeTypeDetection\\MimeTypeDetector' => __DIR__ . '/..' . '/league/mime-type-detection/src/MimeTypeDetector.php',
+        'Log1x\\SageSvg\\SageSvg' => __DIR__ . '/..' . '/log1x/sage-svg/src/SageSvg.php',
+        'Log1x\\SageSvg\\SageSvgServiceProvider' => __DIR__ . '/..' . '/log1x/sage-svg/src/SageSvgServiceProvider.php',
         'Monolog\\DateTimeImmutable' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/DateTimeImmutable.php',
         'Monolog\\ErrorHandler' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/ErrorHandler.php',
         'Monolog\\Formatter\\ChromePHPFormatter' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Formatter/ChromePHPFormatter.php',
