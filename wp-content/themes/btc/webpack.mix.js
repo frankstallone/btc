@@ -31,6 +31,7 @@ mix
 
 mix
   .copyDirectory('resources/images', 'public/images')
-  .copyDirectory('resources/fonts', 'public/fonts');
+  .copyDirectory('resources/fonts', 'public/fonts')
+  .copyDirectory('resources/svg', 'public/svg');
 
 mix.sourceMaps().version();
