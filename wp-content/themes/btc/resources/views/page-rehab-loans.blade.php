@@ -50,7 +50,7 @@
     <figure class="mb-0 important"><table><tbody><tr><td>85% LTC up to 75% LTARV</td></tr><tr><td>Rates as low as 10%</td></tr><tr><td>Points as low as 2%</td></tr><tr><td>Loans from $75,000 and up</td></tr><tr><td>Interest is escrowed</td></tr><tr><td>Loan is managed in-house, not outsourced. Ensures consistent service during and after origination</td></tr></tbody></table></figure>
   </div>
 </div>
-<div class="prose sm:w-full sm:max-w-3xl mx-auto py-8 px-4">
+<div class="sm:w-full sm:max-w-3xl mx-auto py-8 px-4">
   @while(have_posts()) @php(the_post())
     @includeFirst(['partials.content-page', 'partials.content'])
   @endwhile

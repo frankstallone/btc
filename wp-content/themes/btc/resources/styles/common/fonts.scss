@@ -12,7 +12,7 @@ h6 {
 
 body {
   color: var(--quicksilver-900);
-  max-width: 65ch;
+  // max-width: 65ch;
   font-size: 1rem;
   line-height: 1.75;
 }
@@ -93,7 +93,7 @@ ul > li {
 ul > li::before {
   content: '';
   position: absolute;
-  background-color: var(--quicksiver-200);
+  background-color: var(--quicksilver-200);
   border-radius: 50%;
   width: 0.375em;
   height: 0.375em;
