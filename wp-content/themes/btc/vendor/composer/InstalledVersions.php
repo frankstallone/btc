@@ -25,12 +25,12 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '80d955684b07fe29968e58cd6f39b3202f72b42c',
     'name' => 'roots/sage',
   ),
   'versions' => 
@@ -364,12 +364,12 @@ private static $installed = array (
     ),
     'roots/sage' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '80d955684b07fe29968e58cd6f39b3202f72b42c',
     ),
     'roots/support' => 
     array (
@@ -851,7 +851,6 @@ self::$canGetVendors = method_exists('Composer\Autoload\ClassLoader', 'getRegist
 $installed = array();
 
 if (self::$canGetVendors) {
-
 foreach (ClassLoader::getRegisteredLoaders() as $vendorDir => $loader) {
 if (isset(self::$installedByVendor[$vendorDir])) {
 $installed[] = self::$installedByVendor[$vendorDir];
