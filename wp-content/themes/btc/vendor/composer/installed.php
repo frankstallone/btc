@@ -1,12 +1,12 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => 'dev-master',
-    'version' => 'dev-master',
+    'pretty_version' => '1.0.0+no-version-set',
+    'version' => '1.0.0.0',
     'aliases' => 
     array (
     ),
-    'reference' => 'dae64fad9ba356c68d781343d3c47ddf2f6c4aec',
+    'reference' => NULL,
     'name' => 'roots/sage',
   ),
   'versions' => 
@@ -340,12 +340,12 @@
     ),
     'roots/sage' => 
     array (
-      'pretty_version' => 'dev-master',
-      'version' => 'dev-master',
+      'pretty_version' => '1.0.0+no-version-set',
+      'version' => '1.0.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'dae64fad9ba356c68d781343d3c47ddf2f6c4aec',
+      'reference' => NULL,
     ),
     'roots/support' => 
     array (

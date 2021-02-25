@@ -3,8 +3,8 @@
 @section('content')
 <div class="bg-goldRush-50">
   <div class="prose sm:w-full sm:max-w-xl mx-auto py-8 px-4 mb-4">
-    <h3>Rehab Loan Programs</h3>
-    <p class="text-xl">Ideal for investors looking to purchase a property, renovate and then sell or rent the renovated property for a profit. You can also use the loan for the refinance and rehab when you’ve started using cash and need a loan to finish the project. Credit score 720 & up.</p>
+    <h3 class="text-goldRush-700">Rehab Loan Programs</h3>
+    <p class="text-xl text-goldRush-900">Ideal for investors looking to purchase a property, renovate and then sell or rent the renovated property for a profit. You can also use the loan for the refinance and rehab when you’ve started using cash and need a loan to finish the project. Credit score 720 & up.</p>
   </div>
 </div>
 {{-- <div class="prose sm:w-full sm:max-w-2xl mx-auto py-8 px-4 mb-4">
