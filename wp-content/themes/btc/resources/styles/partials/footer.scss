@@ -3,8 +3,14 @@ footer {
     @apply sm:flex sm:flex-row items-center;
     ul {
       @apply sm:flex sm:flex-row items-center;
+      > li::before {
+        display: none;
+      }
       li {
         @apply px-2;
+        a {
+          @apply no-underline;
+        }
       }
     }
   }

@@ -116,4 +116,5 @@
     </div>
     @include('partials.success-stories')
     @include('partials.how-to')
+    @include('partials.testimonials')
 @endsection
