@@ -9,5 +9,10 @@
 @import 'partials/footer';
 @import 'partials/standard-content';
 
+// BTC Mark class for SVG sizing
+.mark {
+  width: 2000px;
+}
+
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';

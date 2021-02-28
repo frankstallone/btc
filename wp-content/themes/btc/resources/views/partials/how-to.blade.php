@@ -8,7 +8,7 @@
     </div>
     <div class="mx-auto grid grid-cols-1 gap-8 px-4 md:grid-cols-5 md:max-w-6xl md:px-0">
         <div>
-            <h3 class="text-rubySlippers-800">1. [icon] Get Started</h3>
+            <h3 class="text-rubySlippers-800">1. Get Started</h3>
             <p class="text-quicksilver-900">
                 <a href="#">Fill in the form</a> or call us at 856-422-3232 so we can
                 contact you and begin working on your loan. We're local and happy to meet with
@@ -17,23 +17,23 @@
         </div>
 
         <div>
-            <h3 class="text-rubySlippers-800">2 [icon] Pre-qualify</h3>
+            <h3 class="text-rubySlippers-800">2. Pre-qualify</h3>
             <p class="text-quicksilver-900">Complete your application and provide supporting documentation.</p>
         </div>
 
         <div>
-            <h3 class="text-rubySlippers-800">3 [icon] Proof of Funds</h3>
+            <h3 class="text-rubySlippers-800">3. Proof of Funds</h3>
             <p class="text-quicksilver-900">Increase your buying power with a proof of funds (PDF) letter.</p>
         </div>
         <div>
-            <h3 class="text-rubySlippers-800">4 [icon] Loan Processing</h3>
+            <h3 class="text-rubySlippers-800">4. Loan Processing</h3>
             <p class="text-quicksilver-900">
                 Your appraisal and title work are ordered. Your application documents are
                 reviewed.
             </p>
         </div>
         <div>
-            <h3 class="text-rubySlippers-800">5 [icon] Get Funded Now</h3>
+            <h3 class="text-rubySlippers-800">5. Get Funded Now</h3>
             <p class="text-quicksilver-900">Submit project information for quick, in-house review.</p>
         </div>
     </div>
