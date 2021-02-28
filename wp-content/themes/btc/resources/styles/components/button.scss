@@ -1,3 +1,6 @@
 .btn {
   @apply no-underline inline-block px-6 py-4 rounded-sm transform transition bg-goldRush-200 hover:bg-goldRush-100 hover:text-goldRush-900 hover:-translate-y-0.5 focus:ring-goldRush-200 focus:ring-opacity-50 focus:outline-none focus:ring focus:ring-offset-2 active:bg-goldRush-300 uppercase tracking-wider font-semibold text-lg text-center text-goldRush-800 shadow-lg w-full;
 }
+.btn--pricing-table {
+  @apply no-underline inline-block px-6 py-4 bg-goldRush-200 hover:bg-goldRush-100 hover:text-goldRush-900  focus:ring-goldRush-200 focus:ring-opacity-50 focus:outline-none focus:ring focus:ring-offset-2 active:bg-goldRush-300 uppercase tracking-wider font-semibold text-lg text-center text-goldRush-800 w-full h-full;
+}
