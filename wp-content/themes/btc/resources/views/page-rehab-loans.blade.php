@@ -1,5 +1,5 @@
 @extends('layouts.app')
-<?php $checkMark = get_svg('svg.circle-check', 'text-emeraldCity-500 w-6 mr-4 flex-shrink-0'); ?>
+<?php $checkMark = get_svg('svg.circle-check', 'text-emeraldCity-500 w-6 h-6 mr-4 flex-shrink-0'); ?>
 @section('content')
     <div class="bg-goldRush-50">
         <div class="sm:w-full sm:max-w-xl mx-auto py-12 px-4 md:px-0">
@@ -59,43 +59,43 @@
             <div class="px-8 py-8 bg-quicksilver-50">
                 <h2 class="mt-0 mb-0 text-quicksilver-900">Preferred</h2>
             </div>
-            <figure class="mb-0 mt-2">
-                <table class="table-auto">
+            <figure class="mb-0 mt-8">
+                <table>
                     <tbody>
-                        <tr>
-                            <td class="px-8 py-8 text-lg flex content-center">
+                        <tr class="border-0">
+                            <td class="px-8 py-2 text-lg flex content-center">
                                 <?php echo $checkMark; ?>
                                 90% LTC up to 75% LTARV
                             </td>
                         </tr>
-                        <tr>
-                            <td class="px-8 py-8 text-lg flex content-center">
+                        <tr class="border-0">
+                            <td class="px-8 py-2 text-lg flex content-center">
                                 <?php echo $checkMark; ?>
                                 Rates as low as 9%</td>
                         </tr>
-                        <tr>
-                            <td class="px-8 py-8 text-lg flex content-center">
+                        <tr class="border-0">
+                            <td class="px-8 py-2 text-lg flex content-center">
                                 <?php echo $checkMark; ?>
                                 Points as low as 2%</td>
                         </tr>
-                        <tr>
-                            <td class="px-8 py-8 text-lg flex content-center">
+                        <tr class="border-0">
+                            <td class="px-8 py-2 text-lg flex content-center">
                                 <?php echo $checkMark; ?>
                                 Loans from $75,000 and up</td>
                         </tr>
-                        <tr>
-                            <td class="px-8 py-8 text-lg flex content-center">
+                        <tr class="border-0">
+                            <td class="px-8 py-2 text-lg flex content-center">
                                 <?php echo $checkMark; ?>
                                 Interest is escrowed</td>
                         </tr>
-                        <tr>
-                            <td class="px-8 py-8 text-lg flex content-center">
+                        <tr class="border-0">
+                            <td class="px-8 py-2 mb-8 text-lg flex content-center">
                                 <?php echo $checkMark; ?>
                                 Loan is managed in-house, not outsourced. Ensures consistent service during and after
                                 origination</td>
                         </tr>
-                        <tr>
-                            <td class="py-0">
+                        <tr class="border-0">
+                            <td class="m-0 p-0">
                                 <a href="#" class="btn--pricing-table">Get Funded Now</a>
                             </td>
                         </tr>
@@ -107,36 +107,36 @@
             <div class="px-8 py-8 bg-quicksilver-50">
                 <h2 class="mt-0 mb-0 text-quicksilver-600">Standard</h2>
             </div>
-            <figure class="mb-0 mt-2">
-                <table class="table-auto">
+            <figure class="mb-0 mt-8">
+                <table>
                     <tbody>
-                        <tr>
-                            <td class="px-8 py-8 text-lg flex content-center">
+                        <tr class="border-0">
+                            <td class="px-8 py-2 text-lg flex content-center">
                                 <?php echo $checkMark; ?>
                                 85% LTC up to 75% LTARV</td>
                         </tr>
-                        <tr>
-                            <td class="px-8 py-8 text-lg flex content-center">
+                        <tr class="border-0">
+                            <td class="px-8 py-2 text-lg flex content-center">
                                 <?php echo $checkMark; ?>
                                 Rates as low as 10%</td>
                         </tr>
-                        <tr>
-                            <td class="px-8 py-8 text-lg flex content-center">
+                        <tr class="border-0">
+                            <td class="px-8 py-2 text-lg flex content-center">
                                 <?php echo $checkMark; ?>
                                 Points as low as 2%</td>
                         </tr>
-                        <tr>
-                            <td class="px-8 py-8 text-lg flex content-center">
+                        <tr class="border-0">
+                            <td class="px-8 py-2 text-lg flex content-center">
                                 <?php echo $checkMark; ?>
                                 Loans from $75,000 and up</td>
                         </tr>
-                        <tr>
-                            <td class="px-8 py-8 text-lg flex content-center">
+                        <tr class="border-0">
+                            <td class="px-8 py-2 text-lg flex content-center">
                                 <?php echo $checkMark; ?>
                                 Interest is escrowed</td>
                         </tr>
-                        <tr>
-                            <td class="px-8 py-8 text-lg flex content-center">
+                        <tr class="border-0">
+                            <td class="px-8 py-2 mb-8 text-lg flex content-center">
                                 <?php echo $checkMark; ?>
                                 Loan is managed in-house, not outsourced.
                                 Ensures consistent
@@ -144,8 +144,8 @@
                                 during and after
                                 origination</td>
                         </tr>
-                        <tr>
-                            <td class="py-0">
+                        <tr class="border-0">
+                            <td class="m-0 p-0">
                                 <a href="#" class="btn--pricing-table">Get Funded Now</a>
                             </td>
                         </tr>
