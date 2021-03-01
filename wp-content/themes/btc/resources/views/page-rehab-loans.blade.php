@@ -4,7 +4,9 @@
     <div class="bg-goldRush-50">
         <div class="sm:w-full sm:max-w-xl mx-auto py-12 px-4 md:px-0">
             <h3 class="text-goldRush-700 mt-0">Rehab Loan Programs</h3>
-            <p class="text-xl text-goldRush-900 mb-0">Ideal for investors looking to purchase a property, renovate and then
+            <p class="text-xl text-goldRush-900 mb-0"><strong class="text-goldRush-900">Ideal for investors</strong> looking
+                to purchase a property,
+                renovate and then
                 sell or rent the renovated property for a profit. You can also use the loan for the refinance and rehab when
                 you’ve started using cash and need a loan to finish the project. Credit score 720 & up.</p>
         </div>
@@ -12,8 +14,8 @@
     <div class="sm:w-full sm:max-w-xl mx-auto py-8 px-4 mb-4 md:px-0">
         <h3>Builders Trust Capital is a Direct Lender</h3>
         <p>The team at Builders Trust Capital makes the lending decisions. Your loan is underwritten, funded and serviced by
-            us. No part of the process is handed off to a third-party vendor. With over _____ {number) of projects funded
-            since 2015, and ________% repeat clients, you can rely on us to deliver consistently every time.</p>
+            us. No part of the process is handed off to a third-party vendor. With over _____ [number] of projects funded
+            since 2015, and 80% repeat clients, you can rely on us to deliver consistently every time.</p>
         <h3>A More Efficient Loan Approval Process</h3>
         <p>When you choose Builders Trust Capital, you get a fast, straightforward and transparent process.</p>
         <ul>
@@ -139,10 +141,7 @@
                             <td class="px-8 py-2 mb-8 text-lg flex content-center">
                                 <?php echo $checkMark; ?>
                                 Loan is managed in-house, not outsourced.
-                                Ensures consistent
-                                service
-                                during and after
-                                origination</td>
+                                Ensures consistent service during and afterorigination</td>
                         </tr>
                         <tr class="border-0">
                             <td class="m-0 p-0">
