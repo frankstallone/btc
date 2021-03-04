@@ -2,9 +2,10 @@
 <?php $checkMark = get_svg('svg.circle-check', 'text-emeraldCity-500 w-6 h-6 mr-4 flex-shrink-0'); ?>
 @section('content')
     <div class="bg-goldRush-50">
-        <div class="sm:w-full sm:max-w-xl mx-auto py-12 px-4 md:px-0">
-            <h3 class="text-goldRush-700 mt-0">Rehab Loan Programs</h3>
-            <p class="text-xl text-goldRush-900 mb-0"><strong class="text-goldRush-900">Ideal for investors</strong> looking
+        <div class="sm:w-full sm:max-w-xl mx-auto py-12 px-4 md:px-0 first-line">
+            <h2 class="text-goldRush-700 mt-0">Rehab Loan Programs</h2>
+            <p class="text-xl text-goldRush-900 mb-0">Ideal for
+                investors looking
                 to purchase a property,
                 renovate and then
                 sell or rent the renovated property for a profit. You can also use the loan for the refinance and rehab when
@@ -12,11 +13,11 @@
         </div>
     </div>
     <div class="sm:w-full sm:max-w-xl mx-auto py-8 px-4 mb-4 md:px-0">
-        <h3>Builders Trust Capital is a Direct Lender</h3>
+        <h2>Builders Trust Capital is a Direct Lender</h2>
         <p>The team at Builders Trust Capital makes the lending decisions. Your loan is underwritten, funded and serviced by
             us. No part of the process is handed off to a third-party vendor. With over _____ [number] of projects funded
             since 2015, and 80% repeat clients, you can rely on us to deliver consistently every time.</p>
-        <h3>A More Efficient Loan Approval Process</h3>
+        <h2>A More Efficient Loan Approval Process</h2>
         <p>When you choose Builders Trust Capital, you get a fast, straightforward and transparent process.</p>
         <ul>
             <li>Minimal, simple forms so you can quickly pre-qualify</li>

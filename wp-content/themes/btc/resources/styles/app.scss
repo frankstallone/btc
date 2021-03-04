@@ -15,5 +15,11 @@
   width: 2000px;
 }
 
+.first-line {
+  p::first-line {
+    @apply font-semibold;
+  }
+}
+
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';

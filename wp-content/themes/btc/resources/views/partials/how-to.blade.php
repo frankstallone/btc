@@ -1,6 +1,6 @@
 <div class="bg-rubySlippers-50 p-12">
-    <div class="sm:w-full sm:max-w-xl mx-auto px-4 sm:px-0">
-        <h2 class="mt-0 text-rubySlippers-800">How to Finance Your Real Estate Investment</h2>
+    <div class="sm:w-full sm:max-w-2xl mx-auto px-4 sm:px-0">
+        <h2 class="mt-0 text-rubySlippers-800 text-3xl text-center">How to Finance Your Real Estate Investment</h2>
         <p class="mb-0 text-quicksilver-900">
             Our process is simple! We handle the entire process of the loan. Loans are granted in <em>as little as 21
                 days</em>.

@@ -1,6 +1,6 @@
 <div class="bg-bigWaves-50 p-12 overflow-hidden">
-    <div class="sm:w-full sm:max-w-xl mx-auto px-4 sm:px-0 relative">
-        <h2 class="mt-0 relative z-10">Builders Trust Capital Client Success Stories</h2>
+    <div class="sm:w-full sm:max-w-2xl mx-auto px-4 sm:px-0 relative">
+        <h2 class="mt-0 relative z-10 text-center text-3xl">Builders Trust Capital Client Success Stories</h2>
         <p class="mb-0 relative z-10">
             Partner with an efficient, personable team who delivers <strong>$000,000</strong> in
             real estate loans
