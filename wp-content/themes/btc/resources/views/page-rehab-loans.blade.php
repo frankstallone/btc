@@ -52,7 +52,7 @@
     <ul><li>Minimal, simple forms so you can quickly pre-qualify</li><li>Absolutely no junk fees</li><li>All fees disclosed upfront to help you budget projects accurately</li><li>Receive a complimentary profit assessment using Builders Trust Capital proprietary calculator and ROI coaching on your investment property</li><li>Get most projects funded within just 10 days</li></ul>
   </div>
 </div> --}}
-    <div class="pricing-background bg-white sm:block sm:bg-bigWaves-900 w-full">
+    <div class="pricing-background bg-white sm:block sm:bg-bigWaves-700 w-full">
         <div class="sm:w-full sm:max-w-4xl mx-auto sm:py-24 px-4 sm:px-0">
             <h2 class="m-0 sm:text-center sm:text-5xl sm:text-quicksilver-50">Fix & Flip Loan Programs</h2>
         </div>
@@ -66,33 +66,33 @@
                 <table>
                     <tbody>
                         <tr class="border-0">
-                            <td class="px-8 py-2 text-lg flex content-center">
+                            <td class="px-8 py-2 text-xl flex font-semibold content-center">
                                 <?php echo $checkMark; ?>
                                 90% LTC up to 75% LTARV
                             </td>
                         </tr>
                         <tr class="border-0">
-                            <td class="px-8 py-2 text-lg flex content-center">
+                            <td class="px-8 py-2 text-xl flex font-semibold content-center">
                                 <?php echo $checkMark; ?>
                                 Rates as low as 9%</td>
                         </tr>
                         <tr class="border-0">
-                            <td class="px-8 py-2 text-lg flex content-center">
+                            <td class="px-8 py-2 text-xl flex font-semibold content-center">
                                 <?php echo $checkMark; ?>
                                 Points as low as 2%</td>
                         </tr>
                         <tr class="border-0">
-                            <td class="px-8 py-2 text-lg flex content-center">
+                            <td class="px-8 py-2 text-lg flex text-quicksilver-600 content-center">
                                 <?php echo $checkMark; ?>
                                 Loans from $75,000 and up</td>
                         </tr>
                         <tr class="border-0">
-                            <td class="px-8 py-2 text-lg flex content-center">
+                            <td class="px-8 py-2 text-lg flex text-quicksilver-600 content-center">
                                 <?php echo $checkMark; ?>
                                 Interest is escrowed</td>
                         </tr>
                         <tr class="border-0">
-                            <td class="px-8 py-2 mb-8 text-lg flex content-center">
+                            <td class="px-8 py-2 mb-8 text-lg flex text-quicksilver-600 content-center">
                                 <?php echo $checkMark; ?>
                                 Loan is managed in-house, not outsourced. Ensures consistent service during and after
                                 origination</td>
@@ -114,32 +114,32 @@
                 <table>
                     <tbody>
                         <tr class="border-0">
-                            <td class="px-8 py-2 text-lg flex content-center">
+                            <td class="px-8 py-2 text-xl font-semibold flex content-center">
                                 <?php echo $checkMark; ?>
                                 85% LTC up to 75% LTARV</td>
                         </tr>
                         <tr class="border-0">
-                            <td class="px-8 py-2 text-lg flex content-center">
+                            <td class="px-8 py-2 text-xl font-semibold flex content-center">
                                 <?php echo $checkMark; ?>
                                 Rates as low as 10%</td>
                         </tr>
                         <tr class="border-0">
-                            <td class="px-8 py-2 text-lg flex content-center">
+                            <td class="px-8 py-2 text-xl font-semibold flex content-center">
                                 <?php echo $checkMark; ?>
                                 Points as low as 2%</td>
                         </tr>
                         <tr class="border-0">
-                            <td class="px-8 py-2 text-lg flex content-center">
+                            <td class="px-8 py-2 text-lg flex text-quicksilver-600 content-center">
                                 <?php echo $checkMark; ?>
                                 Loans from $75,000 and up</td>
                         </tr>
                         <tr class="border-0">
-                            <td class="px-8 py-2 text-lg flex content-center">
+                            <td class="px-8 py-2 text-lg flex text-quicksilver-600 content-center">
                                 <?php echo $checkMark; ?>
                                 Interest is escrowed</td>
                         </tr>
                         <tr class="border-0">
-                            <td class="px-8 py-2 mb-8 text-lg flex content-center">
+                            <td class="px-8 py-2 mb-8 text-lg flex text-quicksilver-600 content-center">
                                 <?php echo $checkMark; ?>
                                 Loan is managed in-house, not outsourced.
                                 Ensures consistent service during and afterorigination</td>

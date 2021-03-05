@@ -1,25 +1,17 @@
 @import 'tailwindcss/base';
-
-@import 'common/global';
-
-@import 'common/color';
-@import 'common/fonts';
-@import 'components/button';
-@import 'components/pricing-table';
-@import 'partials/header';
-@import 'partials/footer';
-@import 'partials/standard-content';
-
-// BTC Mark class for SVG sizing
-.mark {
-  width: 2000px;
-}
-
-.first-line {
-  p::first-line {
-    @apply font-semibold;
-  }
-}
-
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@layer base {
+  @import 'common/color';
+  @import 'common/fonts';
+  @import 'partials/header';
+  @import 'partials/footer';
+  @import 'partials/standard-content';
+}
+
+@layer components {
+  @import 'common/global';
+  @import 'components/button';
+  @import 'components/pricing-table';
+}

@@ -1,7 +1,13 @@
-body {
-  @apply font-sans;
-}
-
 .brand {
   @apply text-sm text-bigWaves-500 no-underline;
+}
+// BTC Mark class for SVG sizing
+.mark {
+  width: 2000px;
+}
+
+.first-line {
+  p::first-line {
+    @apply font-semibold;
+  }
 }
