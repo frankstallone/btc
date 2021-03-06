@@ -8,10 +8,12 @@ header {
       }
       li {
         @apply px-2 m-0;
-        a {
+        a,
+        &:visited {
           @apply no-underline text-quicksilver-50;
-          &:hover {
-            @apply text-bigWaves-100;
+          &:hover,
+          &:focus {
+            @apply text-goldRush-100;
           }
         }
       }

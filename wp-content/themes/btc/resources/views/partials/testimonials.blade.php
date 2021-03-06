@@ -1,8 +1,8 @@
-<div class="bg-quicksilver-50 p-12">
+<div class="bg-bigWaves-100 py-24 px-12">
     <div class="sm:w-full sm:max-w-2xl mx-auto px-4 sm:px-0">
         <h2 class="mt-0 text-center text-3xl">Testimonials</h2>
     </div>
-    <div class="mx-auto grid grid-cols-1 grid-rows-1 gap-8 mt-2 mb-12 gap md:grid-cols-2 md:grid-rows-2 md:max-w-6xl">
+    <div class="mx-auto grid grid-cols-1 grid-rows-1 gap-8 mt-2 mb-12 md:grid-cols-2 md:grid-rows-2 md:max-w-6xl">
         <figure class="my-0">
             <blockquote class="border-quicksilver-300">
                 <p class="text-lg">
@@ -56,8 +56,5 @@
                 <strong>Kristian Latham</strong> recommends Builders Trust Capital
             </figcaption>
         </figure>
-    </div>
-    <div class="sm:w-full sm:max-w-xl mx-auto px-4 sm:px-0">
-        <p><a class="btn" href="#">Get Funded Now</a></p>
     </div>
 </div>

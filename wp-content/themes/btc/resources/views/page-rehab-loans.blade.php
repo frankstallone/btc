@@ -1,9 +1,9 @@
 @extends('layouts.app')
 <?php $checkMark = get_svg('svg.circle-check', 'text-emeraldCity-500 w-6 h-6 mr-4 flex-shrink-0'); ?>
 @section('content')
-    <div class="bg-goldRush-50">
-        <div class="sm:w-full sm:max-w-xl mx-auto py-12 px-4 md:px-0 first-line">
-            <h2 class="text-goldRush-700 mt-0">Rehab Loan Programs</h2>
+    <div class="bg-goldRush-50 py-12 px-4">
+        <div class="sm:w-full sm:max-w-xl mx-auto md:px-0 first-line">
+            <h2 class="text-goldRush-700 mt-0 text-3xl">Rehab Loan Programs</h2>
             <p class="text-xl text-goldRush-900 mb-0">Ideal for
                 investors looking
                 to purchase a property,
@@ -162,4 +162,5 @@
     @include('partials.success-stories')
     @include('partials.how-to')
     @include('partials.testimonials')
+    @include('partials.quick-contact')
 @endsection

@@ -1,4 +1,4 @@
-<div class="bg-goldRush-50 p-12 text-goldRush-900">
+<div class="text-goldRush-900 py-24 px-12">
     <div class="sm:w-full sm:max-w-2xl mx-auto px-4 sm:px-0">
         <h2 class="mt-0 text-goldRush-800 text-3xl text-center">How to Finance Your Real Estate Investment</h2>
         <p class="mb-0">

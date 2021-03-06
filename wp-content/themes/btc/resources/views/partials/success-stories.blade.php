@@ -1,4 +1,4 @@
-<div class="bg-bigWaves-100 p-12 overflow-hidden text-bigWaves-800">
+<div class="success-stories bg-bigWaves-50 py-24 px-12 overflow-hidden text-bigWaves-800">
     <div class="sm:w-full sm:max-w-2xl mx-auto px-4 sm:px-0 relative">
         <h2 class="mt-0 relative z-10 text-center text-3xl text-bigWaves-700">Builders Trust Capital Client Success
             Stories</h2>
@@ -7,7 +7,8 @@
             real estate loans
         </p>
     </div>
-    <div class="mx-auto grid grid-cols-1 gap-8 px-4 md:grid-cols-3 md:max-w-3xl md:px-0 relative z-10">
+    <div
+        class="mx-auto grid grid-cols-1 gap-8 px-4 text-center md:text-left md:grid-cols-3 md:max-w-3xl md:px-0 relative z-10">
         <div>
             <h3>Image 1</h3>
             <ul>
