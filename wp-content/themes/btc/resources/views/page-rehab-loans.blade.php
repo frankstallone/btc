@@ -57,9 +57,9 @@
             <h2 class="m-0 sm:text-center sm:text-5xl sm:text-quicksilver-50">Fix & Flip Loan Programs</h2>
         </div>
     </div>
-    <div class="mx-auto grid grid-cols-1 gap-4 py-8 px-4 sm:grid-cols-2 sm:max-w-6xl md:px-0">
+    <div class="mx-auto grid grid-cols-1 gap-4 xl:gap-8 py-8 px-4 sm:grid-cols-2 sm:max-w-6xl xl:px-0">
         <div class="rounded-lg overflow-hidden bg-white shadow-xl">
-            <div class="px-8 py-8 bg-quicksilver-50">
+            <div class="px-8 py-8 bg-bigWaves-50">
                 <h2 class="mt-0 mb-0 text-quicksilver-900">Preferred</h2>
             </div>
             <figure class="mb-0 mt-8">
@@ -107,7 +107,7 @@
             </figure>
         </div>
         <div class="rounded-lg overflow-hidden bg-white shadow">
-            <div class="px-8 py-8 bg-quicksilver-50">
+            <div class="px-8 py-8 bg-bigWaves-50">
                 <h2 class="mt-0 mb-0 text-quicksilver-600">Standard</h2>
             </div>
             <figure class="mb-0 mt-8">

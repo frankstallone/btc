@@ -1,4 +1,5 @@
 // Roughed in mobile nav
+// https://dev.to/linhtch90/responsive-navigation-menu-with-plain-javascript-1fn4
 const mobileNavButton = document.querySelector('#nav-mobile-toggle');
 const primaryNav = document.querySelector('.nav-primary');
 const mobileNavCloseButton = document.querySelector('.nav-mobile-close');
