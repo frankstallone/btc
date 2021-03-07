@@ -50,10 +50,10 @@
     }
   }
 
-  .button,
-  .gform_footer input[type='submit'] {
-    @extend %btn;
-  }
+  // .button,
+  // .gform_footer input[type='submit'] {
+  //   @extend %btn;
+  // }
 
   .gfield_required {
     color: inherit;
