@@ -2,18 +2,28 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+// By default, Tailwind will purge all styles in
+// the base, components, and utilities layers.
+// Ref: https://tailwindcss.com/docs/optimizing-for-production#purging-specific-layers
+
 @layer base {
   @import 'common/color';
   @import 'common/fonts';
-  @import 'partials/header';
-  @import 'partials/footer';
-  @import 'partials/forms';
-  @import 'partials/standard-content';
-  @import 'partials/success';
-}
-
-@layer components {
   @import 'common/global';
   @import 'components/button';
   @import 'components/pricing-table';
 }
+
+@layer components {
+  @import 'partials/header';
+  @import 'partials/footer';
+  @import 'partials/standard-content';
+  @import 'partials/success';
+}
+
+// Always included in the build
+// Ref: https://tailwindcss.com/docs/optimizing-for-production#removing-all-unused-styles
+// Gravity Forms
+// Since this tells PurgeCSS nothing:
+// <?php gravity_form(1, false, false, false, '', true, 12); ?> does not tell PurgeCSS anything about the markup we have to exclude it from the @layers
+@import 'partials/forms';
