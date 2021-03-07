@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="sm:w-full sm:max-w-3xl sm:mx-auto main py-8 px-4">
+    <div class="standard-content">
         @include('partials.page-header')
         @if (!have_posts())
             <x-alert type="warning">

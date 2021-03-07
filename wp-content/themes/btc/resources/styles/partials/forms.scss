@@ -1,8 +1,8 @@
-// Gravity Forms Specificy h3ll
+// Gravity Forms (set plugin to not ship it's internal css)
 
 .gform_wrapper {
   ul > li {
-    @apply pl-0 my-2;
+    @apply pl-0 mt-2 mb-4;
     &::before {
       @apply hidden;
     }
@@ -15,13 +15,17 @@
     @apply font-light w-auto;
   }
 
+  label.gfield_label {
+    @apply inline-block mb-2;
+  }
+
   label.gfield_label,
   .field_sublabel_below .ginput_complex.ginput_container label {
     @apply font-semibold;
   }
 
   .field_sublabel_below .ginput_complex.ginput_container label {
-    @apply text-xs tracking-normal;
+    @apply tracking-wide text-xs text-quicksilver-400 uppercase inline-block mb-4;
   }
 
   input[type="email"],
@@ -41,12 +45,12 @@
     textarea,
     /* prettier-ignore */
     input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not([type="button"]):not([type="image"]):not([type="file"]) {
-    @apply border-solid border border-quicksilver-50 py-1 px-2 text-sm font-light w-full;
+    @apply border-solid border border-quicksilver-50 py-2 px-4 font-light w-full;
 
     transition: all 200ms ease-in-out;
 
     &:focus {
-      @apply border-quicksilver-50 outline-none shadow;
+      @apply border-quicksilver-500 outline-none;
     }
   }
 
@@ -56,7 +60,7 @@
   }
 
   .gfield_required {
-    color: inherit;
+    @apply text-rubySlippers-500;
   }
 
   .validation_error {
@@ -81,5 +85,37 @@
   }
   .gform_validation_container {
     display: none !important;
+  }
+  /*
+    Gravity forms Application form steps structure
+
+    div.gf_page_steps
+        div.gf_step
+        &&.gf_step_active
+        &&.gf_step_next
+        &&.gf_step_next
+  */
+  .gf_page_steps {
+    @apply grid grid-cols-2 grid-rows-2 pb-2 border-b border-dashed border-goldRush-100 gap-1 md:grid-cols-4 md:grid-rows-1 items-center justify-center;
+
+    .gf_step {
+      @apply text-sm text-quicksilver-600;
+
+      .gf_step_number {
+        @apply text-sm mr-1;
+      }
+
+      &.gf_step_active {
+        @apply font-semibold text-quicksilver-900;
+
+        .gf_step_number {
+          @apply text-goldRush-300;
+        }
+      }
+    }
+
+    .gf_step_clear {
+      @apply hidden;
+    }
   }
 }
