@@ -2,6 +2,9 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+// If this is in a @layer, the forms.scss file cannot access the %btn placeholder
+@import 'components/button';
+
 // By default, Tailwind will purge all styles in
 // the base, components, and utilities layers.
 // Ref: https://tailwindcss.com/docs/optimizing-for-production#purging-specific-layers
@@ -10,7 +13,6 @@
   @import 'common/color';
   @import 'common/fonts';
   @import 'common/global';
-  @import 'components/button';
   @import 'components/pricing-table';
 }
 
