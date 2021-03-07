@@ -44,6 +44,7 @@ pantheon.upstream.yml
 # OS generated files #
 ######################
 .DS_Store*
+**/.DS_Store
 ehthumbs.db
 Thumbs.db
 ._*
