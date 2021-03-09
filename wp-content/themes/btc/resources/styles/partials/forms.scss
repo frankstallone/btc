@@ -11,6 +11,7 @@
   .gform_heading {
     @apply mb-4;
   }
+
   span.gform_description {
     @apply font-light w-auto;
   }
@@ -52,11 +53,6 @@
     &:focus {
       @apply border-quicksilver-500 outline-none;
     }
-  }
-
-  .button,
-  .gform_footer input[type='submit'] {
-    @extend %btn;
   }
 
   .gfield_required {

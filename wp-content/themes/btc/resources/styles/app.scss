@@ -2,14 +2,12 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-// If this is in a @layer, the forms.scss file cannot access the %btn placeholder
-@import 'components/button';
-
 // By default, Tailwind will purge all styles in
 // the base, components, and utilities layers.
 // Ref: https://tailwindcss.com/docs/optimizing-for-production#purging-specific-layers
 
 @layer base {
+  @import 'components/button';
   @import 'common/color';
   @import 'common/fonts';
   @import 'common/global';
@@ -17,16 +15,12 @@
 }
 
 @layer components {
+  /* purgecss start ignore */
+  @import 'partials/forms';
+  /* purgecss end ignore */
   @import 'partials/header';
   @import 'partials/quick-contact';
   @import 'partials/footer';
   @import 'partials/standard-content';
   @import 'partials/success';
 }
-
-// Always included in the build
-// Ref: https://tailwindcss.com/docs/optimizing-for-production#removing-all-unused-styles
-// Gravity Forms
-// Since this tells PurgeCSS nothing:
-// <?php gravity_form(1, false, false, false, '', true, 12); ?> does not tell PurgeCSS anything about the markup we have to exclude it from the @layers
-@import 'partials/forms';
