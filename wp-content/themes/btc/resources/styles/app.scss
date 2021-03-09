@@ -7,10 +7,10 @@
 // Ref: https://tailwindcss.com/docs/optimizing-for-production#purging-specific-layers
 
 @layer base {
-  @import 'components/button';
   @import 'common/color';
   @import 'common/fonts';
   @import 'common/global';
+  @import 'components/button';
   @import 'components/pricing-table';
 }
 
@@ -23,4 +23,8 @@
   @import 'partials/footer';
   @import 'partials/standard-content';
   @import 'partials/success';
+}
+
+@layer utilities {
+  @import 'components/text-shadow';
 }
