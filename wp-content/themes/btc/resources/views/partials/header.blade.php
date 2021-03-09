@@ -5,7 +5,7 @@
                 {{ $siteName }}
             </span>
             <?php
-            $btcMark = get_svg('svg.btc-mark-one-path', 'w-6 text-bigWaves-200 hover:text-goldRush-200');
+            $btcMark = get_svg('svg.btc-mark-one-path', 'w-6 h-6 text-bigWaves-200 hover:text-goldRush-200');
             echo $btcMark;
             ?>
         </a>

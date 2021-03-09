@@ -25,12 +25,12 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => 'dev-master',
-    'version' => 'dev-master',
+    'pretty_version' => '1.0.0+no-version-set',
+    'version' => '1.0.0.0',
     'aliases' => 
     array (
     ),
-    'reference' => '164a28ce3f2f4d178c8ff9af75cdd5c188a4d5e3',
+    'reference' => NULL,
     'name' => 'roots/sage',
   ),
   'versions' => 
@@ -364,12 +364,12 @@ private static $installed = array (
     ),
     'roots/sage' => 
     array (
-      'pretty_version' => 'dev-master',
-      'version' => 'dev-master',
+      'pretty_version' => '1.0.0+no-version-set',
+      'version' => '1.0.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '164a28ce3f2f4d178c8ff9af75cdd5c188a4d5e3',
+      'reference' => NULL,
     ),
     'roots/support' => 
     array (
