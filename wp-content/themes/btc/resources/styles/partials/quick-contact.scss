@@ -3,11 +3,14 @@
     label.gfield_label {
       @apply text-quicksilver-100;
     }
-    input {
+    input[type='text'],
+    input[type='tel'],
+    input[type='email'],
+    textarea {
       @apply bg-quicksilver-50;
     }
-  }
-  .gform_footer input[type='submit'] {
-    @apply text-sm sm:text-lg;
+    .gform_footer input[type='submit'] {
+      @apply text-sm sm:text-lg;
+    }
   }
 }
