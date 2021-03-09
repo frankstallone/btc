@@ -20,17 +20,19 @@ header {
     }
   }
   .showNav {
-    @apply md:flex md:flex-row items-center flex flex-col w-full bg-quicksilver-50 absolute top-0 bottom-0 left-0 right-0 py-10 space-y-4 z-20 justify-center;
-    a {
-      @apply text-2xl;
-    }
+    @apply md:flex md:flex-row items-center flex flex-col w-full bg-bigWaves-900 absolute top-0 bottom-0 left-0 right-0 py-10 space-y-4 z-20 justify-center;
     ul > li::before {
       display: none;
     }
     li {
-      @apply px-2 m-0;
-      a {
-        @apply no-underline;
+      @apply px-2 space-y-8;
+      a,
+      &:visited {
+        @apply text-2xl no-underline text-bigWaves-50;
+        &:hover,
+        &:focus {
+          @apply text-goldRush-100;
+        }
       }
     }
   }

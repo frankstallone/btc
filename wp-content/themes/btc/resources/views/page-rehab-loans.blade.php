@@ -12,7 +12,7 @@
                 you’ve started using cash and need a loan to finish the project. Credit score 720 & up.</p>
         </div>
     </div>
-    <div class="sm:w-full sm:max-w-xl mx-auto py-8 px-4 mb-4 md:px-0">
+    <div class="standard-content">
         <h2>Builders Trust Capital is a Direct Lender</h2>
         <p>The team at Builders Trust Capital makes the lending decisions. Your loan is underwritten, funded and serviced by
             us. No part of the process is handed off to a third-party vendor. With over _____ [number] of projects funded
@@ -53,8 +53,8 @@
   </div>
 </div> --}}
     <div class="pricing-background bg-white sm:block sm:bg-bigWaves-800 w-full">
-        <div class="sm:w-full sm:max-w-4xl mx-auto sm:py-24 px-4 sm:px-0">
-            <h2 class="m-0 sm:text-center sm:text-5xl sm:text-quicksilver-50">Fix & Flip Loan Programs</h2>
+        <div class="mx-auto px-4 sm:w-full sm:max-w-4xl sm:py-20 sm:px-0">
+            <h2 class="px-8 m-0 sm:px-0 sm:text-center sm:text-5xl sm:text-quicksilver-50">Fix & Flip Loan Programs</h2>
         </div>
     </div>
     <div class="mx-auto grid grid-cols-1 gap-4 xl:gap-8 py-8 px-4 sm:grid-cols-2 sm:max-w-6xl xl:px-0">
@@ -106,7 +106,7 @@
                 </table>
             </figure>
         </div>
-        <div class="rounded-lg overflow-hidden bg-white shadow">
+        <div class="rounded-lg overflow-hidden bg-white shadow-xl sm:shadow">
             <div class="px-8 py-8 bg-bigWaves-800 sm:bg-bigWaves-50">
                 <h2 class="mt-0 mb-0 text-quicksilver-50 sm:text-quicksilver-800">Standard</h2>
             </div>

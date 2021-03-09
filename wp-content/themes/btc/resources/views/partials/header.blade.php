@@ -34,7 +34,7 @@
                     {{-- SVG Helper function does work, ref: https://github.com/Log1x/sage-svg#helper --}}
 
                     <?php
-                    $xmark = get_svg('svg.xmark', 'w-5');
+                    $xmark = get_svg('svg.xmark', 'w-5 text-goldRush-100');
                     echo $xmark;
                     ?>
                 </span>

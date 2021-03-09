@@ -10,6 +10,14 @@ h6 {
   @apply font-display;
 }
 
+div {
+  h1:first-child,
+  h2:first-child,
+  h3:first-child {
+    @apply mt-0;
+  }
+}
+
 body {
   color: var(--quicksilver-900);
   // max-width: 65ch;
