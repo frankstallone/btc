@@ -130,4 +130,8 @@ module.exports = {
       backgroundColor: ['active'],
     },
   },
+  plugins: [
+    require('@tailwindcss/forms'),
+    // ...
+  ],
 };
