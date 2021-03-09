@@ -19,7 +19,7 @@
             </blockquote>
             <figcaption class="font-medium text-emeraldCity-500 px-8 pt-10 pb-4 mt-10 border-t relative">
                 <div
-                    class="absolute flex items-center justify-center w-56 px-4 py-2 transform right-1/2 translate-x-1/2 -top-5 bg-white rounded-full border border-quicksilver-50">
+                    class="absolute flex items-center justify-center w-56 px-4 py-2 transform right-1/2 translate-x-1/2 -top-5 bg-white rounded-full border border-quicksilver-50 space-x-4">
                     <?php
                     echo $star;
                     echo $star;
