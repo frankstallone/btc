@@ -1,15 +1,15 @@
 <article @php(post_class())>
         <header>
-            <h1 class="entry-title">
+            <h1 class="entry-title md:-mx-32">
                 {!! $title !!}
             </h1>
 
-            <figure class="post-thumbnail">
-                <?php // Lazy-loading attributes should be skipped for thumbnails since they are immediately
-                in the viewport.
-                the_post_thumbnail('post-thumbnail', ['loading' => false]); ?>
+            <figure class="post-thumbnail mt-12 mb-4 -mx-12 md:mb-8 md:-mx-32">
+                {{-- Lazy-loading attributes should be skipped for thumbnails since they are immediately
+                in the viewport. --}}
+                <?php the_post_thumbnail('post-thumbnail', ['loading' => false]); ?>
                 <?php if (wp_get_attachment_caption(get_post_thumbnail_id())): ?>
-                <figcaption class="wp-caption-text"><?php echo
+                <figcaption class="wp-caption-text mx-4 md:mx-0 sr-only"><?php echo
                     wp_kses_post(wp_get_attachment_caption(get_post_thumbnail_id())); ?></figcaption>
                 <?php endif; ?>
             </figure><!-- .post-thumbnail -->
