@@ -10,6 +10,9 @@
     <main id="main">
         @yield('content')
     </main>
-
+    @include('partials.success-stories')
+    @include('partials.how-to')
+    @include('partials.testimonials')
+    @include('partials.quick-contact')
     @include('partials.footer')
 </div>

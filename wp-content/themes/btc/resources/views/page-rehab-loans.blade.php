@@ -159,8 +159,5 @@
             @includeFirst(['partials.content-page', 'partials.content'])
         @endwhile
     </div>
-    @include('partials.success-stories')
-    @include('partials.how-to')
-    @include('partials.testimonials')
-    @include('partials.quick-contact')
+
 @endsection
