@@ -5,7 +5,7 @@ footer {
         display: none;
       }
       li {
-        @apply px-2;
+        @apply px-0;
         a,
         &:visited {
           @apply no-underline text-quicksilver-50;

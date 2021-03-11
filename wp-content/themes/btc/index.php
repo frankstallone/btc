@@ -1,5 +1,5 @@
 <!doctype html>
-<html <?php language_attributes(); ?>>
+<html <?php language_attributes(); ?> class="overflow-y-scroll h-full">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -7,7 +7,7 @@
     <?php wp_head(); ?>
   </head>
 
-  <body <?php body_class('overflow-x-hidden min-h-screen font-sans'); ?>>
+  <body <?php body_class('overflow-x-hidden h-full font-sans'); ?>>
     <?php wp_body_open(); ?>
     <?php do_action('get_header'); ?>
 

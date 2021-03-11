@@ -65,7 +65,7 @@ function employee_section_post_type() {
 		'label'                 => 'Employee',
 		'description'           => 'Builders Trust Capital Employees',
 		'labels'                => $labels,
-		'supports'              => array( 'title', 'editor', 'custom-fields'),
+		'supports'              => array( 'title', 'editor', 'thumbnail', 'excerpt', 'revisions', 'custom-fields'),
         'taxonomies'            => array(),
 		'hierarchical'          => false,
 		'public'                => true,
@@ -117,13 +117,13 @@ function testimonial_post_type() {
 		'uploaded_to_this_item' => 'Uploaded to this item',
 		'items_list'            => 'Testimonials list',
 		'items_list_navigation' => 'Testimonials list navigation',
-		'filter_items_list'     => 'Filter employee list',
+		'filter_items_list'     => 'Filter testimonial list',
 	);
 	$args = array(
 		'label'                 => 'Testimonial',
 		'description'           => 'Builders Trust Capital Testimonials',
 		'labels'                => $labels,
-		'supports'              => array( 'title', 'editor', 'custom-fields'),
+		'supports'              => array( 'title', 'editor', 'revisions', 'custom-fields'),
         'taxonomies'            => array(),
 		'hierarchical'          => false,
 		'public'                => true,
@@ -143,6 +143,64 @@ function testimonial_post_type() {
 
 }
 add_action( 'init', 'testimonial_post_type', 0 );
+
+// Register Loan Gallery Post Type
+function loan_gallery_post_type() {
+
+	$labels = array(
+		'name'                  => 'Loan Gallery',
+		'singular_name'         => 'Loan',
+		'menu_name'             => 'Loan Gallery',
+		'name_admin_bar'        => 'Loan Gallery',
+		'archives'              => 'Loan Archives',
+		'attributes'            => 'Loan Attributes',
+		'parent_item_colon'     => 'Parent Loan:',
+		'all_items'             => 'All Loan Gallery',
+		'add_new_item'          => 'Add Loan Gallery',
+		'add_new'               => 'Add New',
+		'new_item'              => 'New Loan',
+		'edit_item'             => 'Edit Loan',
+		'update_item'           => 'Update Loan',
+		'view_item'             => 'View Loan',
+		'view_items'            => 'View Loan',
+		'search_items'          => 'Search Loan Gallery',
+		'not_found'             => 'Not found',
+		'not_found_in_trash'    => 'Not found in Trash',
+		'featured_image'        => 'Featured Image',
+		'set_featured_image'    => 'Set featured image',
+		'remove_featured_image' => 'Remove featured image',
+		'use_featured_image'    => 'Use as featured image',
+		'insert_into_item'      => 'Insert into item',
+		'uploaded_to_this_item' => 'Uploaded to this item',
+		'items_list'            => 'Loan Gallery list',
+		'items_list_navigation' => 'Loan Gallery list navigation',
+		'filter_items_list'     => 'Filter loan list',
+	);
+	$args = array(
+		'label'                 => 'Loan',
+		'description'           => 'Builders Trust Capital Loan Gallery',
+		'labels'                => $labels,
+		'supports'              => array( 'title', 'editor', 'thumbnail', 'revisions', 'page-attributes', 'custom-fields'),
+        'taxonomies'            => array(),
+		'hierarchical'          => true,
+		'public'                => true,
+		'show_ui'               => true,
+		'show_in_menu'          => true,
+		'menu_position'         => 20,
+		'menu_icon'             => 'dashicons-embed-photo',
+		'show_in_admin_bar'     => true,
+		'show_in_nav_menus'     => true,
+		'can_export'            => true,
+		'has_archive'           => true,
+		'exclude_from_search'   => true,
+		'publicly_queryable'    => true,
+		'capability_type'       => 'post',
+		'rewrite'       		=> array( 'slug' => 'gallery' ),
+	);
+	register_post_type( 'loan_gallery', $args );
+
+}
+add_action( 'init', 'loan_gallery_post_type', 0 );
 
 /**
  * Custom Taxonomies

@@ -19,6 +19,10 @@ module.exports = {
         display: ['Guerrer', 'sans-serif'],
         sans: ['BRHendrix', 'sans-serif'],
       },
+      fontSize: {
+        '8xl': '6rem',
+        '9xl': '8rem',
+      },
       colors: {
         bigWaves: {
           50: 'var(--bigWaves-50)',
