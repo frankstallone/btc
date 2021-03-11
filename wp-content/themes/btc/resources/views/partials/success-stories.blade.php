@@ -1,6 +1,6 @@
-<div class="success-stories bg-quicksilver-500 py-24 px-12 overflow-hidden text-quicksilver-50">
+<div class="success-stories bg-quicksilver-500 py-24 px-12 overflow-hidden text-quicksilver-25">
     <div class="sm:w-full sm:max-w-2xl mx-auto px-4 sm:px-0 relative">
-        <h2 class="mt-0 relative z-10 text-3xl text-bigWaves-50">Builders Trust Capital Client Success
+        <h2 class="mt-0 relative z-10 text-3xl text-quicksilver-25">Builders Trust Capital Client Success
             Stories</h2>
         <p class="relative z-10 text-2xl">
             Partner with an efficient, personable team who delivers <strong>$000,000</strong> in

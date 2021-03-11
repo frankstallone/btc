@@ -33,6 +33,7 @@ module.exports = {
           900: 'var(--bigWaves-900)',
         },
         quicksilver: {
+          25: 'var(--quicksilver-25)',
           50: 'var(--quicksilver-50)',
           100: 'var(--quicksilver-100)',
           200: 'var(--quicksilver-200)',
