@@ -46,7 +46,7 @@
     textarea,
     /* prettier-ignore */
     input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not([type="button"]):not([type="image"]):not([type="file"]) {
-    @apply border-solid border border-quicksilver-50 py-2 px-4 font-light w-full;
+    @apply border-solid border border-quicksilver-50 py-2 px-4 font-light w-full focus:ring-bigWaves-500;
 
     transition: all 200ms ease-in-out;
 
@@ -60,7 +60,7 @@
   }
 
   .validation_error {
-    @apply p-4 py-8 text-rubySlippers-500 text-center text-base;
+    @apply p-4 py-8 my-4 text-rubySlippers-500 text-center text-base bg-rubySlippers-50 rounded border border-rubySlippers-100 shadow-sm;
   }
 
   .gfield_error .gfield_label,
@@ -113,5 +113,54 @@
     .gf_step_clear {
       @apply hidden;
     }
+  }
+
+  .gform_page_footer {
+    [type='button'] {
+      + [type='button'],
+      + [type='submit'] {
+        @apply mt-4;
+      }
+    }
+  }
+
+  .screen-reader-text {
+    @apply sr-only;
+  }
+
+  .ginput_container_date {
+    @apply relative;
+
+    .ui-datepicker-trigger {
+      @apply absolute -top-4 right-4 z-20;
+    }
+  }
+}
+
+// UI Picker that lives in Gravity Forms
+#ui-datepicker-div {
+  @apply bg-white shadow-2xl p-4 border border-quicksilver-100 rounded;
+  z-index: 20 !important;
+
+  a,
+  a:visited {
+    @apply no-underline;
+  }
+  a:hover,
+  a:focus {
+    @apply underline;
+  }
+  .ui-datepicker-header {
+    .ui-datepicker-next {
+      @apply ml-4;
+    }
+
+    .ui-datepicker-title {
+      @apply space-x-4;
+    }
+  }
+
+  .ui-datepicker-calendar {
+    @apply mt-4 mb-0;
   }
 }

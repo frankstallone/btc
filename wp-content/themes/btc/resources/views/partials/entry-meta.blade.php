@@ -1,14 +1,19 @@
-<div class="flex flex-nowrap border border-quicksilver-50 rounded rounded-full justify-end">
-    <time class="updated italic text-quicksilver-400 px-4 py-2 border-r border-quicksilver-50 text-sm"
-        datetime="{{ get_post_time('c', true) }}">
+<?php $clock = get_svg('svg.clock', 'fill-current w-4 inline'); ?>
+<?php $pen = get_svg('svg.pen-fancy', 'fill-current ml-4 w-4 inline'); ?>
+<div class="flex flex-nowrap justify-end items-center text-emeraldCity-300 text-sm space-x-2">
+    <?php echo $clock; ?>
+    <time class="updated italic" datetime="{{ get_post_time('c', true) }}">
         {{ get_the_date() }}
     </time>
 
-    <p class="byline author vcard my-0 px-4 py-2 text-quicksilver-400 italic text-sm">
-        <span>{{ __('By', 'sage') }}</span>
-        <a href="{{ get_author_posts_url(get_the_author_meta('ID')) }}" rel="author"
-            class="fn no-underline text-quicksilver-400 hover:text-quicksilver-500 focus:text-quicksilver-500 capitalize">
-            {{ get_the_author() }}
-        </a>
+    <p class="byline author vcard flex flex-nowrap flex-row my-0 text-emeraldCity-300 italic text-sm space-x-2">
+        <?php echo $pen; ?>
+        <span>
+            <span>{{ __('By', 'sage') }}</span>
+            <a href="{{ get_author_posts_url(get_the_author_meta('ID')) }}" rel="author"
+                class="fn no-underline text-emeraldCity-300 hover:text-emeraldCity-500 focus:text-emeraldCity-500 capitalize">
+                {{ get_the_author() }}
+            </a>
+        </span>
     </p>
 </div>
