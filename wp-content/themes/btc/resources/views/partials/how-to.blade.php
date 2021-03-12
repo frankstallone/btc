@@ -1,4 +1,4 @@
-<div class="bg-quicksilver-600 text-quicksilver-100 py-24 px-12">
+<div class="bg-gradient-to-bl from-quicksilver-600 to-quicksilver-700 text-quicksilver-100 py-24 px-12">
     <div class="sm:w-full sm:max-w-2xl mx-auto px-4 sm:px-0">
         <h2 class="mt-0 text-3xl text-bigWaves-50">How to Finance Your Real Estate Investment</h2>
         <p class="text-2xl">

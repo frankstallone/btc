@@ -1,5 +1,5 @@
 @hasfield('headline')
-<header class="bg-quicksilver-800 overflow-hidden relative">
+<header class="headliners bg-quicksilver-800 overflow-hidden relative">
     <?php
     $btcMark = get_svg(
     'svg.btc-mark-one-path',

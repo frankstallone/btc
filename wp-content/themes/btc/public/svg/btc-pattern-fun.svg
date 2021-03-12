@@ -1,0 +1,44 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  id="snapshot-91473" width="500" height="250" viewBox="0 0 500 250">
+  <defs>
+    <g id="transformed-65892" data-image="65892" transform="translate(-125, -124.5) rotate(180, 125, 124.5)">
+      <g>
+        <svg version="1.1" width="250px" height="249px" viewBox="0 0 250 249">
+          <g id="original-65892">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62.723 62.598" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" preserveAspectRatio="xMidYMid meet">
+              <path d="M31.285 0L0 62.598h9.752l26.432-54.03L31.285 0zM18.096 54.976l44.627.008-4.842-8.468H22.169l-4.073 8.46zm20.23-42.662l-4.743 9.701 12.87 20.957h9.402L38.326 12.314z" />
+            </svg>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="transformed-82089" data-image="82089" transform="translate(85, -122.5) rotate(0, 125, 124.5)">
+      <g>
+        <svg version="1.1" width="250px" height="249px" viewBox="0 0 250 249">
+          <g id="original-82089">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62.723 62.598" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" preserveAspectRatio="xMidYMid meet">
+              <path d="M31.285 0L0 62.598h9.752l26.432-54.03L31.285 0zM18.096 54.976l44.627.008-4.842-8.468H22.169l-4.073 8.46zm20.23-42.662l-4.743 9.701 12.87 20.957h9.402L38.326 12.314z" />
+            </svg>
+          </g>
+        </svg>
+      </g>
+    </g>
+    </defs><rect x="0" y="0" width="500" height="250" fill="rgba(255, 255, 255, 0)"></rect>
+    <use xlink:href="#transformed-65892" transform="translate(-500, -250)"></use>
+    <use xlink:href="#transformed-65892" transform="translate(0, -250)"></use>
+    <use xlink:href="#transformed-65892" transform="translate(500, -250)"></use>
+    <use xlink:href="#transformed-65892" transform="translate(-500, 0)"></use>
+    <use xlink:href="#transformed-65892" transform="translate(0, 0)"></use>
+    <use xlink:href="#transformed-65892" transform="translate(500, 0)"></use>
+    <use xlink:href="#transformed-65892" transform="translate(-500, 250)"></use>
+    <use xlink:href="#transformed-65892" transform="translate(0, 250)"></use>
+    <use xlink:href="#transformed-65892" transform="translate(500, 250)"></use>
+    <use xlink:href="#transformed-82089" transform="translate(-500, -250)"></use>
+    <use xlink:href="#transformed-82089" transform="translate(0, -250)"></use>
+    <use xlink:href="#transformed-82089" transform="translate(500, -250)"></use>
+    <use xlink:href="#transformed-82089" transform="translate(-500, 0)"></use>
+    <use xlink:href="#transformed-82089" transform="translate(0, 0)"></use>
+    <use xlink:href="#transformed-82089" transform="translate(500, 0)"></use>
+    <use xlink:href="#transformed-82089" transform="translate(-500, 250)"></use>
+    <use xlink:href="#transformed-82089" transform="translate(0, 250)"></use>
+    <use xlink:href="#transformed-82089" transform="translate(500, 250)"></use>
+</svg>

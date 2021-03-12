@@ -1,4 +1,4 @@
-<div class="quick-contact bg-quicksilver-800 py-12 px-12">
+<div class="quick-contact bg-gradient-to-bl from-quicksilver-800 to-quicksilver-900 py-12 px-12">
     <div class="sm:w-full sm:max-w-xl mx-auto py-12 px-4 md:px-0">
         {{-- <div class="mx-auto grid grid-cols-1 gap-8 mt-2 mb-12 md:grid-cols-2 md:max-w-6xl"> --}}
         <div>

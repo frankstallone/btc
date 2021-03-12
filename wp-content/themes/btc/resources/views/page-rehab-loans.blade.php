@@ -1,7 +1,7 @@
 @extends('layouts.app')
 <?php $checkMark = get_svg('svg.circle-check', 'text-emeraldCity-500 w-6 h-6 mr-4 flex-shrink-0'); ?>
 @section('content')
-    <div class="bg-goldRush-50 py-12 px-4">
+    <div class="bg-gradient-to-br from-goldRush-50 to-goldRush-100 py-12 px-4">
         <div class="mx-auto sm:w-full sm:max-w-xl md:px-0 first-line">
             <h2 class="text-goldRush-700 mt-0 text-3xl">Rehab Loan Programs</h2>
             <p class="text-xl text-goldRush-900 mb-0">Ideal for
@@ -52,15 +52,17 @@
     <ul><li>Minimal, simple forms so you can quickly pre-qualify</li><li>Absolutely no junk fees</li><li>All fees disclosed upfront to help you budget projects accurately</li><li>Receive a complimentary profit assessment using Builders Trust Capital proprietary calculator and ROI coaching on your investment property</li><li>Get most projects funded within just 10 days</li></ul>
   </div>
 </div> --}}
-    <div class="pricing-background bg-white sm:block sm:bg-bigWaves-800 w-full">
+    <div class="pricing-background bg-white sm:block sm:bg-gradient-to-tl sm:from-bigWaves-800 sm:to-bigWaves-600 w-full">
         <div class="mx-auto px-4 sm:w-full sm:max-w-4xl sm:py-20 sm:px-0">
-            <h2 class="px-8 m-0 sm:px-0 sm:text-center sm:text-5xl sm:text-quicksilver-50">Fix & Flip Loan Programs</h2>
+            <h2 class="text-left m-0 sm:px-0 sm:text-center sm:text-5xl sm:text-bigWaves-50">Fix & Flip Loan
+                Programs</h2>
         </div>
     </div>
     <div class="mx-auto grid grid-cols-1 gap-4 xl:gap-8 py-8 px-4 sm:grid-cols-2 sm:max-w-6xl xl:px-0">
-        <div class="rounded-lg overflow-hidden bg-white shadow-xl">
-            <div class="px-8 py-8 bg-bigWaves-800 sm:bg-bigWaves-50">
-                <h2 class="mt-0 mb-0 text-quicksilver-50 sm:text-quicksilver-800">Preferred</h2>
+        <div class="rounded-lg overflow-hidden bg-white shadow sm:shadow-xl">
+            <div
+                class="px-8 py-8 bg-gradient-to-tr from-bigWaves-800 to-bigWaves-600 sm:from-bigWaves-50 sm:to-bigWaves-100">
+                <h2 class="mt-0 mb-0 text-bigWaves-50 sm:text-quicksilver-800">Preferred</h2>
             </div>
             <figure class="mb-0 mt-8">
                 <table>
@@ -106,9 +108,10 @@
                 </table>
             </figure>
         </div>
-        <div class="rounded-lg overflow-hidden bg-white shadow-xl sm:shadow">
-            <div class="px-8 py-8 bg-bigWaves-800 sm:bg-bigWaves-50">
-                <h2 class="mt-0 mb-0 text-quicksilver-50 sm:text-quicksilver-800">Standard</h2>
+        <div class="rounded-lg overflow-hidden bg-white shadow">
+            <div
+                class="px-8 py-8 bg-gradient-to-tr from-bigWaves-800 to-bigWaves-600 sm:from-bigWaves-50 sm:to-bigWaves-100">
+                <h2 class="mt-0 mb-0 text-bigWaves-50 sm:text-quicksilver-600">Standard</h2>
             </div>
             <figure class="mb-0 mt-8">
                 <table>
