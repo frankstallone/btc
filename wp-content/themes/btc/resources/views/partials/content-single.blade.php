@@ -4,7 +4,7 @@
                 {!! $title !!}
             </h1>
 
-            <figure class="post-thumbnail mt-12 mb-4 -mx-12 md:mb-8 md:-mx-32">
+            <figure class="post-thumbnail mt-12 mb-4 sm:-mx-12 md:mb-8 md:-mx-32">
                 {{-- Lazy-loading attributes should be skipped for thumbnails since they are immediately
                 in the viewport. --}}
                 <?php the_post_thumbnail('post-thumbnail', ['loading' => false]); ?>
