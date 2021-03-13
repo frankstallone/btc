@@ -13,4 +13,13 @@
       @apply text-sm sm:text-lg;
     }
   }
+  a,
+  a:visited {
+    @apply text-goldRush-200 no-underline;
+  }
+
+  a:hover,
+  a:focus {
+    @apply text-goldRush-100;
+  }
 }

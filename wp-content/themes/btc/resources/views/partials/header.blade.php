@@ -25,7 +25,7 @@
 
         <nav class="nav-primary">
             @if (has_nav_menu('primary_navigation'))
-                <span class="nav-mobile-close absolute top-0 z-20 pt-5 right-0 mr-4 md:hidden">
+                <span class="nav-mobile-close absolute top-0 z-20 pt-4 right-0 mr-4 md:hidden">
                     {{-- SVG Directive does not work on Panthoen dev server, ref https://github.com/Log1x/sage-svg#blade-directive --}}
                     {{-- See here for more details: https://discourse.roots.io/t/sage-10-on-pantheon-a-guide-and-method/19978/5?u=frankstallone --}}
 

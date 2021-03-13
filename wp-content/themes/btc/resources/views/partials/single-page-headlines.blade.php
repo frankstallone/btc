@@ -1,10 +1,10 @@
 @hasfield('headline')
-<header class="headliners bg-quicksilver-800 overflow-hidden relative">
+<header class="headliners bg-gradient-to-tr from-quicksilver-700 to-quicksilver-800 overflow-hidden relative">
     <?php
     $btcMark = get_svg(
     'svg.btc-mark-one-path',
     'mark absolute text-quicksilver-700 z-0 transform-gpu origin-center
-    rotate-12 opacity-50 -inset-full md:-inset-3/4 lg:-inset-2/4 xl:-inset-1/4',
+    rotate-12 opacity-50 -inset-full lg:w-96 md:-inset-3/4 lg:left-96 lg:top-0 xl:left-60 xl:top-0',
     );
     echo $btcMark;
     ?>
