@@ -3,7 +3,7 @@
 @section('content')
     @include('partials.page-header')
     <div class="bg-quicksilver-25 px-6 py-12 sm:px-8">
-        <div class="mx-auto grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 md:max-w-6xl">
+        <div class="mx-auto grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 md:max-w-6xl">
             @if (!have_posts())
                 <x-alert type="warning">
                     {!! __('Sorry, no results were found.', 'sage') !!}
