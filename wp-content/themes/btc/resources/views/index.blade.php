@@ -1,21 +1,23 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="standard-content">
-        @include('partials.page-header')
-        @if (!have_posts())
-            <x-alert type="warning">
-                {!! __('Sorry, no results were found.', 'sage') !!}
-            </x-alert>
+    @include('partials.page-header')
+    <div class="bg-quicksilver-25 px-6 py-12 sm:px-8">
+        <div class="mx-auto grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 md:max-w-6xl">
+            @if (!have_posts())
+                <x-alert type="warning">
+                    {!! __('Sorry, no results were found.', 'sage') !!}
+                </x-alert>
 
-            {!! get_search_form(false) !!}
-        @endif
+                {!! get_search_form(false) !!}
+            @endif
 
-        @while (have_posts()) @php(the_post())
-            @includeFirst(['partials.content-' . get_post_type(), 'partials.content'])
-        @endwhile
+            @while (have_posts()) @php(the_post())
+                @includeFirst(['partials.content-' . get_post_type(), 'partials.content'])
+            @endwhile
 
-        {!! get_the_posts_navigation() !!}
+            {!! get_the_posts_navigation() !!}
+        </div>
     </div>
 @endsection
 
