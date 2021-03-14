@@ -11,10 +11,14 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      boxShadow: {
-        lgYellow:
-          '0 10px 15px -3px rgba(78, 26, 5, 0.1), 0 4px 6px -2px rgba(78, 26, 5, 0.05)',
-      },
+      // backgroundImage: (theme) => ({
+      //   'mark-repeat':
+      //     'url(/wp-content/themes/btc/public/svg/btc-pattern-fun.svg)',
+      // }),
+      // boxShadow: {
+      //   lgYellow:
+      //     '0 10px 15px -3px rgba(78, 26, 5, 0.1), 0 4px 6px -2px rgba(78, 26, 5, 0.05)',
+      // },
       fontFamily: {
         display: ['Guerrer', 'sans-serif'],
         sans: ['BRHendrix', 'sans-serif'],
