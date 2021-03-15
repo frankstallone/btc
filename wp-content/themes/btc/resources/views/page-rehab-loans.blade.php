@@ -59,10 +59,13 @@
         </div>
     </div>
     <div class="mx-auto grid grid-cols-1 gap-4 xl:gap-8 py-8 px-4 sm:grid-cols-2 sm:max-w-6xl xl:px-0">
-        <div class="rounded-lg overflow-hidden bg-white shadow sm:shadow-xl">
+        <div
+            class="rounded-lg overflow-hidden bg-gradient-to-br from-quicksilver-50 to-quicksilver-25 sm:bg-none sm:bg-white shadow sm:shadow-xl">
             <div
-                class="px-8 py-8 bg-gradient-to-tr from-bigWaves-800 to-bigWaves-600 sm:from-bigWaves-50 sm:to-bigWaves-100">
-                <h2 class="mt-0 mb-0 text-bigWaves-50 sm:text-quicksilver-800">Preferred</h2>
+                class="px-8 py-8 sm:px-4 sm:py-1 sm:mt-8 sm:ml-6 sm:inline-block sm:rounded-full bg-gradient-to-tr from-bigWaves-800 to-bigWaves-600 sm:from-emeraldCity-100 sm:to-bigWaves-200">
+                <h2 class="mt-0 mb-0 sm:font-semibold sm:text-base text-bigWaves-50 sm:text-bigWaves-700 sm:uppercase">
+                    Preferred
+                </h2>
             </div>
             <figure class="mb-0 mt-8">
                 <table>
@@ -108,10 +111,13 @@
                 </table>
             </figure>
         </div>
-        <div class="rounded-lg overflow-hidden bg-white shadow">
+        <div
+            class="rounded-lg overflow-hidden bg-gradient-to-br from-quicksilver-50 to-quicksilver-25 sm:bg-none sm:bg-white shadow sm:shadow-xl">
             <div
-                class="px-8 py-8 bg-gradient-to-tr from-bigWaves-800 to-bigWaves-600 sm:from-bigWaves-50 sm:to-bigWaves-100">
-                <h2 class="mt-0 mb-0 text-bigWaves-50 sm:text-quicksilver-600">Standard</h2>
+                class="px-8 py-8 sm:px-4 sm:py-1 sm:mt-8 sm:ml-6 sm:inline-block sm:rounded-full bg-gradient-to-tr from-bigWaves-800 to-bigWaves-600 sm:bg-none sm:bg-bigWaves-100">
+                <h2 class="mt-0 mb-0 sm:font-semibold sm:text-base text-bigWaves-50 sm:text-bigWaves-600 sm:uppercase">
+                    Standard
+                </h2>
             </div>
             <figure class="mb-0 mt-8">
                 <table>
