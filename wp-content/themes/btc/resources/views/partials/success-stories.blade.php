@@ -1,7 +1,7 @@
 <?php $hand = get_svg('svg.hand-holding-dollar', 'w-8 h-8 fill-current'); ?>
 <div
-    class="success-stories bg-gradient-to-br from-quicksilver-500 to-quicksilver-600 py-24 px-12 overflow-hidden text-quicksilver-25">
-    <div class="sm:w-full sm:max-w-2xl mx-auto px-4 sm:px-0 relative">
+    class="success-stories bg-gradient-to-br from-quicksilver-500 to-quicksilver-600 py-12 px-4 xl:px-0 overflow-hidden text-quicksilver-25">
+    <div class="sm:w-full sm:max-w-xl mx-auto sm:px-0 relative">
         <h2 class="mt-0 relative z-10 text-3xl text-quicksilver-25">Builders Trust Capital Client Success
             Stories</h2>
         <p class="relative z-10 text-2xl">
@@ -9,8 +9,7 @@
             real estate loans
         </p>
     </div>
-    <div
-        class="mx-auto grid grid-cols-1 gap-8 px-4 text-center max-w-md md:text-left lg:grid-cols-3 lg:max-w-6xl md:px-0">
+    <div class="mx-auto grid grid-cols-1 gap-8 text-center max-w-lg md:text-left lg:grid-cols-3 lg:max-w-6xl md:px-0">
         <figure class="my-0 rounded-lg shadow-xl pt-0 bg-quicksilver-25 overflow-hidden">
             <div class="aspect-w-3 aspect-h-2 -mt-8">
                 <img src="/wp-content/themes/btc/public/images/success-stories-01.jpg" class="object-cover"

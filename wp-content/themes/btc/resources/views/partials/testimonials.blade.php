@@ -1,12 +1,12 @@
 {{-- Get star icon --}}
 <?php $star = get_svg('svg.star-sharp', 'w-6 h-6 inline'); ?>
 
-<div class="bg-gradient-to-br from-quicksilver-700 to-quicksilver-800 py-24 px-12">
-    <div class="sm:w-full sm:max-w-2xl mx-auto px-4 sm:px-0">
+<div class="bg-gradient-to-br from-quicksilver-700 to-quicksilver-800 py-12 px-4 xl:px-0">
+    <div class="sm:w-full sm:max-w-2xl mx-auto">
         <h2 class="mt-0 text-center text-3xl text-bigWaves-50">Testimonials</h2>
     </div>
     <div
-        class="mx-auto grid grid-cols-1 grid-rows-1 gap-8 mt-2 mb-12 md:grid-cols-2 md:grid-rows-2 md:max-w-6xl items-center">
+        class="mx-auto grid grid-cols-1 grid-rows-1 gap-8 mt-2 mb-12 sm:max-w-lg md:grid-cols-2 md:grid-rows-2 md:max-w-6xl items-center">
         <figure class="my-0 border border-quicksilver-100 rounded-lg shadow-xl pt-8 bg-quicksilver-25">
             <blockquote class="border-none px-8">
                 <p class="text-lg my-0">
