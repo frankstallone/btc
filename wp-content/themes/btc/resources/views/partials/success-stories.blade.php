@@ -1,3 +1,4 @@
+<?php $hand = get_svg('svg.hand-holding-dollar', 'w-8 h-8 fill-current'); ?>
 <div
     class="success-stories bg-gradient-to-br from-quicksilver-500 to-quicksilver-600 py-24 px-12 overflow-hidden text-quicksilver-25">
     <div class="sm:w-full sm:max-w-2xl mx-auto px-4 sm:px-0 relative">
@@ -9,38 +10,87 @@
         </p>
     </div>
     <div
-        class="mx-auto grid grid-cols-1 gap-8 px-4 text-center md:text-left md:grid-cols-3 md:max-w-3xl md:px-0 relative z-10">
-        <div>
-            <h3 class="text-quicksilver-100">Image 1</h3>
-            <ul>
-                <li>Purchased: $</li>
-                <li>Rehab: $</li>
-                <li>ARV: $</li>
-                <li>Caption: Type of loan</li>
-                <li>City, State</li>
-            </ul>
-        </div>
+        class="mx-auto grid grid-cols-1 gap-8 px-4 text-center max-w-md md:text-left lg:grid-cols-3 lg:max-w-6xl md:px-0">
+        <figure class="my-0 rounded-lg shadow-xl pt-0 bg-quicksilver-25 overflow-hidden">
+            <div class="aspect-w-3 aspect-h-2 -mt-8">
+                <img src="/wp-content/themes/btc/public/images/success-stories-01.jpg" class="object-cover"
+                    alt="Builders Trust Capital Success Story Photo: 1185 Route 9 South, Cape May Courthouse, NJ">
+            </div>
+            <figcaption class="mt-20 mb-4 mx-8 relative">
+                <span
+                    class="text-emeraldCity-50 rounded-lg px-3 py-3 inline-block bg-emeraldCity-300 absolute -top-20 transform right-1/2 translate-x-1/2 shadow-lg">
+                    <?php echo $hand; ?>
+                </span>
+                <ul class="text-bigWaves-400 text-center mb-8">
+                    <li class="pl-0 font-semibold text-lg flex flex-col justify-center mb-6">
+                        Purchased
+                        <span class="text-bigWaves-800 font-light text-4xl">$200,000</span>
+                    </li>
+                    <li class="pl-0 font-semibold text-lg flex flex-col justify-center  mb-6">Rehab
+                        <span class="text-bigWaves-800 font-light text-4xl">$60,000</span>
+                    </li>
+                    <li class="pl-0 font-semibold text-lg flex flex-col justify-center mb-6">ARV
+                        <span class="text-bigWaves-800 font-light text-4xl">$350,000</span>
+                    </li>
+                    <li class="pl-0 text-3xl text-bigWaves-600">Fix & Flip <small
+                            class="text-bigWaves-300 font-normal text-base block">Cape May
+                            Courthouse, NJ</small></li>
+                </ul>
+            </figcaption>
+        </figure>
 
-        <div>
-            <h3 class="text-quicksilver-100">Image 2</h3>
-            <ul>
-                <li>Purchased: $</li>
-                <li>Rehab: $</li>
-                <li>ARV: $</li>
-                <li>Caption: Type of loan</li>
-                <li>City, State</li>
-            </ul>
-        </div>
+        <figure class="my-0 rounded-lg shadow-xl pt-0 bg-quicksilver-25 overflow-hidden">
+            <div class="aspect-w-3 aspect-h-2 -mt-8">
+                <img src="/wp-content/themes/btc/public/images/success-stories-02.jpg" class="object-cover"
+                    alt="Builders Trust Capital Success Story Photo: 10 Anderson, Morristown NJ">
+            </div>
+            <figcaption class="mt-20 mb-4 mx-8 relative">
+                <span
+                    class="text-emeraldCity-50 rounded-lg px-3 py-3 inline-block bg-emeraldCity-300 absolute -top-20 transform right-1/2 translate-x-1/2 shadow-lg">
+                    <?php echo $hand; ?>
+                </span>
+                <ul class="text-bigWaves-400 text-center mb-8">
+                    <li class="pl-0 font-semibold text-lg flex flex-col justify-center mb-6">
+                        Purchased
+                        <span class="text-bigWaves-800 font-light text-4xl">$235,000</span>
+                    </li>
+                    <li class="pl-0 font-semibold text-lg flex flex-col justify-center  mb-6">Rehab
+                        <span class="text-bigWaves-800 font-light text-4xl">$59,800</span>
+                    </li>
+                    <li class="pl-0 font-semibold text-lg flex flex-col justify-center mb-6">ARV
+                        <span class="text-bigWaves-800 font-light text-4xl">$435,000</span>
+                    </li>
+                    <li class="pl-0 text-3xl text-bigWaves-600">Fix & Flip <small
+                            class="text-bigWaves-300 font-normal text-base block">Morristown, NJ</small></li>
+                </ul>
+            </figcaption>
+        </figure>
 
-        <div>
-            <h3 class="text-quicksilver-100">Image 3</h3>
-            <ul>
-                <li>Purchased: $</li>
-                <li>Rehab: $</li>
-                <li>ARV: $</li>
-                <li>Caption: Type of loan</li>
-                <li>City, State</li>
-            </ul>
-        </div>
+        <figure class="my-0 rounded-lg shadow-xl pt-0 bg-quicksilver-25 overflow-hidden">
+            <div class="aspect-w-3 aspect-h-2 -mt-8">
+                <img src="/wp-content/themes/btc/public/images/success-stories-03.jpg" class="object-cover"
+                    alt="Builders Trust Capital Success Story Photo: 10 Anderson, Morristown NJ">
+            </div>
+            <figcaption class="mt-20 mb-4 mx-8 relative">
+                <span
+                    class="text-emeraldCity-50 rounded-lg px-3 py-3 inline-block bg-emeraldCity-300 absolute -top-20 transform right-1/2 translate-x-1/2 shadow-lg">
+                    <?php echo $hand; ?>
+                </span>
+                <ul class="text-bigWaves-400 text-center mb-8">
+                    <li class="pl-0 font-semibold text-lg flex flex-col justify-center mb-6">
+                        Purchased
+                        <span class="text-bigWaves-800 font-light text-4xl">$228.000</span>
+                    </li>
+                    <li class="pl-0 font-semibold text-lg flex flex-col justify-center  mb-6">Rehab
+                        <span class="text-bigWaves-800 font-light text-4xl">$140,000</span>
+                    </li>
+                    <li class="pl-0 font-semibold text-lg flex flex-col justify-center mb-6">ARV
+                        <span class="text-bigWaves-800 font-light text-4xl">$485,000</span>
+                    </li>
+                    <li class="pl-0 text-3xl text-bigWaves-600">Fix & Flip <small
+                            class="text-bigWaves-300 font-normal text-base block">Matawan, NJ </small></li>
+                </ul>
+            </figcaption>
+        </figure>
     </div>
 </div>

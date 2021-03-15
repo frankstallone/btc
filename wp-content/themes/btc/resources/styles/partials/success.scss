@@ -2,17 +2,4 @@
   ul > li::before {
     @apply hidden;
   }
-  @screen sm {
-    ul > li::before {
-      content: '';
-      display: block;
-      position: absolute;
-      background-color: var(--quicksilver-200);
-      border-radius: 50%;
-      width: 0.375em;
-      height: 0.375em;
-      top: calc(0.875em - 0.1875em);
-      left: 0.25em;
-    }
-  }
 }
