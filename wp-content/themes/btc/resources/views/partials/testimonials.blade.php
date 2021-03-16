@@ -1,7 +1,7 @@
 {{-- Get star icon --}}
 <?php $star = get_svg('svg.star-sharp', 'w-6 h-6 inline'); ?>
 
-<div class="bg-gradient-to-br from-quicksilver-700 to-quicksilver-800 py-12 px-4 xl:px-0">
+<div class="bg-gradient-to-br from-quicksilver-700 to-quicksilver-800 py-24 px-4 xl:px-0">
     <div class="sm:w-full sm:max-w-2xl mx-auto">
         <h2 class="mt-0 text-center text-3xl text-bigWaves-50">Testimonials</h2>
     </div>

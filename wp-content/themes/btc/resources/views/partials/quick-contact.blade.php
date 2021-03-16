@@ -1,4 +1,4 @@
-<div class="quick-contact bg-gradient-to-bl from-quicksilver-800 to-quicksilver-900 py-12 px-4 lg:px-0">
+<div class="quick-contact bg-gradient-to-bl from-quicksilver-800 to-quicksilver-900 py-24 px-4 lg:px-0">
     <div class="sm:w-full sm:max-w-lg mx-auto ">
         <div>
             <h2 class="mt-0 text-center text-3xl text-quicksilver-100">Ready to discuss your funding needs? </h2>

@@ -1,4 +1,4 @@
-<div class="bg-gradient-to-bl from-quicksilver-600 to-quicksilver-700 text-quicksilver-100 py-12 px-4 xl:px-0">
+<div class="bg-gradient-to-bl from-quicksilver-600 to-quicksilver-700 text-quicksilver-100 py-24 px-4 xl:px-0">
     <div class="sm:w-full sm:max-w-xl mx-auto">
         <h2 class="mt-0 text-3xl text-bigWaves-50">How to Finance Your Real Estate Investment</h2>
         <p class="text-2xl">
@@ -10,7 +10,8 @@
         <div>
             <h3 class="text-quicksilver-100">1. Get Started</h3>
             <p>
-                <a href="#" class="text-quicksilver-100 hover:text-quicksilver-50">Fill in the form</a> or call us at
+                <a href="/application" class="text-quicksilver-100 hover:text-quicksilver-50">Fill in the form</a> or
+                call us at
                 856-422-3232 so we can
                 contact you and begin working on your loan. We're local and happy to meet with
                 you to learn your funding needs.

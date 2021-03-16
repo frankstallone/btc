@@ -9,7 +9,7 @@
         <div class="mx-auto max-w-3xl px-4 py-20 relative z-10">
             <h1 class="text-quicksilver-50">@field('headline')</h1>
             @hasfield('subheading')
-            <h2 class="text-quicksilver-100">@field('subheading')</h2>
+            <h2 class="text-quicksilver-100 mb-0">@field('subheading')</h2>
             @endfield
         </div>
     </header>
