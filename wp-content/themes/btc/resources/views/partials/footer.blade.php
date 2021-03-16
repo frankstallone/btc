@@ -1,6 +1,6 @@
 <footer class="content-info bg-quicksilver-900 text-quicksilver-50 py-24 px-12">
     <div class="mx-auto grid grid-cols-1 grid-rows-3 gap-2 m-12 md:grid-cols-3 md:grid-rows-1 md:max-w-6xl">
-        <div>
+        <div class="text-center sm:text-left">
             <h2 class="text-lg text-quicksilver-200">Navigation</h2>
             <nav class="nav-footer">
                 @if (has_nav_menu('primary_navigation'))
@@ -8,7 +8,7 @@
                 @endif
             </nav>
         </div>
-        <div>
+        <div class="text-center sm:text-left mt-12 sm:mt-0">
             <h2 class="text-lg text-quicksilver-200">Contact Us</h2>
             <p><strong>Builders Trust Capital</strong> <br />
                 121 Johnson Road Suite 1,<br />
@@ -38,7 +38,7 @@
                 </a>
             </p>
         </div>
-        <div>
+        <div class="mt-12 sm:mt-0">
             <h2 class="text-lg text-quicksilver-200">All rights reserved Builders Trust Capital 2021.</h2>
             <p><small>*Disclaimer: Builders Trust Capital currently provides funding in these states: Pennsylvania, New
                     Jersey and Delaware. All rates and fees advertised are subject to change and are dependent on a

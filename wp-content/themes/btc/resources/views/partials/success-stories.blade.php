@@ -15,24 +15,27 @@
                 <img src="/wp-content/themes/btc/public/images/success-stories-01.jpg" class="object-cover"
                     alt="Builders Trust Capital Success Story Photo: 1185 Route 9 South, Cape May Courthouse, NJ">
             </div>
-            <figcaption class="mt-20 mb-4 mx-8 relative">
+            <figcaption class="mt-20 relative">
                 <span
                     class="text-emeraldCity-50 rounded-xl px-3 py-3 inline-block bg-emeraldCity-300 absolute -top-20 transform right-1/2 translate-x-1/2 shadow-lg">
                     <?php echo $messageDollar; ?>
                 </span>
-                <ul class="text-bigWaves-400 text-center mb-8">
-                    <li class="pl-0 font-semibold text-lg flex flex-col justify-center mb-6">
-                        Purchased
+                <ul class="text-bigWaves-400 text-center mb-0">
+                    <li class="pl-0 font-semibold text-lg flex flex-col justify-center items-center mb-6">
+                        <span class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-32">Purchased</span>
                         <span class="text-bigWaves-700 font-display text-5xl">$200,000</span>
                     </li>
-                    <li class="pl-0 font-semibold text-lg flex flex-col justify-center  mb-6">Rehab
+                    <li class="pl-0 font-semibold text-lg flex flex-col justify-center items-center mb-6">
+                        <span class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-24">Rehab</span>
                         <span class="text-bigWaves-700 font-display text-5xl">$60,000</span>
                     </li>
-                    <li class="pl-0 font-semibold text-lg flex flex-col justify-center mb-6">ARV
+                    <li class="pl-0 font-semibold text-lg flex flex-col justify-center items-center mb-6">
+                        <span class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-24">ARV</span>
                         <span class="text-bigWaves-700 font-display text-5xl">$350,000</span>
                     </li>
-                    <li class="pl-0 text-2xl font-semibold font-display text-bigWaves-500">Fix & Flip <small
-                            class="text-bigWaves-300 font-sans font-normal text-base block">Cape May
+                    <li
+                        class="pl-0 py-4 mb-0 text-2xl font-semibold font-display text-quicksilver-400 border-t border-quicksilver-100 bg-quicksilver-50">
+                        Fix & Flip <small class="text-quicksilver-300 font-sans font-light text-base block">Cape May
                             Courthouse, NJ</small></li>
                 </ul>
             </figcaption>
@@ -43,24 +46,29 @@
                 <img src="/wp-content/themes/btc/public/images/success-stories-02.jpg" class="object-cover"
                     alt="Builders Trust Capital Success Story Photo: 10 Anderson, Morristown NJ">
             </div>
-            <figcaption class="mt-20 mb-4 mx-8 relative">
+            <figcaption class="mt-20 relative">
                 <span
                     class="text-emeraldCity-50 rounded-xl px-3 py-3 inline-block bg-emeraldCity-300 absolute -top-20 transform right-1/2 translate-x-1/2 shadow-lg">
                     <?php echo $messageDollar; ?>
                 </span>
-                <ul class="text-bigWaves-400 text-center mb-8">
-                    <li class="pl-0 font-semibold text-lg flex flex-col justify-center mb-6">
-                        Purchased
+                <ul class="text-bigWaves-400 text-center mb-0">
+                    <li class="pl-0 font-semibold text-lg flex flex-col justify-center items-center mb-6">
+                        <span class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-32">Purchased</span>
                         <span class="text-bigWaves-700 font-display text-5xl">$235,000</span>
                     </li>
-                    <li class="pl-0 font-semibold text-lg flex flex-col justify-center  mb-6">Rehab
+                    <li class="pl-0 font-semibold text-lg flex flex-col justify-center items-center  mb-6">
+                        <span class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-24">Rehab</span>
                         <span class="text-bigWaves-700 font-display text-5xl">$59,800</span>
                     </li>
-                    <li class="pl-0 font-semibold text-lg flex flex-col justify-center mb-6">ARV
+                    <li class="pl-0 font-semibold text-lg flex flex-col justify-center items-center mb-6">
+                        <span class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-24">ARV</span>
                         <span class="text-bigWaves-700 font-display text-5xl">$435,000</span>
                     </li>
-                    <li class="pl-0 text-2xl font-semibold font-display text-bigWaves-500">Fix & Flip <small
-                            class="text-bigWaves-300 font-sans font-normal text-base block">Morristown, NJ</small></li>
+                    <li
+                        class="pl-0 py-4 mb-0 text-2xl font-semibold font-display text-quicksilver-400 border-t border-quicksilver-100 bg-quicksilver-50">
+                        Fix & Flip <small class="text-quicksilver-300 font-sans font-light text-base block">Morristown,
+                            NJ</small>
+                    </li>
                 </ul>
             </figcaption>
         </figure>
@@ -70,24 +78,28 @@
                 <img src="/wp-content/themes/btc/public/images/success-stories-03.jpg" class="object-cover"
                     alt="Builders Trust Capital Success Story Photo: 10 Anderson, Morristown NJ">
             </div>
-            <figcaption class="mt-20 mb-4 mx-8 relative">
+            <figcaption class="mt-20 relative">
                 <span
                     class="text-emeraldCity-50 rounded-xl px-3 py-3 inline-block bg-emeraldCity-300 absolute -top-20 transform right-1/2 translate-x-1/2 shadow-lg">
                     <?php echo $messageDollar; ?>
                 </span>
-                <ul class="text-bigWaves-400 text-center mb-8">
-                    <li class="pl-0 font-semibold text-lg flex flex-col justify-center mb-6">
-                        Purchased
+                <ul class="text-bigWaves-400 text-center mb-0">
+                    <li class="pl-0 font-semibold text-lg flex flex-col justify-center items-center mb-6">
+                        <span class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-32">Purchased</span>
                         <span class="text-bigWaves-700 font-display text-5xl">$228.000</span>
                     </li>
-                    <li class="pl-0 font-semibold text-lg flex flex-col justify-center  mb-6">Rehab
+                    <li class="pl-0 font-semibold text-lg flex flex-col justify-center items-center  mb-6">
+                        <span class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-24">Rehab</span>
                         <span class="text-bigWaves-700 font-display text-5xl">$140,000</span>
                     </li>
-                    <li class="pl-0 font-semibold text-lg flex flex-col justify-center mb-6">ARV
+                    <li class="pl-0 font-semibold text-lg flex flex-col justify-center items-center mb-6">
+                        <span class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-24">ARV</span>
                         <span class="text-bigWaves-700 font-display text-5xl">$485,000</span>
                     </li>
-                    <li class="pl-0 text-2xl font-semibold font-display text-bigWaves-500">Fix & Flip <small
-                            class="text-bigWaves-300 font-sans font-normal text-base block">Matawan, NJ </small></li>
+                    <li
+                        class="pl-0 py-4 mb-0 text-2xl font-semibold font-display text-quicksilver-400 border-t border-quicksilver-100 bg-quicksilver-50">
+                        Fix & Flip <small class="text-quicksilver-300 font-sans font-light text-base block">Matawan, NJ
+                        </small></li>
                 </ul>
             </figcaption>
         </figure>
