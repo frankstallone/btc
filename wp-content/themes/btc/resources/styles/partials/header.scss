@@ -10,7 +10,7 @@ header {
         @apply px-2 m-0;
         a,
         &:visited {
-          @apply no-underline text-quicksilver-50;
+          @apply no-underline text-quicksilver-50 text-sm lg:text-base;
           &:hover,
           &:focus {
             @apply text-goldRush-100;

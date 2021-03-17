@@ -7,7 +7,7 @@
     <?php wp_head(); ?>
   </head>
 
-  <body <?php body_class('overflow-x-hidden h-full font-sans'); ?>>
+  <body <?php body_class('overflow-x-hidden h-full font-sans bg-quicksilver-25'); ?>>
     <?php wp_body_open(); ?>
     <?php do_action('get_header'); ?>
 

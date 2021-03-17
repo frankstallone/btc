@@ -1,5 +1,5 @@
 <div class="bg-quicksilver-900 py-4 z-20">
-    <header class="sm:w-full sm:max-w-6xl sm:mx-auto px-4 flex justify-between items-center">
+    <header class="sm:w-full sm:max-w-7xl sm:mx-auto px-4 flex justify-between items-center">
         <a class="brand font-display flex mr-4" href="{{ home_url('/') }}">
             <span class="sr-only">
                 {{ $siteName }}
