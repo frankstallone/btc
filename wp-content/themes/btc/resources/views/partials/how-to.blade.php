@@ -15,12 +15,13 @@
                     days</em>.
             </p>
         </div>
-        <div class="mx-auto mt-6 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
-            <div class="bg-alpenglow-900 bg-opacity-20 p-8 rounded-lg">
-                <div class="inline-block text-bigWaves-50 rounded-xl px-3 py-3 bg-bigWaves-300 bg-opacity-25">
+        <div class="mx-auto mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+            <div class="bg-alpenglow-900 bg-opacity-20 p-8 mt-8 rounded-lg relative">
+                <div
+                    class="text-bigWaves-50 rounded-xl px-3 py-3 bg-alpenglow-900 bg-opacity-40 inline-block absolute -top-7 transform-gpu translate-x-1/2 right-1/2 shadow-xl">
                     <?php echo $circle1; ?>
                 </div>
-                <h3 class="text-2xl text-goldRush-50 mt-4">Get Started</h3>
+                <h3 class="text-2xl text-goldRush-50 my-2">Get Started</h3>
                 <p class="text-lg">
                     <a href="/application" class="text-quicksilver-100 hover:text-quicksilver-50">Fill in the form</a>
                     or
@@ -31,36 +32,40 @@
                 </p>
             </div>
 
-            <div class="bg-alpenglow-900 bg-opacity-20 p-8 rounded-lg">
-                <div class="inline-block text-bigWaves-50 rounded-xl px-3 py-3 bg-bigWaves-300 bg-opacity-25">
+            <div class="bg-alpenglow-900 bg-opacity-20 p-8 mt-8 rounded-lg relative">
+                <div
+                    class="text-bigWaves-50 rounded-xl px-3 py-3 bg-alpenglow-900 bg-opacity-40 inline-block absolute -top-7 transform-gpu translate-x-1/2 right-1/2 shadow-xl">
                     <?php echo $circle2; ?>
                 </div>
-                <h3 class="text-2xl text-goldRush-50 mt-4">Pre-qualify</h3>
+                <h3 class="text-2xl text-goldRush-50 my-2">Pre-qualify</h3>
                 <p class="text-lg">Complete your application and provide supporting documentation.</p>
             </div>
 
-            <div class="bg-alpenglow-900 bg-opacity-20 p-8 rounded-lg">
-                <div class="inline-block text-bigWaves-50 rounded-xl px-3 py-3 bg-bigWaves-300 bg-opacity-25">
+            <div class="bg-alpenglow-900 bg-opacity-20 p-8 mt-8 rounded-lg relative">
+                <div
+                    class="text-bigWaves-50 rounded-xl px-3 py-3 bg-alpenglow-900 bg-opacity-40 inline-block absolute -top-7 transform-gpu translate-x-1/2 right-1/2 shadow-xl">
                     <?php echo $circle3; ?>
                 </div>
-                <h3 class="text-2xl text-goldRush-50 mt-4">Proof of Funds</h3>
+                <h3 class="text-2xl text-goldRush-50 my-2">Proof of Funds</h3>
                 <p class="text-lg">Increase your buying power with a proof of funds (PDF) letter.</p>
             </div>
-            <div class="bg-alpenglow-900 bg-opacity-20 p-8 rounded-lg">
-                <div class="inline-block text-bigWaves-50 rounded-xl px-3 py-3 bg-bigWaves-300 bg-opacity-25">
+            <div class="bg-alpenglow-900 bg-opacity-20 p-8 mt-8 rounded-lg relative">
+                <div
+                    class="text-bigWaves-50 rounded-xl px-3 py-3 bg-alpenglow-900 bg-opacity-40 inline-block absolute -top-7 transform-gpu translate-x-1/2 right-1/2 shadow-xl">
                     <?php echo $circle4; ?>
                 </div>
-                <h3 class="text-2xl text-goldRush-50 mt-4">Loan Processing</h3>
+                <h3 class="text-2xl text-goldRush-50 my-2">Loan Processing</h3>
                 <p class="text-lg">
                     Your appraisal and title work are ordered. Your application documents are
                     reviewed.
                 </p>
             </div>
-            <div class="bg-alpenglow-900 bg-opacity-20 p-8 rounded-lg">
-                <div class="inline-block text-bigWaves-50 rounded-xl px-3 py-3 bg-bigWaves-300 bg-opacity-25">
+            <div class="bg-alpenglow-900 bg-opacity-20 p-8 mt-8 rounded-lg relative">
+                <div
+                    class="text-bigWaves-50 rounded-xl px-3 py-3 bg-alpenglow-900 bg-opacity-40 inline-block absolute -top-7 transform-gpu translate-x-1/2 right-1/2 shadow-xl">
                     <?php echo $circle5; ?>
                 </div>
-                <h3 class="text-2xl text-goldRush-50 mt-4">Get Funded Now</h3>
+                <h3 class="text-2xl text-goldRush-50 my-2">Get Funded Now</h3>
                 <p class="text-lg">Submit project information for quick, in-house review.</p>
             </div>
         </div>

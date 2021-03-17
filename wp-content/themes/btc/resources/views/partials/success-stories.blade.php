@@ -19,7 +19,7 @@
                 </div>
                 <figcaption class="mt-20 relative">
                     <span
-                        class="text-emeraldCity-50 rounded-xl px-3 py-3 inline-block bg-emeraldCity-300 absolute -top-20 transform right-1/2 translate-x-1/2 shadow-lg">
+                        class="text-emeraldCity-50 rounded-xl px-3 py-3 inline-block bg-emeraldCity-300 bg-opacity-90 absolute -top-20 transform right-1/2 translate-x-1/2 shadow-lg">
                         <?php echo $messageDollar; ?>
                     </span>
                     <ul class="text-bigWaves-400 text-center mb-0">
@@ -50,7 +50,7 @@
                 </div>
                 <figcaption class="mt-20 relative">
                     <span
-                        class="text-emeraldCity-50 rounded-xl px-3 py-3 inline-block bg-emeraldCity-300 absolute -top-20 transform right-1/2 translate-x-1/2 shadow-lg">
+                        class="text-emeraldCity-50 rounded-xl px-3 py-3 inline-block bg-emeraldCity-300 bg-opacity-90 absolute -top-20 transform right-1/2 translate-x-1/2 shadow-lg">
                         <?php echo $messageDollar; ?>
                     </span>
                     <ul class="text-bigWaves-400 text-center mb-0">
@@ -83,7 +83,7 @@
                 </div>
                 <figcaption class="mt-20 relative">
                     <span
-                        class="text-emeraldCity-50 rounded-xl px-3 py-3 inline-block bg-emeraldCity-300 absolute -top-20 transform right-1/2 translate-x-1/2 shadow-lg">
+                        class="text-emeraldCity-50 rounded-xl px-3 py-3 inline-block bg-emeraldCity-300 bg-opacity-90 absolute -top-20 transform right-1/2 translate-x-1/2 shadow-lg">
                         <?php echo $messageDollar; ?>
                     </span>
                     <ul class="text-bigWaves-400 text-center mb-0">
