@@ -19,6 +19,9 @@ module.exports = {
       //   lgYellow:
       //     '0 10px 15px -3px rgba(78, 26, 5, 0.1), 0 4px 6px -2px rgba(78, 26, 5, 0.05)',
       // },
+      minHeight: {
+        80: '80vh',
+      },
       fontFamily: {
         display: ['Guerrer', 'sans-serif'],
         sans: ['BRHendrix', 'sans-serif'],
@@ -28,78 +31,567 @@ module.exports = {
         '9xl': '8rem',
       },
       colors: {
+        // Converted to HSL variables: https://github.com/adamwathan/tailwind-css-variable-text-opacity-demo
         bigWaves: {
-          50: 'var(--bigWaves-50)',
-          100: 'var(--bigWaves-100)',
-          200: 'var(--bigWaves-200)',
-          300: 'var(--bigWaves-300)',
-          400: 'var(--bigWaves-400)',
-          500: 'var(--bigWaves-500)',
-          600: 'var(--bigWaves-600)',
-          700: 'var(--bigWaves-700)',
-          800: 'var(--bigWaves-800)',
-          900: 'var(--bigWaves-900)',
+          50: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--bigWaves-hsl-50), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--bigWaves-hsl-50), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--bigWaves-hsl-50))`;
+          },
+          100: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--bigWaves-hsl-100), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--bigWaves-hsl-100), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--bigWaves-hsl-100))`;
+          },
+          200: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--bigWaves-hsl-200), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--bigWaves-hsl-200), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--bigWaves-hsl-200))`;
+          },
+          300: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--bigWaves-hsl-300), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--bigWaves-hsl-300), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--bigWaves-hsl-300))`;
+          },
+          400: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--bigWaves-hsl-400), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--bigWaves-hsl-400), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--bigWaves-hsl-400))`;
+          },
+          500: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--bigWaves-hsl-500), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--bigWaves-hsl-500), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--bigWaves-hsl-500))`;
+          },
+          600: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--bigWaves-hsl-600), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--bigWaves-hsl-600), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--bigWaves-hsl-600))`;
+          },
+          700: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--bigWaves-hsl-700), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--bigWaves-hsl-700), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--bigWaves-hsl-700))`;
+          },
+          800: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--bigWaves-hsl-800), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--bigWaves-hsl-800), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--bigWaves-hsl-800))`;
+          },
+          900: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--bigWaves-hsl-900), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--bigWaves-hsl-900), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--bigWaves-hsl-900))`;
+          },
         },
         quicksilver: {
-          25: 'var(--quicksilver-25)',
-          50: 'var(--quicksilver-50)',
-          100: 'var(--quicksilver-100)',
-          200: 'var(--quicksilver-200)',
-          300: 'var(--quicksilver-300)',
-          400: 'var(--quicksilver-400)',
-          500: 'var(--quicksilver-500)',
-          600: 'var(--quicksilver-600)',
-          700: 'var(--quicksilver-700)',
-          800: 'var(--quicksilver-800)',
-          900: 'var(--quicksilver-900)',
+          25: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--quicksilver-hsl-25), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--quicksilver-hsl-25), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--quicksilver-hsl-25))`;
+          },
+          50: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--quicksilver-hsl-50), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--quicksilver-hsl-50), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--quicksilver-hsl-50))`;
+          },
+          100: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--quicksilver-hsl-100), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--quicksilver-hsl-100), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--quicksilver-hsl-100))`;
+          },
+          200: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--quicksilver-hsl-200), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--quicksilver-hsl-200), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--quicksilver-hsl-200))`;
+          },
+          300: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--quicksilver-hsl-300), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--quicksilver-hsl-300), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--quicksilver-hsl-300))`;
+          },
+          400: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--quicksilver-hsl-400), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--quicksilver-hsl-400), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--quicksilver-hsl-400))`;
+          },
+          500: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--quicksilver-hsl-500), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--quicksilver-hsl-500), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--quicksilver-hsl-500))`;
+          },
+          600: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--quicksilver-hsl-600), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--quicksilver-hsl-600), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--quicksilver-hsl-600))`;
+          },
+          700: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--quicksilver-hsl-700), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--quicksilver-hsl-700), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--quicksilver-hsl-700))`;
+          },
+          800: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--quicksilver-hsl-800), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--quicksilver-hsl-800), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--quicksilver-hsl-800))`;
+          },
+          900: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--quicksilver-hsl-900), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--quicksilver-hsl-900), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--quicksilver-hsl-900))`;
+          },
         },
         goldRush: {
-          50: 'var(--goldRush-50)',
-          100: 'var(--goldRush-100)',
-          200: 'var(--goldRush-200)',
-          300: 'var(--goldRush-300)',
-          400: 'var(--goldRush-400)',
-          500: 'var(--goldRush-500)',
-          600: 'var(--goldRush-600)',
-          700: 'var(--goldRush-700)',
-          800: 'var(--goldRush-800)',
-          900: 'var(--goldRush-900)',
+          50: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--goldRush-hsl-50), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--goldRush-hsl-50), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--goldRush-hsl-50))`;
+          },
+          100: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--goldRush-hsl-100), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--goldRush-hsl-100), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--goldRush-hsl-100))`;
+          },
+          200: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--goldRush-hsl-200), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--goldRush-hsl-200), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--goldRush-hsl-200))`;
+          },
+          300: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--goldRush-hsl-300), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--goldRush-hsl-300), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--goldRush-hsl-300))`;
+          },
+          400: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--goldRush-hsl-400), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--goldRush-hsl-400), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--goldRush-hsl-400))`;
+          },
+          500: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--goldRush-hsl-500), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--goldRush-hsl-500), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--goldRush-hsl-500))`;
+          },
+          600: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--goldRush-hsl-600), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--goldRush-hsl-600), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--goldRush-hsl-600))`;
+          },
+          700: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--goldRush-hsl-700), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--goldRush-hsl-700), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--goldRush-hsl-700))`;
+          },
+          800: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--goldRush-hsl-800), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--goldRush-hsl-800), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--goldRush-hsl-800))`;
+          },
+          900: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--goldRush-hsl-900), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--goldRush-hsl-900), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--goldRush-hsl-900))`;
+          },
         },
         emeraldCity: {
-          50: 'var(--emeraldCity-50)',
-          100: 'var(--emeraldCity-100)',
-          200: 'var(--emeraldCity-200)',
-          300: 'var(--emeraldCity-300)',
-          400: 'var(--emeraldCity-400)',
-          500: 'var(--emeraldCity-500)',
-          600: 'var(--emeraldCity-600)',
-          700: 'var(--emeraldCity-700)',
-          800: 'var(--emeraldCity-800)',
-          900: 'var(--emeraldCity-900)',
+          50: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--emeraldCity-hsl-50), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--emeraldCity-hsl-50), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--emeraldCity-hsl-50))`;
+          },
+          100: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--emeraldCity-hsl-100), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--emeraldCity-hsl-100), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--emeraldCity-hsl-100))`;
+          },
+          200: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--emeraldCity-hsl-200), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--emeraldCity-hsl-200), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--emeraldCity-hsl-200))`;
+          },
+          300: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--emeraldCity-hsl-300), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--emeraldCity-hsl-300), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--emeraldCity-hsl-300))`;
+          },
+          400: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--emeraldCity-hsl-400), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--emeraldCity-hsl-400), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--emeraldCity-hsl-400))`;
+          },
+          500: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--emeraldCity-hsl-500), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--emeraldCity-hsl-500), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--emeraldCity-hsl-500))`;
+          },
+          600: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--emeraldCity-hsl-600), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--emeraldCity-hsl-600), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--emeraldCity-hsl-600))`;
+          },
+          700: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--emeraldCity-hsl-700), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--emeraldCity-hsl-700), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--emeraldCity-hsl-700))`;
+          },
+          800: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--emeraldCity-hsl-800), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--emeraldCity-hsl-800), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--emeraldCity-hsl-800))`;
+          },
+          900: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--emeraldCity-hsl-900), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--emeraldCity-hsl-900), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--emeraldCity-hsl-900))`;
+          },
         },
         rubySlippers: {
-          50: 'var(--rubySlippers-50)',
-          100: 'var(--rubySlippers-100)',
-          200: 'var(--rubySlippers-200)',
-          300: 'var(--rubySlippers-300)',
-          400: 'var(--rubySlippers-400)',
-          500: 'var(--rubySlippers-500)',
-          600: 'var(--rubySlippers-600)',
-          700: 'var(--rubySlippers-700)',
-          800: 'var(--rubySlippers-800)',
-          900: 'var(--rubySlippers-900)',
+          50: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--rubySlippers-hsl-50), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--rubySlippers-hsl-50), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--rubySlippers-hsl-50))`;
+          },
+          100: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--rubySlippers-hsl-100), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--rubySlippers-hsl-100), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--rubySlippers-hsl-100))`;
+          },
+          200: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--rubySlippers-hsl-200), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--rubySlippers-hsl-200), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--rubySlippers-hsl-200))`;
+          },
+          300: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--rubySlippers-hsl-300), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--rubySlippers-hsl-300), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--rubySlippers-hsl-300))`;
+          },
+          400: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--rubySlippers-hsl-400), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--rubySlippers-hsl-400), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--rubySlippers-hsl-400))`;
+          },
+          500: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--rubySlippers-hsl-500), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--rubySlippers-hsl-500), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--rubySlippers-hsl-500))`;
+          },
+          600: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--rubySlippers-hsl-600), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--rubySlippers-hsl-600), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--rubySlippers-hsl-600))`;
+          },
+          700: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--rubySlippers-hsl-700), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--rubySlippers-hsl-700), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--rubySlippers-hsl-700))`;
+          },
+          800: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--rubySlippers-hsl-800), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--rubySlippers-hsl-800), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--rubySlippers-hsl-800))`;
+          },
+          900: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--rubySlippers-hsl-900), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--rubySlippers-hsl-900), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--rubySlippers-hsl-900))`;
+          },
         },
         alpenglow: {
-          50: 'var(--alpenglow-50)',
-          100: 'var(--alpenglow-100)',
-          200: 'var(--alpenglow-200)',
-          300: 'var(--alpenglow-300)',
-          400: 'var(--alpenglow-400)',
-          500: 'var(--alpenglow-500)',
-          600: 'var(--alpenglow-600)',
-          700: 'var(--alpenglow-700)',
-          800: 'var(--alpenglow-800)',
-          900: 'var(--alpenglow-900)',
+          50: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--alpenglow-hsl-50), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--alpenglow-hsl-50), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--alpenglow-hsl-50))`;
+          },
+          100: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--alpenglow-hsl-100), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--alpenglow-hsl-100), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--alpenglow-hsl-100))`;
+          },
+          200: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--alpenglow-hsl-200), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--alpenglow-hsl-200), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--alpenglow-hsl-200))`;
+          },
+          300: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--alpenglow-hsl-300), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--alpenglow-hsl-300), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--alpenglow-hsl-300))`;
+          },
+          400: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--alpenglow-hsl-400), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--alpenglow-hsl-400), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--alpenglow-hsl-400))`;
+          },
+          500: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--alpenglow-hsl-500), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--alpenglow-hsl-500), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--alpenglow-hsl-500))`;
+          },
+          600: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--alpenglow-hsl-600), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--alpenglow-hsl-600), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--alpenglow-hsl-600))`;
+          },
+          700: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--alpenglow-hsl-700), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--alpenglow-hsl-700), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--alpenglow-hsl-700))`;
+          },
+          800: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--alpenglow-hsl-800), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--alpenglow-hsl-800), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--alpenglow-hsl-800))`;
+          },
+          900: ({ opacityVariable, opacityValue }) => {
+            if (opacityValue !== undefined) {
+              return `hsla(var(--alpenglow-hsl-900), ${opacityValue})`;
+            }
+            if (opacityVariable !== undefined) {
+              return `hsla(var(--alpenglow-hsl-900), var(${opacityVariable}, 1))`;
+            }
+            return `hsl(var(--alpenglow-hsl-900))`;
+          },
         },
       },
       typography: (theme) => ({
