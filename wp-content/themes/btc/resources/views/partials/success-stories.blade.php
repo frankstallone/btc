@@ -5,7 +5,7 @@
         <div class="lg:max-w-7xl sm:px-0 relative">
             <h2 class="mt-0 relative z-10 text-3xl text-quicksilver-25">Builders Trust Capital Client Success
                 Stories</h2>
-            <p class="relative z-10 text-2xl max-w-prose">
+            <p class="relative z-10 text-2xl md:max-w-2xl">
                 Partner with an efficient, personable team who delivers <strong>$000,000</strong> in
                 real estate loans
             </p>

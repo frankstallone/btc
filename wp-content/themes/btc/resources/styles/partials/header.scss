@@ -20,7 +20,7 @@ header {
     }
   }
   .showNav {
-    @apply md:flex md:flex-row items-center flex flex-col w-full bg-bigWaves-900 absolute top-0 bottom-0 left-0 right-0 py-10 space-y-4 z-20 justify-center;
+    @apply md:flex md:flex-row items-center flex flex-col w-full bg-bigWaves-900 absolute top-0 bottom-0 left-0 right-0 py-10 space-y-4 z-30 justify-center;
     ul > li::before {
       display: none;
     }

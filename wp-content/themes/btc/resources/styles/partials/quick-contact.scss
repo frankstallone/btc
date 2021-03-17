@@ -1,13 +1,13 @@
 .quick-contact {
   .gform_wrapper {
     label.gfield_label {
-      @apply text-quicksilver-100;
+      @apply text-quicksilver-25;
     }
     input[type='text'],
     input[type='tel'],
     input[type='email'],
     textarea {
-      @apply bg-quicksilver-50;
+      @apply bg-quicksilver-25 text-quicksilver-900;
     }
     .gform_footer input[type='submit'] {
       @apply text-sm sm:text-lg;
