@@ -13,8 +13,12 @@ opacity-50 top-0 md:h-full md:translate-x-2/3',
         </div>
         <div
             class="mx-auto grid grid-cols-1 grid-rows-1 gap-8 mt-2 mb-12 sm:max-w-lg md:grid-cols-2 md:grid-rows-2 md:max-w-7xl items-center">
-            <figure class="my-0 border border-quicksilver-100 rounded-lg shadow-xl pt-8 bg-quicksilver-25">
-                <blockquote class="border-none px-8">
+            <figure class="my-0 border border-quicksilver-100 rounded-lg shadow-xl pt-8 bg-quicksilver-25 relative mt-24">
+              <div class="transform-gpu translate-x-1/2 absolute -top-24 right-1/2 bg-quicksilver-25 p-2 rounded-full w-32 h-32 border border-quicksilver-100 shadow-md">
+                <img src="/wp-content/themes/btc/public/images/avatar-01.jpeg" class="object-cover rounded-full my-0 border border-quicksilver-100"
+                            alt="Photo of Raphael Akinsete">
+              </div>
+                <blockquote class="border-none px-8 mt-2">
                     <p class="text-lg my-0">
                         If you are a newbie investor, I highly recommend Builders Trust Capital because your first few
                         deals
@@ -43,8 +47,12 @@ opacity-50 top-0 md:h-full md:translate-x-2/3',
                         11, 2020</small>
                 </figcaption>
             </figure>
-            <figure class="my-0 border border-quicksilver-100 rounded-lg shadow-xl pt-8 bg-quicksilver-25">
-                <blockquote class="border-none px-8">
+            <figure class="my-0 border border-quicksilver-100 rounded-lg shadow-xl pt-8 bg-quicksilver-25 relative mt-24">
+              <div class="transform-gpu translate-x-1/2 absolute -top-24 right-1/2 bg-quicksilver-25 p-2 rounded-full w-32 h-32 border border-quicksilver-100 shadow-md">
+                <img src="/wp-content/themes/btc/public/images/avatar-02.jpeg" class="object-cover rounded-full my-0 border border-quicksilver-100"
+                            alt="Photo of Raphael Akinsete">
+              </div>
+                <blockquote class="border-none px-8 mt-2">
                     <p class="text-lg my-0">
                         Just finished up my first project with the Ashmore team and wanted to share my appreciation for
                         the good business. Success is often driven by effective relationships, and Ashmore’s partnership
@@ -69,8 +77,12 @@ opacity-50 top-0 md:h-full md:translate-x-2/3',
                         2020</small>
                 </figcaption>
             </figure>
-            <figure class="my-0 border border-quicksilver-100 rounded-lg shadow-xl pt-8 bg-quicksilver-25">
-                <blockquote class="border-none px-8">
+            <figure class="my-0 border border-quicksilver-100 rounded-lg shadow-xl pt-8 bg-quicksilver-25 relative mt-24">
+              <div class="transform-gpu translate-x-1/2 absolute -top-24 right-1/2 bg-quicksilver-25 p-2 rounded-full w-32 h-32 border border-quicksilver-100 shadow-md">
+                <img src="/wp-content/themes/btc/public/images/avatar-03.jpeg" class="object-cover rounded-full my-0 border border-quicksilver-100"
+                            alt="Photo of Raphael Akinsete">
+              </div>
+                <blockquote class="border-none px-8 mt-2">
                     <p class="text-lg my-0">
                         They are a well organized lending company that provide great communication and will work with
                         you to
@@ -93,8 +105,12 @@ opacity-50 top-0 md:h-full md:translate-x-2/3',
                         2020</small>
                 </figcaption>
             </figure>
-            <figure class="my-0 border border-quicksilver-100 rounded-lg shadow-xl pt-8 bg-quicksilver-25">
-                <blockquote class="border-none px-8">
+            <figure class="my-0 border border-quicksilver-100 rounded-lg shadow-xl pt-8 bg-quicksilver-25 relative mt-24">
+              <div class="transform-gpu translate-x-1/2 absolute -top-24 right-1/2 bg-quicksilver-25 p-2 rounded-full w-32 h-32 border border-quicksilver-100 shadow-md">
+                <img src="/wp-content/themes/btc/public/images/avatar-04.jpeg" class="object-cover rounded-full my-0 border border-quicksilver-100"
+                            alt="Photo of Raphael Akinsete">
+              </div>
+                <blockquote class="border-none px-8 mt-2">
                     <p class="text-lg my-0">
                         Builders Trust Capital is an incredibly responsive and flexible lender for RE investors. They
                         have
