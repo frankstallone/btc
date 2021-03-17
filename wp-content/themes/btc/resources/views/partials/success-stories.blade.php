@@ -1,7 +1,7 @@
 <?php $messageDollar = get_svg('svg.messages-dollar', 'w-8 h-8 fill-current'); ?>
 <div
-    class="success-stories bg-gradient-to-br from-quicksilver-500 to-quicksilver-600 text-quicksilver-25 py-24 px-4 min-h-80">
-    <div class="flex flex-col justify-center lg:max-w-7xl mx-auto">
+    class="success-stories flex bg-gradient-to-br from-quicksilver-500 to-quicksilver-600 text-quicksilver-25 py-24 px-4 min-h-80">
+    <div class="flex flex-col justify-center lg:max-w-7xl mx-auto w-full">
         <div class="lg:max-w-7xl sm:px-0 relative">
             <h2 class="mt-0 relative z-10 text-3xl text-quicksilver-25">Builders Trust Capital Client Success
                 Stories</h2>
@@ -10,7 +10,8 @@
                 real estate loans
             </p>
         </div>
-        <div class="grid grid-cols-1 gap-8 text-center xl:gap-12 md:grid-cols-2 md:text-left lg:grid-cols-3 md:px-0">
+        <div
+            class="mt-6 grid grid-cols-1 gap-8 text-center xl:gap-12 md:grid-cols-2 md:text-left lg:grid-cols-3 md:px-0">
             <figure class="my-0 rounded-lg shadow-xl pt-0 bg-quicksilver-25 overflow-hidden">
                 <div class="aspect-w-3 aspect-h-2 -mt-8">
                     <img src="/wp-content/themes/btc/public/images/success-stories-01.jpg" class="object-cover"

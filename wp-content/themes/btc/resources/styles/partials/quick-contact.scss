@@ -12,6 +12,9 @@
     .gform_footer input[type='submit'] {
       @apply text-sm sm:text-lg;
     }
+    #gform_fields_1 {
+      @apply my-0;
+    }
   }
   a,
   a:visited {
