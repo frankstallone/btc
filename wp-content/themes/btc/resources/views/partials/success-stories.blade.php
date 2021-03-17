@@ -1,7 +1,13 @@
 <?php $messageDollar = get_svg('svg.messages-dollar', 'w-8 h-8 fill-current'); ?>
+<?php $btcMark = get_svg(
+'svg.btc-pattern-3',
+'hidden md:block absolute text-quicksilver-500 fill-current z-0 transform-gpu origin-center
+opacity-50 md:h-screen top-0 md:translate-x-1/2',
+); ?>
 <div
-    class="success-stories flex bg-gradient-to-br from-quicksilver-500 to-quicksilver-600 text-quicksilver-25 py-24 px-4 min-h-80">
-    <div class="flex flex-col justify-center lg:max-w-7xl mx-auto w-full">
+    class="success-stories flex bg-gradient-to-br from-quicksilver-500 to-quicksilver-600 text-quicksilver-25 py-24 px-4 min-h-80 relative overflow-hidden">
+    <?php echo $btcMark; ?>
+    <div class="flex flex-col justify-center lg:max-w-7xl mx-auto w-full z-10">
         <div class="lg:max-w-7xl sm:px-0 relative">
             <h2 class="mt-0 relative z-10 text-3xl text-quicksilver-25">Builders Trust Capital Client Success
                 Stories</h2>

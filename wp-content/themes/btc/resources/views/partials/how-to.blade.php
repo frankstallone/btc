@@ -5,8 +5,8 @@
 <?php $circle5 = get_svg('svg.circle-5', 'w-8 fill-current text-goldRush-100'); ?>
 <?php $btcMark = get_svg(
 'svg.btc-mark-one-path',
-'hidden xl:block mark absolute text-quicksilver-700 z-0 transform-gpu origin-center
-opacity-50 lg:h-screen lg:translate-x-1/4',
+'hidden md:block mark absolute text-quicksilver-600 z-0 transform-gpu origin-center
+opacity-30 md:h-screen md:-translate-x-1/2',
 ); ?>
 <div
     class="bg-gradient-to-bl from-quicksilver-600 to-quicksilver-700 text-quicksilver-100 py-24 px-4 min-h-80 flex flex-col justify-center relative overflow-hidden">

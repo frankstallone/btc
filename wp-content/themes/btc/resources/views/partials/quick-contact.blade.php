@@ -1,7 +1,7 @@
 <?php $btcMark = get_svg(
 'svg.btc-mark-one-path',
-'hidden lg:block mark absolute text-quicksilver-800 z-0 transform-gpu origin-center
-opacity-50 lg:h-screen lg:-translate-x-1/2',
+'hidden md:block mark absolute text-quicksilver-800 z-0 transform-gpu origin-center
+opacity-50 md:h-screen md:-translate-x-1/2',
 ); ?>
 <div
     class="flex quick-contact bg-gradient-to-bl from-quicksilver-800 to-quicksilver-900 py-24 px-4 min-h-80 relative overflow-hidden">
