@@ -8,7 +8,7 @@ opacity-50 md:h-screen md:-translate-x-1/2',
     <?php echo $btcQuick; ?>
     <div class="flex flex-col justify-center max-w-lg md:max-w-prose lg:max-w-7xl mx-auto w-full z-10">
         <div class="mx-auto lg:grid lg:grid-cols-2 lg:grid-rows-2 lg:gap-12">
-            <div>
+            <div class="text-center lg:text-left">
                 <h2 class="mt-0 text-3xl text-quicksilver-100">Ready to discuss your funding needs? </h2>
                 <div class="lg:p-8 lg:bg-quicksilver-900 lg:bg-opacity-80 rounded-lg">
                     <p class="text-2xl text-quicksilver-200 lg:my-0">Just contact us by phone <a

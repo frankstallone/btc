@@ -8,7 +8,7 @@ opacity-50 top-0 md:h-full md:translate-x-2/3',
 <div class="flex bg-gradient-to-br from-quicksilver-700 to-quicksilver-800 py-24 px-4 min-h-80 relative overflow-hidden">
   <?php echo $btcTestimonial; ?>
     <div class="flex flex-col justify-center lg:max-w-7xl mx-auto w-full z-10">
-        <div class="lg:max-w-7xl sm:px-0">
+        <div class="lg:max-w-7xl sm:px-0 text-center">
             <h2 class="mt-0 text-3xl text-bigWaves-50">Testimonials</h2>
         </div>
         <div

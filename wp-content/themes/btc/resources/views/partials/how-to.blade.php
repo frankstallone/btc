@@ -12,9 +12,9 @@ opacity-30 md:h-screen md:-translate-x-1/2',
     class="bg-gradient-to-bl from-quicksilver-600 to-quicksilver-700 text-quicksilver-100 py-24 px-4 min-h-80 flex flex-col justify-center relative overflow-hidden">
     <?php echo $btcMark; ?>
     <div class="flex flex-col justify-center lg:max-w-7xl mx-auto w-full z-10">
-        <div>
+        <div class="text-center">
             <h2 class="mt-0 text-3xl text-goldRush-50">How to Finance Your Real Estate Investment</h2>
-            <p class="text-2xl md:max-w-2xl">
+            <p class="mx-auto text-2xl md:max-w-2xl">
                 Our process is simple! We handle the entire process of the loan. Loans are granted in <em>as little as
                     21
                     days</em>.

@@ -8,16 +8,16 @@ opacity-50 md:h-full top-0 md:translate-x-2/3',
     class="success-stories flex bg-gradient-to-br from-quicksilver-500 to-quicksilver-600 text-quicksilver-25 py-24 px-4 min-h-80 relative overflow-hidden">
     <?php echo $btcSuccess; ?>
     <div class="flex flex-col justify-center lg:max-w-7xl mx-auto w-full z-10">
-        <div class="lg:max-w-7xl sm:px-0 relative">
+        <div class="lg:max-w-7xl sm:px-0 relative text-center">
             <h2 class="mt-0 relative z-10 text-3xl text-quicksilver-25">Builders Trust Capital Client Success
                 Stories</h2>
-            <p class="relative z-10 text-2xl md:max-w-2xl">
+            <p class="mx-auto z-10 text-2xl md:max-w-2xl">
                 Partner with an efficient, personable team who delivers <strong>$000,000</strong> in
                 real estate loans
             </p>
         </div>
         <div
-            class="mt-6 grid grid-cols-1 gap-8 text-center xl:gap-12 md:grid-cols-2 md:text-left lg:grid-cols-3 md:px-0">
+            class="mx-auto w-full mt-6 grid grid-cols-1 gap-8 text-center sm:max-w-lg md:max-w-7xl xl:gap-12 md:grid-cols-2 md:text-left lg:grid-cols-3 md:px-0">
             <figure class="my-0 rounded-lg shadow-xl pt-0 bg-quicksilver-25 overflow-hidden">
                 <div class="aspect-w-3 aspect-h-2 -mt-8">
                     <img src="/wp-content/themes/btc/public/images/success-stories-01.jpg" class="object-cover"
