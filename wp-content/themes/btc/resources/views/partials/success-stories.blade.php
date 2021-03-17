@@ -95,7 +95,7 @@ opacity-50 md:h-full top-0 md:translate-x-2/3',
                     <ul class="text-bigWaves-400 text-center mb-0">
                         <li class="pl-0 font-semibold text-lg flex flex-col justify-center items-center mb-6">
                             <span class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-32">Purchased</span>
-                            <span class="text-bigWaves-700 font-display text-5xl">$228.000</span>
+                            <span class="text-bigWaves-700 font-display text-5xl">$228,000</span>
                         </li>
                         <li class="pl-0 font-semibold text-lg flex flex-col justify-center items-center  mb-6">
                             <span class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-24">Rehab</span>
