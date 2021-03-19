@@ -1,15 +1,15 @@
 <?php $messageDollar = get_svg('svg.messages-dollar', 'w-8 h-8 fill-current'); ?>
 <?php $btcSuccess = get_svg(
 'svg.btc-pattern-3',
-'hidden md:block absolute text-quicksilver-500 fill-current z-0 transform-gpu origin-center
-opacity-50 md:h-full top-0 md:translate-x-2/3',
+'hidden sm:block absolute text-quicksilver-500 fill-current z-0 transform-gpu origin-center
+opacity-50 sm:h-full top-0 translate-x-1/3 lg:translate-x-2/3',
 ); ?>
 <div
     class="success-stories flex bg-gradient-to-br from-quicksilver-500 to-quicksilver-600 text-quicksilver-25 py-24 px-4 min-h-80 relative overflow-hidden">
     <?php echo $btcSuccess; ?>
     <div class="flex flex-col justify-center lg:max-w-7xl mx-auto w-full z-10">
         <div class="lg:max-w-7xl sm:px-0 relative text-center">
-            <h2 class="mt-0 relative z-10 text-3xl text-quicksilver-25">Builders Trust Capital Client Success
+            <h2 class="mt-0 relative z-10 text-3xl text-emeraldCity-50">Builders Trust Capital Client Success
                 Stories</h2>
             <p class="mx-auto z-10 text-2xl md:max-w-2xl">
                 Partner with an efficient, personable team who delivers <strong>$000,000</strong> in

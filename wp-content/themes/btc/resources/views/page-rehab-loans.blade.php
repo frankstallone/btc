@@ -52,14 +52,14 @@
     <ul><li>Minimal, simple forms so you can quickly pre-qualify</li><li>Absolutely no junk fees</li><li>All fees disclosed upfront to help you budget projects accurately</li><li>Receive a complimentary profit assessment using Builders Trust Capital proprietary calculator and ROI coaching on your investment property</li><li>Get most projects funded within just 10 days</li></ul>
   </div>
 </div> --}}
-    <div class="pricing-background bg-white sm:block sm:bg-gradient-to-tl sm:from-bigWaves-800 sm:to-bigWaves-600 w-full">
+    <div class="pricing-background bg-none sm:block sm:bg-gradient-to-tl sm:from-bigWaves-800 sm:to-bigWaves-600 w-full">
         <div class="mx-auto px-4 sm:w-full sm:max-w-4xl sm:py-20 sm:px-0">
             <h2 class="text-left m-0 sm:px-0 sm:text-center sm:text-5xl sm:text-bigWaves-50">Fix & Flip Loan
                 Programs</h2>
         </div>
     </div>
     <div class="mx-auto grid grid-cols-1 gap-4 xl:gap-8 py-8 px-4 sm:grid-cols-2 sm:max-w-6xl xl:px-0">
-        <div class="rounded-lg overflow-hidden bg-quicksilver-25 sm:bg-white shadow sm:shadow-xl">
+        <div class="rounded-lg overflow-hidden bg-white sm:bg-quicksilver-25 shadow sm:shadow-xl">
             <div
                 class="px-8 py-8 sm:px-4 sm:py-1 sm:mt-8 sm:ml-6 sm:inline-block sm:rounded-full bg-gradient-to-tr from-bigWaves-800 to-bigWaves-600 sm:from-emeraldCity-100 sm:to-bigWaves-200">
                 <h2 class="mt-0 mb-0 sm:font-semibold sm:text-base text-bigWaves-50 sm:text-bigWaves-700 sm:uppercase">

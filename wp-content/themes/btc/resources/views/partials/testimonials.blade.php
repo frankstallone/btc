@@ -1,23 +1,27 @@
 <?php $star = get_svg('svg.star-sharp', 'w-6 h-6 inline'); ?>
 <?php $btcTestimonial = get_svg(
 'svg.btc-pattern-3',
-'hidden md:block absolute text-quicksilver-700 fill-current z-0 transform-gpu origin-center
-opacity-50 top-0 md:h-full md:translate-x-2/3',
+'hidden sm:block absolute text-quicksilver-700 fill-current z-0 transform-gpu origin-center
+opacity-50 sm:h-full top-0 translate-x-1/3 lg:translate-x-2/3',
 ); ?>
 
-<div class="flex bg-gradient-to-br from-quicksilver-700 to-quicksilver-800 py-24 px-4 min-h-80 relative overflow-hidden">
-  <?php echo $btcTestimonial; ?>
+<div
+    class="flex bg-gradient-to-br from-quicksilver-700 to-quicksilver-800 py-24 px-4 min-h-80 relative overflow-hidden">
+    <?php echo $btcTestimonial; ?>
     <div class="flex flex-col justify-center lg:max-w-7xl mx-auto w-full z-10">
         <div class="lg:max-w-7xl sm:px-0 text-center">
             <h2 class="mt-0 text-3xl text-bigWaves-50">Testimonials</h2>
         </div>
         <div
             class="mx-auto grid grid-cols-1 grid-rows-1 gap-8 mt-2 mb-12 sm:max-w-lg md:grid-cols-2 md:grid-rows-2 md:max-w-7xl items-center">
-            <figure class="my-0 border border-quicksilver-100 rounded-lg shadow-xl pt-8 bg-quicksilver-25 relative mt-24">
-              <div class="transform-gpu translate-x-1/2 absolute -top-24 right-1/2 bg-quicksilver-25 p-2 rounded-full w-32 h-32 border border-quicksilver-100 shadow-md">
-                <img src="/wp-content/themes/btc/public/images/avatar-01.jpeg" class="object-cover rounded-full my-0 border border-quicksilver-100"
-                            alt="Photo of Raphael Akinsete">
-              </div>
+            <figure
+                class="my-0 border border-quicksilver-100 rounded-lg shadow-xl pt-8 bg-quicksilver-25 relative mt-24">
+                <div
+                    class="transform-gpu translate-x-1/2 absolute -top-24 right-1/2 bg-quicksilver-25 p-2 rounded-full w-32 h-32 border border-quicksilver-100 shadow-md">
+                    <img src="/wp-content/themes/btc/public/images/avatar-01.jpeg"
+                        class="object-cover rounded-full my-0 border border-quicksilver-100"
+                        alt="Photo of Raphael Akinsete">
+                </div>
                 <blockquote class="border-none px-8 mt-2">
                     <p class="text-lg my-0">
                         If you are a newbie investor, I highly recommend Builders Trust Capital because your first few
@@ -47,11 +51,14 @@ opacity-50 top-0 md:h-full md:translate-x-2/3',
                         11, 2020</small>
                 </figcaption>
             </figure>
-            <figure class="my-0 border border-quicksilver-100 rounded-lg shadow-xl pt-8 bg-quicksilver-25 relative mt-24">
-              <div class="transform-gpu translate-x-1/2 absolute -top-24 right-1/2 bg-quicksilver-25 p-2 rounded-full w-32 h-32 border border-quicksilver-100 shadow-md">
-                <img src="/wp-content/themes/btc/public/images/avatar-02.jpeg" class="object-cover rounded-full my-0 border border-quicksilver-100"
-                            alt="Photo of Raphael Akinsete">
-              </div>
+            <figure
+                class="my-0 border border-quicksilver-100 rounded-lg shadow-xl pt-8 bg-quicksilver-25 relative mt-24">
+                <div
+                    class="transform-gpu translate-x-1/2 absolute -top-24 right-1/2 bg-quicksilver-25 p-2 rounded-full w-32 h-32 border border-quicksilver-100 shadow-md">
+                    <img src="/wp-content/themes/btc/public/images/avatar-02.jpeg"
+                        class="object-cover rounded-full my-0 border border-quicksilver-100"
+                        alt="Photo of Raphael Akinsete">
+                </div>
                 <blockquote class="border-none px-8 mt-2">
                     <p class="text-lg my-0">
                         Just finished up my first project with the Ashmore team and wanted to share my appreciation for
@@ -77,11 +84,14 @@ opacity-50 top-0 md:h-full md:translate-x-2/3',
                         2020</small>
                 </figcaption>
             </figure>
-            <figure class="my-0 border border-quicksilver-100 rounded-lg shadow-xl pt-8 bg-quicksilver-25 relative mt-24">
-              <div class="transform-gpu translate-x-1/2 absolute -top-24 right-1/2 bg-quicksilver-25 p-2 rounded-full w-32 h-32 border border-quicksilver-100 shadow-md">
-                <img src="/wp-content/themes/btc/public/images/avatar-03.jpeg" class="object-cover rounded-full my-0 border border-quicksilver-100"
-                            alt="Photo of Raphael Akinsete">
-              </div>
+            <figure
+                class="my-0 border border-quicksilver-100 rounded-lg shadow-xl pt-8 bg-quicksilver-25 relative mt-24">
+                <div
+                    class="transform-gpu translate-x-1/2 absolute -top-24 right-1/2 bg-quicksilver-25 p-2 rounded-full w-32 h-32 border border-quicksilver-100 shadow-md">
+                    <img src="/wp-content/themes/btc/public/images/avatar-03.jpeg"
+                        class="object-cover rounded-full my-0 border border-quicksilver-100"
+                        alt="Photo of Raphael Akinsete">
+                </div>
                 <blockquote class="border-none px-8 mt-2">
                     <p class="text-lg my-0">
                         They are a well organized lending company that provide great communication and will work with
@@ -105,11 +115,14 @@ opacity-50 top-0 md:h-full md:translate-x-2/3',
                         2020</small>
                 </figcaption>
             </figure>
-            <figure class="my-0 border border-quicksilver-100 rounded-lg shadow-xl pt-8 bg-quicksilver-25 relative mt-24">
-              <div class="transform-gpu translate-x-1/2 absolute -top-24 right-1/2 bg-quicksilver-25 p-2 rounded-full w-32 h-32 border border-quicksilver-100 shadow-md">
-                <img src="/wp-content/themes/btc/public/images/avatar-04.jpeg" class="object-cover rounded-full my-0 border border-quicksilver-100"
-                            alt="Photo of Raphael Akinsete">
-              </div>
+            <figure
+                class="my-0 border border-quicksilver-100 rounded-lg shadow-xl pt-8 bg-quicksilver-25 relative mt-24">
+                <div
+                    class="transform-gpu translate-x-1/2 absolute -top-24 right-1/2 bg-quicksilver-25 p-2 rounded-full w-32 h-32 border border-quicksilver-100 shadow-md">
+                    <img src="/wp-content/themes/btc/public/images/avatar-04.jpeg"
+                        class="object-cover rounded-full my-0 border border-quicksilver-100"
+                        alt="Photo of Raphael Akinsete">
+                </div>
                 <blockquote class="border-none px-8 mt-2">
                     <p class="text-lg my-0">
                         Builders Trust Capital is an incredibly responsive and flexible lender for RE investors. They

@@ -13,7 +13,7 @@ opacity-50 md:h-screen md:-translate-x-1/2',
                 <div class="lg:p-8 lg:bg-quicksilver-900 lg:bg-opacity-80 rounded-lg">
                     <p class="text-2xl text-quicksilver-200 lg:my-0">Just contact us by phone <a
                             href="tel:+1-856-422-3232">856-422-3232</a>. If you
-                        prefer, send us a message and we’ll contact you shortly. Let’s get started working together.
+                        prefer, send us a message and we’ll contact you shortly. Let's get started working together.
                     </p>
                 </div>
             </div>
