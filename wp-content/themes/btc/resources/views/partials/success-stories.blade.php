@@ -18,7 +18,8 @@ opacity-50 md:h-full top-0 md:translate-x-2/3',
         </div>
         <div
             class="mx-auto w-full mt-6 grid grid-cols-1 gap-8 text-center sm:max-w-lg md:max-w-7xl xl:gap-12 md:grid-cols-2 md:text-left lg:grid-cols-3 md:px-0">
-            <figure class="my-0 rounded-lg shadow-xl pt-0 bg-quicksilver-25 overflow-hidden">
+            <figure
+                class="md:last:col-span-2 md:last:w-1/2 md:last:mx-auto lg:last:col-span-1 lg:w-auto lg:mx-0 my-0 rounded-lg shadow-xl pt-0 bg-quicksilver-25 overflow-hidden">
                 <div class="aspect-w-3 aspect-h-2 -mt-8">
                     <img src="/wp-content/themes/btc/public/images/success-stories-01.jpg" class="object-cover"
                         alt="Builders Trust Capital Success Story Photo: 1185 Route 9 South, Cape May Courthouse, NJ">
@@ -49,7 +50,8 @@ opacity-50 md:h-full top-0 md:translate-x-2/3',
                 </figcaption>
             </figure>
 
-            <figure class="my-0 rounded-lg shadow-xl pt-0 bg-quicksilver-25 overflow-hidden">
+            <figure
+                class="md:last:col-span-2 md:last:w-1/2 md:last:mx-auto lg:last:col-span-1 lg:w-auto lg:mx-0 my-0 rounded-lg shadow-xl pt-0 bg-quicksilver-25 overflow-hidden">
                 <div class="aspect-w-3 aspect-h-2 -mt-8">
                     <img src="/wp-content/themes/btc/public/images/success-stories-02.jpg" class="object-cover"
                         alt="Builders Trust Capital Success Story Photo: 10 Anderson, Morristown NJ">
@@ -82,7 +84,8 @@ opacity-50 md:h-full top-0 md:translate-x-2/3',
                 </figcaption>
             </figure>
 
-            <figure class="my-0 rounded-lg shadow-xl pt-0 bg-quicksilver-25 overflow-hidden">
+            <figure
+                class="md:last:col-span-2 md:w-1/2 md:mx-auto lg:last:col-span-1 lg:w-auto lg:mx-0 my-0 rounded-lg shadow-xl pt-0 bg-quicksilver-25 overflow-hidden">
                 <div class="aspect-w-3 aspect-h-2 -mt-8">
                     <img src="/wp-content/themes/btc/public/images/success-stories-03.jpg" class="object-cover"
                         alt="Builders Trust Capital Success Story Photo: 10 Anderson, Morristown NJ">

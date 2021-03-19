@@ -22,7 +22,7 @@ opacity-30 md:h-screen md:-translate-x-1/2',
         </div>
         <div class="mx-auto mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
             <div
-                class="bg-alpenglow-900 bg-opacity-20 p-8 mt-8 rounded-lg xl:p-0 xl:bg-none xl:bg-opacity-0 xl:mt-6 relative">
+                class="sm:last:col-span-2 sm:last:w-1/2 sm:mx-auto xl:last:col-span-1 xl:w-auto xl:mx-0 bg-alpenglow-900 bg-opacity-20 p-8 mt-8 rounded-lg xl:p-0 xl:bg-none xl:bg-opacity-0 xl:mt-6 relative">
                 <div
                     class="text-bigWaves-50 rounded-xl px-3 py-3 bg-alpenglow-900 bg-opacity-40 inline-block absolute -top-7 transform-gpu translate-x-1/2 right-1/2 shadow-xl xl:static xl:translate-x-0 xl:shadow-none">
                     <?php echo $circle1; ?>
@@ -39,7 +39,7 @@ opacity-30 md:h-screen md:-translate-x-1/2',
             </div>
 
             <div
-                class="bg-alpenglow-900 bg-opacity-20 p-8 mt-8 rounded-lg xl:p-0 xl:bg-none xl:bg-opacity-0 xl:mt-6 relative">
+                class="sm:last:col-span-2 sm:last:w-1/2 sm:mx-auto xl:last:col-span-1 xl:w-auto xl:mx-0 bg-alpenglow-900 bg-opacity-20 p-8 mt-8 rounded-lg xl:p-0 xl:bg-none xl:bg-opacity-0 xl:mt-6 relative">
                 <div
                     class="text-bigWaves-50 rounded-xl px-3 py-3 bg-alpenglow-900 bg-opacity-40 inline-block absolute -top-7 transform-gpu translate-x-1/2 right-1/2 shadow-xl xl:static xl:translate-x-0 xl:shadow-none">
                     <?php echo $circle2; ?>
@@ -49,7 +49,7 @@ opacity-30 md:h-screen md:-translate-x-1/2',
             </div>
 
             <div
-                class="bg-alpenglow-900 bg-opacity-20 p-8 mt-8 rounded-lg xl:p-0 xl:bg-none xl:bg-opacity-0 xl:mt-6 relative">
+                class="sm:last:col-span-2 sm:last:w-1/2 sm:mx-auto xl:last:col-span-1 xl:w-auto xl:mx-0 bg-alpenglow-900 bg-opacity-20 p-8 mt-8 rounded-lg xl:p-0 xl:bg-none xl:bg-opacity-0 xl:mt-6 relative">
                 <div
                     class="text-bigWaves-50 rounded-xl px-3 py-3 bg-alpenglow-900 bg-opacity-40 inline-block absolute -top-7 transform-gpu translate-x-1/2 right-1/2 shadow-xl xl:static xl:translate-x-0 xl:shadow-none">
                     <?php echo $circle3; ?>
@@ -58,7 +58,7 @@ opacity-30 md:h-screen md:-translate-x-1/2',
                 <p class="text-lg">Increase your buying power with a proof of funds (PDF) letter.</p>
             </div>
             <div
-                class="bg-alpenglow-900 bg-opacity-20 p-8 mt-8 rounded-lg xl:p-0 xl:bg-none xl:bg-opacity-0 xl:mt-6 relative">
+                class="sm:last:col-span-2 sm:last:w-1/2 sm:mx-auto xl:last:col-span-1 xl:w-auto xl:mx-0 bg-alpenglow-900 bg-opacity-20 p-8 mt-8 rounded-lg xl:p-0 xl:bg-none xl:bg-opacity-0 xl:mt-6 relative">
                 <div
                     class="text-bigWaves-50 rounded-xl px-3 py-3 bg-alpenglow-900 bg-opacity-40 inline-block absolute -top-7 transform-gpu translate-x-1/2 right-1/2 shadow-xl xl:static xl:translate-x-0 xl:shadow-none">
                     <?php echo $circle4; ?>
@@ -70,7 +70,7 @@ opacity-30 md:h-screen md:-translate-x-1/2',
                 </p>
             </div>
             <div
-                class="bg-alpenglow-900 bg-opacity-20 p-8 mt-8 rounded-lg xl:p-0 xl:bg-none xl:bg-opacity-0 xl:mt-6 relative">
+                class="sm:last:col-span-2 sm:last:w-1/2 sm:mx-auto xl:last:col-span-1 xl:w-auto xl:mx-0 bg-alpenglow-900 bg-opacity-20 p-8 mt-8 rounded-lg xl:p-0 xl:bg-none xl:bg-opacity-0 xl:mt-6 relative">
                 <div
                     class="text-bigWaves-50 rounded-xl px-3 py-3 bg-alpenglow-900 bg-opacity-40 inline-block absolute -top-7 transform-gpu translate-x-1/2 right-1/2 shadow-xl xl:static xl:translate-x-0 xl:shadow-none">
                     <?php echo $circle5; ?>

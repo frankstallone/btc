@@ -629,6 +629,7 @@ module.exports = {
   variants: {
     extend: {
       backgroundColor: ['active'],
+      gridColumn: ['last'],
     },
   },
   plugins: [
