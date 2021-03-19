@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '914333848b88ef05ee10c1475e512117c85af2e5',
+    'reference' => '5e874ebefe3314709bc111827a3cf490f1c9f460',
     'name' => 'roots/sage',
   ),
   'versions' => 
@@ -369,7 +369,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '914333848b88ef05ee10c1475e512117c85af2e5',
+      'reference' => '5e874ebefe3314709bc111827a3cf490f1c9f460',
     ),
     'roots/support' => 
     array (
