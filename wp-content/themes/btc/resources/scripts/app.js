@@ -4,13 +4,12 @@ const mobileNavButton = document.querySelector('#nav-mobile-toggle');
 const primaryNav = document.querySelector('.nav-primary');
 const mobileNavCloseButton = document.querySelector('.nav-mobile-close');
 
-mobileNavButton.addEventListener('click', openHamberger);
-mobileNavCloseButton.addEventListener('click', openHamberger);
+mobileNavButton.addEventListener('click', openHamburger);
+mobileNavCloseButton.addEventListener('click', openHamburger);
 
-function openHamberger() {
+function openHamburger() {
   primaryNav.classList.toggle('showNav');
   primaryNav.classList.toggle('nav-primary');
-  console.log(`ran`);
 }
 
 // Toggle menu on escape key
@@ -23,6 +22,19 @@ document.onkeydown = function (evt) {
     isEscape = evt.keyCode === 27;
   }
   if (isEscape) {
-    openHamberger();
+    openHamburger();
   }
 };
+
+// Dropdown menu
+
+const menuItemHasChildren = document.querySelector('.menu-item-has-children');
+const showThisMenu = menuItemHasChildren.querySelector('.sub-menu');
+
+menuItemHasChildren.addEventListener('click', openMenu);
+
+function openMenu(e) {
+  e.preventDefault();
+
+  showThisMenu.classList.toggle('grid');
+}

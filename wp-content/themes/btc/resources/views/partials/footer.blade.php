@@ -3,8 +3,8 @@
         <div class="text-center sm:text-left">
             <h2 class="text-lg text-quicksilver-200">Navigation</h2>
             <nav class="nav-footer">
-                @if (has_nav_menu('primary_navigation'))
-                    {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav', 'echo' => false]) !!}
+                @if (has_nav_menu('footer_navigation'))
+                    {!! wp_nav_menu(['theme_location' => 'footer_navigation', 'menu_class' => 'nav', 'echo' => false]) !!}
                 @endif
             </nav>
         </div>

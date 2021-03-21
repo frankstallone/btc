@@ -7,31 +7,42 @@ header {
         display: none;
       }
       li {
-        @apply px-2 m-0;
+        @apply px-2 m-0 relative;
         a,
         &:visited {
-          @apply no-underline text-quicksilver-50 text-sm lg:text-base;
+          @apply no-underline text-quicksilver-50 text-lg;
           &:hover,
           &:focus {
             @apply text-goldRush-100;
           }
         }
       }
+
+      &.sub-menu {
+        @apply hidden absolute z-10 -ml-4 mt-3 p-8 transform w-screen max-w-sm rounded border border-bigWaves-700 shadow-xl ring-1 ring-black ring-opacity-5 overflow-hidden bg-gradient-to-tl from-bigWaves-900 to-bigWaves-800 gap-6 sm:gap-8 lg:left-1/2 lg:-translate-x-1/2;
+      }
+    }
+
+    .menu-loans::after {
+      @apply inline-block stroke-current fill-current text-bigWaves-100 w-3;
+      content: url('../svg/chevron-down.svg');
     }
   }
   .showNav {
     @apply md:flex md:flex-row items-center flex flex-col w-full bg-bigWaves-900 absolute top-0 bottom-0 left-0 right-0 py-10 space-y-4 z-30 justify-center;
-    ul > li::before {
-      display: none;
-    }
-    li {
-      @apply px-2 space-y-8;
-      a,
-      &:visited {
-        @apply text-2xl no-underline text-bigWaves-50;
-        &:hover,
-        &:focus {
-          @apply text-goldRush-100;
+    ul {
+      > li::before {
+        display: none;
+      }
+      li {
+        @apply px-0;
+        a,
+        &:visited {
+          @apply text-2xl no-underline text-bigWaves-50;
+          &:hover,
+          &:focus {
+            @apply text-goldRush-100;
+          }
         }
       }
     }
