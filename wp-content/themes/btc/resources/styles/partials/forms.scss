@@ -92,7 +92,7 @@
         &&.gf_step_next
   */
   .gf_page_steps {
-    @apply grid grid-cols-2 grid-rows-2 pb-2 border-b border-dashed border-goldRush-100 gap-1 md:grid-cols-4 md:grid-rows-1 items-center justify-center;
+    @apply grid grid-cols-2 grid-rows-2 pb-2 border-b border-goldRush-100 gap-1 md:grid-cols-4 md:grid-rows-1 items-center justify-center;
 
     .gf_step {
       @apply text-sm text-quicksilver-600;
