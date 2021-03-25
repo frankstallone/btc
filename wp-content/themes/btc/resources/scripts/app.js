@@ -1,25 +1,67 @@
-// Roughed in mobile nav
-// https://dev.to/linhtch90/responsive-navigation-menu-with-plain-javascript-1fn4
-const mobileNavButton = document.querySelector('#nav-mobile-toggle');
-const primaryNav = document.querySelector('.nav-primary');
-const mobileNavCloseButton = document.querySelector('.nav-mobile-close');
+// Mobile navigation
+const mobileNavButtonOpen = document.querySelector('.mobile-nav-button--open');
+const mobileNav = document.querySelector('.mobile-nav--closed');
+const mobileNavButtonClose = document.querySelector(
+  '.mobile-nav-button--close'
+);
 
-mobileNavButton.addEventListener('click', openHamburger);
-mobileNavCloseButton.addEventListener('click', openHamburger);
+mobileNavButtonOpen.addEventListener('click', openHamburger);
+mobileNavButtonClose.addEventListener('click', openHamburger);
 
 function openHamburger() {
-  primaryNav.classList.toggle('showNav');
-  primaryNav.classList.toggle('nav-primary');
+  if (mobileNav.classList.contains('mobile-nav--closed')) {
+    mobileNav.classList.remove('mobile-nav--closed', 'hidden');
+    mobileNav.classList.add(
+      'mobile-nav--open',
+      'md:flex',
+      'md:flex-row',
+      'items-center',
+      'flex',
+      'flex-col',
+      'w-full',
+      'bg-bigWaves-900',
+      'absolute',
+      'top-0',
+      'bottom-0',
+      'left-0',
+      'right-0',
+      'py-10',
+      'space-y-4',
+      'z-30',
+      'justify-center'
+    );
+  } else {
+    mobileNav.classList.add('mobile-nav--closed', 'hidden');
+    mobileNav.classList.remove(
+      'mobile-nav--open',
+      'md:flex',
+      'md:flex-row',
+      'items-center',
+      'flex',
+      'flex-col',
+      'w-full',
+      'bg-bigWaves-900',
+      'absolute',
+      'top-0',
+      'bottom-0',
+      'left-0',
+      'right-0',
+      'py-10',
+      'space-y-4',
+      'z-30',
+      'justify-center'
+    );
+  }
 }
 
-// Toggle menu on escape key
-document.onkeydown = function (evt) {
-  evt = evt || window.event;
+// Toggle mobile navigation with escape key
+document.onkeydown = function (e) {
+  e = e || window.event;
   var isEscape = false;
-  if ('key' in evt) {
-    isEscape = evt.key === 'Escape' || evt.key === 'Esc';
+  if ('key' in e) {
+    isEscape = e.key === 'Escape' || e.key === 'Esc';
   } else {
-    isEscape = evt.keyCode === 27;
+    isEscape = e.keyCode === 27;
   }
   if (isEscape) {
     openHamburger();
@@ -27,14 +69,15 @@ document.onkeydown = function (evt) {
 };
 
 // Dropdown menu
+const menuItemHasChildren = document.querySelector('.menu-item-has-children a');
+const showThisMenu = document.querySelector(
+  '.menu-item-has-children .sub-menu'
+);
 
-const menuItemHasChildren = document.querySelector('.menu-item-has-children');
-const showThisMenu = menuItemHasChildren.querySelector('.sub-menu');
+menuItemHasChildren.addEventListener('click', toggleMenu);
 
-menuItemHasChildren.addEventListener('click', openMenu);
-
-function openMenu(e) {
+function toggleMenu(e) {
   e.preventDefault();
-
   showThisMenu.classList.toggle('grid');
+  return;
 }

@@ -10,7 +10,7 @@
             ?>
         </a>
         {{-- Mobile Toggle Button --}}
-        <span id="nav-mobile-toggle" class="md:hidden">
+        <span class="md:hidden mobile-nav-button--open">
             <?php
             $bars = get_svg('svg.bars', 'w-5 text-bigWaves-200 hover:text-goldRush-200 z-30');
             echo $bars;
@@ -19,7 +19,7 @@
 
         <nav class="nav-primary">
             @if (has_nav_menu('primary_navigation'))
-                <span class="nav-mobile-close absolute top-0 z-40 pt-4 right-0 mr-4 md:hidden">
+                <span class="mobile-nav-button--close absolute top-0 z-40 pt-4 right-0 mr-4 md:hidden">
                     <?php
                     $xmark = get_svg('svg.xmark', 'w-5 text-goldRush-100');
                     echo $xmark;
@@ -29,5 +29,10 @@
             @endif
         </nav>
         {{-- TODO: Create second for the mobile menu without the Loans filler --}}
+        @if (has_nav_menu('footer_navigation'))
+            <nav class="mobile-navigation mobile-nav--closed hidden">
+                {!! wp_nav_menu(['theme_location' => 'footer_navigation', 'menu_class' => 'nav', 'echo' => false]) !!}
+            </nav>
+        @endif
     </header>
 </div>
