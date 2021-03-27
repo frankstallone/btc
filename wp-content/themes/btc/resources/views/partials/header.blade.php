@@ -7,7 +7,7 @@
             <?php
             $btcMarkHome = get_svg(
             'svg.btc-full-logo-right',
-            'w-40 fill-current text-bigWaves-200
+            'w-40 h-8 fill-current text-bigWaves-200
             hover:text-goldRush-200',
             );
             echo $btcMarkHome;
@@ -24,21 +24,21 @@
 
         <nav class="nav-primary">
             @if (has_nav_menu('primary_navigation'))
-                <span class="mobile-nav-button--close absolute top-0 z-40 pt-4 right-0 mr-4 md:hidden">
-                    <?php
-                    $xmark = get_svg('svg.xmark', 'w-5 text-goldRush-100');
-                    echo $xmark;
-                    ?>
-                </span>
                 {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav', 'echo' => false]) !!}
             @endif
         </nav>
         {{-- Mobile navigation based on the footer navigation --}}
         @if (has_nav_menu('footer_navigation'))
             <nav class="mobile-navigation mobile-nav--closed hidden">
+                <span class="mobile-nav-button--close absolute top-0 z-40 pt-4 right-0 mr-4 md:hidden">
+                    <?php
+                    $xmark = get_svg('svg.xmark', 'w-5 text-quicksilver-100');
+                    echo $xmark;
+                    ?>
+                </span>
                 {!! wp_nav_menu(['theme_location' => 'footer_navigation', 'menu_class' => 'nav', 'echo' => false]) !!}
                 <?php
-                $btcLogoMobileNav = get_svg('svg.btc-full-logo-centered', 'w-64 fill-current text-bigWaves-700');
+                $btcLogoMobileNav = get_svg('svg.btc-full-logo-centered', 'w-64 fill-current text-bigWaves-800');
                 echo $btcLogoMobileNav;
                 ?>
             </nav>

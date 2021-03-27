@@ -21,6 +21,7 @@
     "translate:js": "wp i18n make-json ./resources/lang --pretty-print"
   },
   "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.0",
     "@tailwindcss/forms": "^0.2.1",
     "@tinypixelco/laravel-mix-wp-blocks": "^1.1.0",
     "@wordpress/babel-preset-default": "^5.0.1",
@@ -40,7 +41,6 @@
     "tailwindcss": "^2.0.3"
   },
   "dependencies": {
-    "@tailwindcss/aspect-ratio": "^0.2.0",
     "jquery": "^3.5.1"
   }
 }

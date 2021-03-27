@@ -1,7 +1,6 @@
 // Mobile navigation
 const mobileNavButtonOpen = document.querySelector('.mobile-nav-button--open');
 const mobileNavContainer = document.querySelector('.mobile-nav--closed');
-const mobileNav = document.querySelector('.mobile-nav--closed #menu-footer');
 const mobileNavButtonClose = document.querySelector(
   '.mobile-nav-button--close'
 );
@@ -26,7 +25,6 @@ function openHamburger() {
       'right-0',
       'bg-bigWaves-900',
       'py-10',
-      'space-y-4',
       'z-30'
     );
   } else {
@@ -45,7 +43,6 @@ function openHamburger() {
       'right-0',
       'bg-bigWaves-900',
       'py-10',
-      'space-y-4',
       'z-30'
     );
   }

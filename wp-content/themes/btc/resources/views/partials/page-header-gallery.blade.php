@@ -9,5 +9,7 @@
     ?>
     <div class="mx-auto max-w-3xl px-4 py-20 relative z-10">
         <h1 class="text-quicksilver-50">Loan Gallery</h1>
+        <h2 class="text-quicksilver-100 mb-0">View before, after and during construction images of the properties funded
+            by Builders Trust Capital</h2>
     </div>
 </header>

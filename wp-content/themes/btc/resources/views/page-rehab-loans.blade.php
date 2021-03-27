@@ -42,10 +42,10 @@
         </div>
     </div>
     <div class="mx-auto grid grid-cols-1 gap-4 xl:gap-8 py-8 px-4 sm:grid-cols-2 sm:max-w-6xl xl:px-0">
-        <div class="rounded-lg overflow-hidden bg-white sm:bg-quicksilver-25 shadow sm:shadow-xl">
-            <div
-                class="px-8 py-8 sm:px-4 sm:py-1 sm:mt-8 sm:ml-6 sm:inline-block sm:rounded-full bg-gradient-to-tr from-bigWaves-800 to-bigWaves-600 sm:from-emeraldCity-100 sm:to-bigWaves-200">
-                <h2 class="mt-0 mb-0 sm:font-semibold sm:text-base text-bigWaves-50 sm:text-bigWaves-700 sm:uppercase">
+        <div
+            class="rounded-lg overflow-hidden bg-white sm:bg-quicksilver-25 shadow sm:shadow-xl border-4 border-bigWaves-300">
+            <div class="px-8 py-8 sm:pb-0 bg-gradient-to-tr from-bigWaves-800 to-bigWaves-600 sm:bg-none">
+                <h2 class="mt-0 mb-0 text-bigWaves-50 sm:font-bold sm:text-2xl sm:text-bigWaves-500">
                     Preferred
                 </h2>
             </div>
@@ -85,18 +85,23 @@
                                 origination</td>
                         </tr>
                         <tr class="border-0">
-                            <td class="m-0 p-0">
-                                <a href="/application/" class="btn--pricing-table">Get Funded Now</a>
+                            <td class="px-8 pt-0 pb-8">
+                                <a href="/application/" class="btn--pricing-table relative"><span
+                                        class="flex absolute top-0 right-0 -mt-2 -mr-2 h-5 w-5"> <span
+                                            class="animate-ping absolute inline-flex h-full w-full rounded-full bg-alpenglow-400 opacity-75"></span>
+                                        <span
+                                            class="relative inline-flex rounded-full h-5 w-5 bg-alpenglow-500"></span></span>Get
+                                    Funded Now</a>
                             </td>
                         </tr>
                     </tbody>
                 </table>
             </figure>
         </div>
-        <div class="rounded-lg overflow-hidden bg-quicksilver-25 sm:bg-white shadow sm:shadow-xl">
-            <div
-                class="px-8 py-8 sm:px-4 sm:py-1 sm:mt-8 sm:ml-6 sm:inline-block sm:rounded-full bg-gradient-to-tr from-bigWaves-800 to-bigWaves-600 sm:bg-none sm:bg-bigWaves-100">
-                <h2 class="mt-0 mb-0 sm:font-semibold sm:text-base text-bigWaves-50 sm:text-bigWaves-600 sm:uppercase">
+        <div
+            class="rounded-lg overflow-hidden bg-white sm:bg-quicksilver-25 shadow sm:shadow-xl border-4 border-bigWaves-300">
+            <div class="px-8 py-8 sm:pb-0 bg-gradient-to-tr from-bigWaves-800 to-bigWaves-600 sm:bg-none">
+                <h2 class="mt-0 mb-0 text-bigWaves-50 sm:font-bold sm:text-2xl sm:text-quicksilver-600">
                     Standard
                 </h2>
             </div>
@@ -132,10 +137,10 @@
                             <td class="px-8 py-2 mb-8 text-lg flex text-quicksilver-600 content-center">
                                 <?php echo $checkMark; ?>
                                 Loan is managed in-house, not outsourced.
-                                Ensures consistent service during and afterorigination</td>
+                                Ensures consistent service during and after origination</td>
                         </tr>
                         <tr class="border-0">
-                            <td class="m-0 p-0">
+                            <td class="px-8 pt-0 pb-8">
                                 <a href="/application/" class="btn--pricing-table">Get Funded Now</a>
                             </td>
                         </tr>
@@ -146,8 +151,8 @@
     </div>
     <div
         class="mx-auto py-12 px-4 sm:px-0 md:px-4 sm:max-w-xl sm:w-full grid grid-cols-1 gap-4 md:gap-8 md:grid-cols-2 md:max-w-6xl">
+        <h2 class="md:col-span-2">Succeed in Your Next Real Estate Deal</h2>
         <div>
-            <h2>Succeed in Your Next Real Estate Deal</h2>
             <h3>Speed &amp; Approval</h3>
             <ul>
                 <li>Once your appraisal is ordered, you can typically close within 21 business

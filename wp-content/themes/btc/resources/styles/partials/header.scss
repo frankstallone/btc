@@ -20,14 +20,14 @@ header {
 
       // Dropdown Menu
       &.sub-menu {
-        @apply hidden absolute z-10 -ml-4 mt-3 p-8 transform w-screen max-w-sm rounded border-2 border-bigWaves-200 shadow-xl overflow-hidden bg-bigWaves-50 gap-6 sm:gap-8 lg:left-1/2 lg:-translate-x-1/2;
+        @apply hidden absolute z-10 -ml-4 mt-3 p-8 transform w-screen max-w-sm rounded shadow-xl overflow-hidden border-2 border-quicksilver-800 bg-quicksilver-900 gap-6 sm:gap-8 lg:left-1/2 lg:-translate-x-1/2;
         li {
           a,
           &:visited {
-            @apply text-quicksilver-800;
+            @apply text-quicksilver-100;
             &:hover,
             &:focus {
-              @apply text-bigWaves-700 border-b-2 border-bigWaves-700;
+              @apply text-goldRush-100 border-b-2 border-goldRush-100;
             }
           }
         }
@@ -42,9 +42,10 @@ header {
       }
     }
   }
+
   .mobile-navigation {
-    ul {
-      @apply mt-6;
+    #menu-footer {
+      @apply mt-0 space-y-4;
       > li::before {
         display: none;
       }
