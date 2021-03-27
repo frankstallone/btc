@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '82ed051d3bd55a0bc7cdc48cdd0cfa906dcc6463',
+    'reference' => '00252b1cf7a7b2e5ec94486e6da2ff06d1675ad7',
     'name' => 'roots/sage',
   ),
   'versions' => 
@@ -345,7 +345,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '82ed051d3bd55a0bc7cdc48cdd0cfa906dcc6463',
+      'reference' => '00252b1cf7a7b2e5ec94486e6da2ff06d1675ad7',
     ),
     'roots/support' => 
     array (
