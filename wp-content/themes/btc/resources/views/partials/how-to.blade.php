@@ -14,10 +14,8 @@ opacity-30 md:h-screen md:-translate-x-1/2',
     <div class="flex flex-col justify-center lg:max-w-7xl mx-auto w-full z-10">
         <div class="text-center px-4">
             <h2 class="mt-0 text-3xl text-goldRush-50">How to Finance Your Real Estate Investment</h2>
-            <p class="mx-auto text-2xl md:max-w-2xl">
-                Our process is simple! We handle the entire process of the loan. Loans are granted in <em>as little as
-                    21
-                    days</em>.
+            <p class="mx-auto text-2xl md:max-w-2xl">Our process is simple! We handle the entire loan process in-house.
+                Loans are closed in as little <em>as 10 business days</em>.
             </p>
         </div>
         <div class="mx-auto mt-6 flex flex-wrap xl:flex-nowrap justify-center">
@@ -30,11 +28,9 @@ opacity-30 md:h-screen md:-translate-x-1/2',
                     </div>
                     <h3 class="text-2xl text-goldRush-50 my-2">Get Started</h3>
                     <p class="text-lg">
-                        <a href="/application" class="text-quicksilver-100 hover:text-quicksilver-50">Fill in the
-                            form</a>
-                        or
-                        call us at
-                        856-422-3232 so we can
+                        <a href="/contact" class="text-quicksilver-100 hover:text-quicksilver-50">Fill in the form</a>
+                        or all us at <a href="tel:+1-856-422-3232"
+                            class="text-quicksilver-100 hover:text-quicksilver-50">856-422-3232</a> so we can
                         contact you and begin working on your loan. We're local and happy to meet with
                         you to learn your funding needs.
                     </p>
@@ -61,7 +57,7 @@ opacity-30 md:h-screen md:-translate-x-1/2',
                         <?php echo $circle3; ?>
                     </div>
                     <h3 class="text-2xl text-goldRush-50 my-2">Proof of Funds</h3>
-                    <p class="text-lg">Increase your buying power with a proof of funds (PDF) letter.</p>
+                    <p class="text-lg">Increase your buying power with a proof of funds (POF) letter.</p>
                 </div>
             </div>
             <div class="w-full sm:w-1/2 lg:w-1/3">
@@ -74,7 +70,8 @@ opacity-30 md:h-screen md:-translate-x-1/2',
                     <h3 class="text-2xl text-goldRush-50 my-2">Loan Processing</h3>
                     <p class="text-lg">
                         Your appraisal and title work are ordered. Your application documents are
-                        reviewed.
+                        reviewed. Our in-house processing team will contact you with any questions or additional
+                        documentation required.
                     </p>
                 </div>
             </div>
@@ -86,7 +83,8 @@ opacity-30 md:h-screen md:-translate-x-1/2',
                         <?php echo $circle5; ?>
                     </div>
                     <h3 class="text-2xl text-goldRush-50 my-2">Get Funded Now</h3>
-                    <p class="text-lg">Submit project information for quick, in-house review.</p>
+                    <p class="text-lg">After underwriting is complete, we make sure your closing docs are ready at the
+                        table and funds are disbursed timely so you can start your work without delay.</p>
                 </div>
             </div>
         </div>

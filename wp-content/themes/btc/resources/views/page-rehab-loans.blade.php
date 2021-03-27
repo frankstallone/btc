@@ -8,28 +8,27 @@
                 investors looking
                 to purchase a property,
                 renovate and then
-                sell or rent the renovated property for a profit. You can also use the loan for the refinance and rehab when
-                you’ve started using cash and need a loan to finish the project. Credit score 720 & up.</p>
+                sell or rent the renovated property for a profit. For borrowers who have already purchased a property and
+                are looking to free up cash in the short term or to complete additional renovations, Builders Trust Capital
+                also offers a short-term refinance product with construction loans. </p>
         </div>
     </div>
     <div
         class="mx-auto py-12 px-4 sm:px-0 md:px-4 sm:max-w-xl sm:w-full grid grid-cols-1 gap-4 md:gap-8 md:grid-cols-2 md:max-w-6xl">
         <div>
             <h2>Builders Trust Capital is a Direct Lender</h2>
-            <p>The team at Builders Trust Capital makes the lending decisions. Your loan is underwritten, funded and
-                serviced by
-                us. No part of the process is handed off to a third-party vendor. With over _____ [number] of projects
-                funded
-                since 2015, and 80% repeat clients, you can rely on us to deliver consistently every time.</p>
+            <p>The team at Builders Trust Capital makes the lending decisions. Your loan is underwritten and funded by us.
+                Our principals have funded over _____ projects since 2016 with an approximately 80% repeat client rate, so
+                you can rely on us to deliver consistently every time. </p>
         </div>
         <div>
             <h2>A More Efficient Loan Approval Process</h2>
             <p>When you choose Builders Trust Capital, you get a fast, straightforward and transparent process.</p>
             <ul>
-                <li>Minimal, simple forms so you can quickly pre-qualify</li>
+                <li>Minimal, simple forms so you can pre-qualify quickly</li>
                 <li>Absolutely no junk fees</li>
                 <li>All fees disclosed upfront to help you budget projects accurately</li>
-                <li>Receive a complimentary profit assessment using Builders Trust Capital proprietary calculator and ROI
+                <li>Receive a complimentary profit assessment using Builders Trust Capital's proprietary calculator and ROI
                     coaching on your investment property</li>
                 <li>Get most projects funded within just 10 days</li>
             </ul>
@@ -37,8 +36,7 @@
     </div>
     <div class="pricing-background bg-none sm:block sm:bg-gradient-to-tl sm:from-bigWaves-800 sm:to-bigWaves-600 w-full">
         <div class="mx-auto px-4 sm:w-full sm:max-w-4xl sm:py-20 sm:px-0">
-            <h2 class="text-left m-0 sm:px-0 sm:text-center sm:text-5xl sm:text-bigWaves-50">Fix & Flip Loan
-                Programs</h2>
+            <h2 class="text-left m-0 sm:px-0 sm:text-center sm:text-5xl sm:text-bigWaves-50">Renovation Loan Programs</h2>
         </div>
     </div>
     <div class="mx-auto grid grid-cols-1 gap-4 xl:gap-8 py-8 px-4 sm:grid-cols-2 sm:max-w-6xl xl:px-0">
@@ -160,9 +158,8 @@
                 <li>Streamlined loan approval because we handle every step in-house</li>
                 <li>No extra requirements
                     <ul>
-                        <li>Tax Returns or 4506 Requirements - <em>not required</em></li>
                         <li>DTI Calculations or Income Qualification – <em>not required</em></li>
-                        <li>Sourcing or Seasoning of Funds – <em>not required</em></li>
+                        <li>Seasoning of Funds – <em>not required</em></li>
                     </ul>
                 </li>
             </ul>
@@ -170,11 +167,10 @@
         <div>
             <h3>Flexibility</h3>
             <ul>
-                <li>Offer a full 100% financial option for qualified borrowers</li>
-                <li>Interest is escrowed to simplify payments</li>
-                <li>Can fund a portion of the property purchase price (typically 80-85%) and up to 100% of the construction
-                    (including soft costs)</li>
-                <li>Customize pre-payment structures to fit your business needs</li>
+                <li>Offer a full 100% loan-to-cost option for qualified borrowers </li>
+                <li>Interest is built into the loan to simplify payments, so you can focus solely on the rehab of the
+                    property</li>
+                <li>Ability to cross collateralize other property to reduce cash to close</li>
                 <li>No limit on number of properties</li>
             </ul>
         </div>
