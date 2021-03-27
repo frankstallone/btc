@@ -38,8 +38,12 @@
                 </a>
             </p>
         </div>
-        <div class="mt-12 sm:mt-0">
-            <h2 class="text-lg text-quicksilver-200">All rights reserved Builders Trust Capital 2021.</h2>
+        <div class="mt-12 sm:mt-0 flex flex-col justify-top sm:items-center">
+            <?php
+            $btcFullLogo = get_svg('svg.btc-full-logo-right', 'w-72 fill-current text-quicksilver-200');
+            echo $btcFullLogo;
+            ?>
+            <h2 class="text-base text-quicksilver-200">All rights reserved Builders Trust Capital 2021.</h2>
             <p><small>*Disclaimer: Builders Trust Capital currently provides funding in these states: Pennsylvania, New
                     Jersey and Delaware. All rates and fees advertised are subject to change and are dependent on a
                     review

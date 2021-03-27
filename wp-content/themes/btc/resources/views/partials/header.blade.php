@@ -5,9 +5,14 @@
                 {{ $siteName }}
             </span>
             <?php
-            $btcMark = get_svg('svg.btc-mark-one-path', 'w-6 h-6 text-bigWaves-200 hover:text-goldRush-200');
-            echo $btcMark;
+            $btcMarkHome = get_svg(
+            'svg.btc-full-logo-right',
+            'w-40 fill-current text-bigWaves-200
+            hover:text-goldRush-200',
+            );
+            echo $btcMarkHome;
             ?>
+
         </a>
         {{-- Mobile Toggle Button --}}
         <span class="md:hidden mobile-nav-button--open">
@@ -28,10 +33,14 @@
                 {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav', 'echo' => false]) !!}
             @endif
         </nav>
-        {{-- TODO: Create second for the mobile menu without the Loans filler --}}
+        {{-- Mobile navigation based on the footer navigation --}}
         @if (has_nav_menu('footer_navigation'))
             <nav class="mobile-navigation mobile-nav--closed hidden">
                 {!! wp_nav_menu(['theme_location' => 'footer_navigation', 'menu_class' => 'nav', 'echo' => false]) !!}
+                <?php
+                $btcLogoMobileNav = get_svg('svg.btc-full-logo-centered', 'w-64 fill-current text-bigWaves-700');
+                echo $btcLogoMobileNav;
+                ?>
             </nav>
         @endif
     </header>

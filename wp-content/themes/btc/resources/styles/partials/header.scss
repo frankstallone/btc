@@ -10,7 +10,7 @@ header {
         @apply px-2 m-0 relative;
         a,
         &:visited {
-          @apply no-underline text-quicksilver-50 text-lg;
+          @apply no-underline text-quicksilver-50 uppercase font-display;
           &:hover,
           &:focus {
             @apply text-goldRush-100;
@@ -34,13 +34,17 @@ header {
       }
     }
 
-    .menu-loans::after {
-      @apply inline-block stroke-current fill-current text-bigWaves-100 w-3;
-      content: url('../svg/chevron-down.svg');
+    .menu-loans {
+      @apply relative pr-8;
+      &::after {
+        @apply absolute top-0.5 right-2.5 stroke-current fill-current text-bigWaves-100 w-4;
+        content: url('../svg/chevron-down.svg');
+      }
     }
   }
   .mobile-navigation {
     ul {
+      @apply mt-6;
       > li::before {
         display: none;
       }

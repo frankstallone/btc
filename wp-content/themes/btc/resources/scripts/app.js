@@ -1,6 +1,7 @@
 // Mobile navigation
 const mobileNavButtonOpen = document.querySelector('.mobile-nav-button--open');
-const mobileNav = document.querySelector('.mobile-nav--closed');
+const mobileNavContainer = document.querySelector('.mobile-nav--closed');
+const mobileNav = document.querySelector('.mobile-nav--closed #menu-footer');
 const mobileNavButtonClose = document.querySelector(
   '.mobile-nav-button--close'
 );
@@ -9,47 +10,43 @@ mobileNavButtonOpen.addEventListener('click', openHamburger);
 mobileNavButtonClose.addEventListener('click', openHamburger);
 
 function openHamburger() {
-  if (mobileNav.classList.contains('mobile-nav--closed')) {
-    mobileNav.classList.remove('mobile-nav--closed', 'hidden');
-    mobileNav.classList.add(
+  if (mobileNavContainer.classList.contains('mobile-nav--closed')) {
+    mobileNavContainer.classList.remove('mobile-nav--closed', 'hidden');
+    mobileNavContainer.classList.add(
       'mobile-nav--open',
-      'md:flex',
-      'md:flex-row',
-      'items-center',
+      'w-full',
       'flex',
       'flex-col',
-      'w-full',
-      'bg-bigWaves-900',
+      'items-center',
+      'justify-center',
       'absolute',
       'top-0',
       'bottom-0',
       'left-0',
       'right-0',
+      'bg-bigWaves-900',
       'py-10',
       'space-y-4',
-      'z-30',
-      'justify-center'
+      'z-30'
     );
   } else {
-    mobileNav.classList.add('mobile-nav--closed', 'hidden');
-    mobileNav.classList.remove(
+    mobileNavContainer.classList.add('mobile-nav--closed', 'hidden');
+    mobileNavContainer.classList.remove(
       'mobile-nav--open',
-      'md:flex',
-      'md:flex-row',
-      'items-center',
+      'w-full',
       'flex',
       'flex-col',
-      'w-full',
-      'bg-bigWaves-900',
+      'items-center',
+      'justify-center',
       'absolute',
       'top-0',
       'bottom-0',
       'left-0',
       'right-0',
+      'bg-bigWaves-900',
       'py-10',
       'space-y-4',
-      'z-30',
-      'justify-center'
+      'z-30'
     );
   }
 }

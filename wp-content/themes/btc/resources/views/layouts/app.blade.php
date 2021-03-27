@@ -13,6 +13,7 @@
     @include('partials.success-stories')
     @include('partials.how-to')
     @include('partials.testimonials')
-    @includeUnless(is_front_page(), 'partials.quick-contact')
+    @include('partials.quick-contact')
+    {{-- @includeUnless(is_front_page(), 'partials.quick-contact') --}}
     @include('partials.footer')
 </div>
