@@ -1,0 +1,80 @@
+// Animation for BTC's full logo
+#btcFullLogo {
+  &:hover {
+    #btcMark path {
+      &:nth-child(1) {
+        animation: slideInFromRight 8s;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+        animation-delay: calc(var(--order) * 200ms);
+        animation-iteration-count: infinite;
+      }
+      &:nth-child(2) {
+        animation: slideInFromBottom 8s;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+        animation-delay: calc(var(--order) * 200ms);
+        animation-iteration-count: infinite;
+      }
+      &:nth-child(3) {
+        animation: slideInFromLeft 8s;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+        animation-delay: calc(var(--order) * 200ms);
+        animation-iteration-count: infinite;
+      }
+    }
+  }
+}
+
+@keyframes slideInFromRight {
+  20% {
+    opacity: 0;
+    transform: translateX(10%) rotate(-40deg);
+  }
+
+  30%,
+  100% {
+    opacity: 1;
+    transform: translateX(0) rotate(0);
+  }
+}
+
+@keyframes slideInFromLeft {
+  20% {
+    opacity: 0;
+    transform: translateX(-40%) translateY(-40%) rotate(270deg);
+  }
+
+  30%,
+  100% {
+    opacity: 1;
+    transform: translateX(0) translateY(0%) rotate(0deg);
+  }
+}
+
+@keyframes slideInFromBottom {
+  20% {
+    opacity: 0;
+    transform: translateY(40%) rotate(40deg);
+  }
+
+  30%,
+  100% {
+    opacity: 1;
+    transform: translateY(0) rotate(0deg);
+  }
+}
+
+@keyframes slideInFromTop {
+  20% {
+    opacity: 0;
+    transform: translateY(40%);
+  }
+
+  30%,
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

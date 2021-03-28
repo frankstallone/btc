@@ -17,6 +17,7 @@
 
 @layer components {
   /* purgecss start ignore */
+  @import 'components/animation';
   @import 'partials/forms';
   /* purgecss end ignore */
   @import 'partials/header';
