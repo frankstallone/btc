@@ -1,12 +1,12 @@
 <?php $btcHome = get_svg(
 'svg.btc-pattern-3',
-'hidden lg:block absolute text-bigWaves-700 fill-current z-0 transform-gpu origin-center
-opacity-50 lg:h-full lg:top-0 lg:-translate-x-1/2',
+'hidden md:block absolute text-bigWaves-700 fill-current z-0 transform-gpu origin-center
+opacity-50 md:h-full md:top-0 md:-translate-x-1/2',
 ); ?>
 <?php $map = get_svg(
 'svg.map-location-dot',
-'hidden lg:block absolute text-bigWaves-700 fill-current z-0 transform-gpu origin-center
-opacity-50 lg:h-screen lg:top-10 lg:translate-x-1/2',
+'hidden md:block absolute text-bigWaves-700 fill-current z-0 transform-gpu origin-center
+opacity-50 md:h-screen md:top-10 md:translate-x-1/4 lg:translate-x-1/2',
 ); ?>
 @extends('layouts.app')
 
@@ -16,15 +16,16 @@ opacity-50 lg:h-screen lg:top-10 lg:translate-x-1/2',
         <?php echo $btcHome; ?>
         <div class="flex flex-col justify-center items-center max-w-7xl mx-auto w-full relative z-10">
             <div>
-                <h1 class="text-5xl leading-tight sm:leading-snug sm:text-7xl font-extrabold text-goldRush-50">
+                <h1
+                    class="text-5xl leading-tight bg-clip-text text-transparent bg-gradient-to-br from-goldRush-50 to-goldRush-200 sm:leading-snug sm:text-7xl font-extrabold">
                     Get funded, scale your real estate investments faster
                 </h1>
             </div>
-            <div class="mx-auto lg:grid lg:grid-cols-2 lg:gap-8 xl:gap-12">
+            <div class="mx-auto lg:grid lg:grid-cols-2 lg:gap-8 xl:gap-12 text-bigWaves-100">
                 <div>
                     <div class="sm:p-8 sm:bg-bigWaves-900 sm:bg-opacity-70 rounded-lg mb-12">
                         <h2
-                            class="text-3xl leading-snug sm:leading-tight sm:text-4xl font-extrabold text-bigWaves-50 mt-0 mb-8">
+                            class="text-3xl leading-snug sm:leading-tight sm:text-4xl font-extrabold text-bigWaves-200 mt-0 mb-8">
                             Do more deals with Builders Trust Capital
                         </h2>
                         <p class="text-xl sm:text-2xl my-0">As a real estate investor, access to reliable funding quickly
@@ -42,17 +43,17 @@ opacity-50 lg:h-screen lg:top-10 lg:translate-x-1/2',
                 <div>
                     <div class="sm:p-8 sm:bg-bigWaves-900 sm:bg-opacity-70 rounded-lg mb-12">
                         <h2
-                            class="text-3xl leading-snug sm:leading-tight sm:text-4xl font-extrabold text-bigWaves-50 mt-0 mb-8">
+                            class="text-3xl leading-snug sm:leading-tight sm:text-4xl font-extrabold text-bigWaves-200 mt-0 mb-8">
                             Grow with a Lender Specialized in Private Real Estate
                         </h2>
                         <p class="text-xl sm:text-2xl my-0">Developers and builders of single family, multi-family, and
                             mixed-use properties come to Builders Trust Capital for B2B mortgage loans and services. As a
                             portfolio lender, the loans are underwritten and funded in-house.
                         </p>
-                        <p class="text-xl sm:text-2xl my-0">
+                        <p class="text-xl sm:text-2xl mt-8 mb-0">
                             We’re private real estate lenders serving borrowers in New Jersey, Pennsylvania, Maryland,
                             Virginia, and Washington, DC. <a href="/about/"
-                                class="text-bigWaves-50 underline hover:text-goldRush-100 hover:no-underline">Learn
+                                class="text-bigWaves-100 underline hover:text-goldRush-100 hover:no-underline active:no-underline active:text-goldRush-100">Learn
                                 more about Builders Trust
                                 Capital</a>
                         </p>
@@ -63,7 +64,7 @@ opacity-50 lg:h-screen lg:top-10 lg:translate-x-1/2',
     </div>
     {{-- Section --}}
     <div
-        class="flex bg-gradient-to-br from-bigWaves-900 to-bigWaves-700 min-h-80 py-24 px-4 relative overflow-hidden text-quicksilver-25">
+        class="flex bg-gradient-to-br from-bigWaves-900 to-bigWaves-700 min-h-80 py-24 px-4 relative overflow-hidden text-bigWaves-100">
         <?php echo $map; ?>
         <div class="flex flex-col justify-center items-center max-w-7xl mx-auto relative z-10">
             <div class="w-full">
@@ -84,7 +85,8 @@ opacity-50 lg:h-screen lg:top-10 lg:translate-x-1/2',
                     <div class="sm:p-8 sm:bg-bigWaves-900 sm:bg-opacity-70 rounded-lg mb-12">
                         <p class="text-xl sm:text-2xl my-0">We’re private real estate lenders serving borrowers in New
                             Jersey, Pennsylvania, Maryland, Virginia, and Washington, DC. <a href="/about"
-                                class="text-bigWaves-50 hover:text-bigWaves-100 active:text-bigWaves-100">Learn more about
+                                class="text-bigWaves-100 underline hover:text-goldRush-100 hover:no-underline active:no-underline active:text-goldRush-100">Learn
+                                more about
                                 Builders Trust Capital</a>.</p>
                     </div>
                 </div>

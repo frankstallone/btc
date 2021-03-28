@@ -1,4 +1,4 @@
-<?php $messageDollar = get_svg('svg.messages-dollar', 'w-8 h-8 fill-current'); ?>
+<?php $messageDollar = get_svg('svg.messages-dollar', 'w-8 h-8 fill-current animate-pulse'); ?>
 <?php $btcSuccess = get_svg(
 'svg.btc-pattern-3',
 'hidden sm:block absolute text-quicksilver-500 fill-current z-0 transform-gpu origin-center
