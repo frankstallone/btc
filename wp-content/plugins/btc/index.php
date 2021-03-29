@@ -67,7 +67,7 @@ function employee_section_post_type() {
 		'labels'                => $labels,
 		'supports'              => array( 'title', 'editor', 'thumbnail', 'excerpt', 'revisions', 'custom-fields'),
         'taxonomies'            => array(),
-		'hierarchical'          => false,
+		'hierarchical'          => true,
 		'public'                => true,
 		'show_ui'               => true,
 		'show_in_menu'          => true,
@@ -76,10 +76,11 @@ function employee_section_post_type() {
 		'show_in_admin_bar'     => true,
 		'show_in_nav_menus'     => true,
 		'can_export'            => true,
-		'has_archive'           => false,
+		'has_archive'           => true,
 		'exclude_from_search'   => true,
 		'publicly_queryable'    => true,
-		'capability_type'       => 'page',
+		'capability_type'       => 'post',
+		'rewrite'       		=> array( 'slug' => 'about' ),
 	);
 	register_post_type( 'employee_section', $args );
 
@@ -207,3 +208,40 @@ add_action( 'init', 'loan_gallery_post_type', 0 );
  * 
  */
 
+function employee_type() {
+
+	$labels = array(
+		'name'                       => _x( 'Employee Departments', 'Taxonomy General Name', 'text_domain' ),
+		'singular_name'              => _x( 'Employee department', 'Taxonomy Singular Name', 'text_domain' ),
+		'menu_name'                  => __( 'Employee departments', 'text_domain' ),
+		'all_items'                  => __( 'All Employees Departments', 'text_domain' ),
+		'parent_item'                => __( 'Parent Employee department', 'text_domain' ),
+		'parent_item_colon'          => __( 'Parent Employee department:', 'text_domain' ),
+		'new_item_name'              => __( 'New Employee department', 'text_domain' ),
+		'add_new_item'               => __( 'Add Employee department', 'text_domain' ),
+		'edit_item'                  => __( 'Edit Employee department', 'text_domain' ),
+		'update_item'                => __( 'Update Employee department', 'text_domain' ),
+		'view_item'                  => __( 'View Employee department', 'text_domain' ),
+		'separate_items_with_commas' => __( 'Separate employee departments with commas', 'text_domain' ),
+		'add_or_remove_items'        => __( 'Add or remove employee department', 'text_domain' ),
+		'choose_from_most_used'      => __( 'Choose from the most used departments', 'text_domain' ),
+		'popular_items'              => __( 'Popular employee department', 'text_domain' ),
+		'search_items'               => __( 'Search employee departments', 'text_domain' ),
+		'not_found'                  => __( 'Employee Department Not Found', 'text_domain' ),
+		'no_terms'                   => __( 'No employee departments', 'text_domain' ),
+		'items_list'                 => __( 'Employee department list', 'text_domain' ),
+		'items_list_navigation'      => __( 'Employee department list navigation', 'text_domain' ),
+	);
+	$args = array(
+		'labels'                     => $labels,
+		'hierarchical'               => false,
+		'public'                     => true,
+		'show_ui'                    => true,
+		'show_admin_column'          => true,
+		'show_in_nav_menus'          => true,
+		'show_tagcloud'              => true,
+	);
+	register_taxonomy( 'employee', array( 'employee_section' ), $args );
+
+}
+add_action( 'init', 'employee_type', 0 );

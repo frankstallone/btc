@@ -98,28 +98,36 @@ opacity-50 md:h-screen md:top-10 md:translate-x-1/4 lg:translate-x-1/2',
     </div>
     {{-- Section --}}
     <div
-        class="success-stories flex bg-gradient-to-br from-bigWaves-800 to-bigWaves-900 text-quicksilver-25 py-24 px-4 min-h-80 relative overflow-hidden">
+        class="flex bg-gradient-to-br from-bigWaves-700 to-bigWaves-900 min-h-80 text-quicksilver-25 py-24 px-4 relative overflow-hidden text-bigWaves-100">
         <div class="flex flex-col justify-center lg:max-w-7xl mx-auto w-full z-10">
             <div class="lg:max-w-7xl sm:px-0 relative">
-                <h2 class="mt-0 relative z-10 text-3xl text-quicksilver-25">Find Your Loan</h2>
-                <p class="relative z-10 text-2xl md:max-w-2xl">
-                    Partner with an efficient, personable team who delivers <strong>$000,000</strong> in
-                    real estate loans
-                </p>
+                <div class="flex flex-col justify-center items-center max-w-7xl mx-auto relative z-10">
+                    <div class="w-full">
+                        <h2 class="text-4xl leading-tight sm:leading-snug sm:text-5xl font-extrabold text-goldRush-50">
+                            Find Your Loan
+                        </h2>
+                    </div>
+                    <div class="mx-auto lg:grid lg:grid-cols-2 lg:gap-8 xl:gap-12">
+                        <div>
+                            <div class="sm:p-8 sm:bg-bigWaves-900 sm:bg-opacity-70 rounded-lg mb-12">
+                                <p class="text-xl sm:text-2xl my-0">Loan programs customized to your specific needs whether
+                                    you’re an experienced or first-time real estate investor. Focused on speed, flexibility,
+                                    and customer satisfaction. Learn more:</p>
+                            </div>
+                        </div>
+                        <div
+                            class="mx-auto flex flex-col justify-center text-center md:text-left space-y-4 lg:space-y-8 w-full max-w-xl">
+                            <div class="flex-1">
+                                <a href="/rehab-loans/" class="btn">Rehabilitation Loans</a>
+                            </div>
+                            <div class="flex-1">
+                                <a href="/landlord-loans/" class="btn">Landlord Loans</a>
+                            </div>
+                            <div class="flex-1">
+                                <a href="/construction-loans/" class="btn">Construction Loans</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div
-                class="mt-6 grid grid-cols-1 gap-8 text-center xl:gap-12 md:grid-cols-2 md:text-left lg:grid-cols-3 md:px-0">
-                <div class="my-0 rounded-lg shadow-xl pt-0 bg-quicksilver-25 overflow-hidden">
-                    <h2>Rehabilitation Loan</h2>
-                </div>
-                <div class="my-0 rounded-lg shadow-xl pt-0 bg-quicksilver-25 overflow-hidden">
-                    <h2>Landlord Loans</h2>
-                </div>
-                <div class="my-0 rounded-lg shadow-xl pt-0 bg-quicksilver-25 overflow-hidden">
-                    <h2>Construction Loans</h2>
-                </div>
-
-            </div>
-        </div>
-    </div>
-@endsection
+        @endsection
