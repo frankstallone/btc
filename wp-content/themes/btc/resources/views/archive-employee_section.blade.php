@@ -4,7 +4,9 @@
 $partnerQuery = new WP_Query([
     'post_type' => 'employee_section',
     'posts_per_page' => 25,
+    'meta_key' => 'name',
     'order' => 'ASC',
+    'orderby' => 'meta_value',
     'tax_query' => [
         [
             'taxonomy' => 'employee',
@@ -16,7 +18,9 @@ $partnerQuery = new WP_Query([
 $teamQuery = new WP_Query([
     'post_type' => 'employee_section',
     'posts_per_page' => 25,
+    'meta_key' => 'name',
     'order' => 'ASC',
+    'orderby' => 'meta_value',
     'tax_query' => [
         [
             'taxonomy' => 'employee',
