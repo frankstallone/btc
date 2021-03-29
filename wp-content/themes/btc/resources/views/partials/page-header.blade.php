@@ -1,4 +1,4 @@
-<header class="headliners bg-gradient-to-tr from-quicksilver-700 to-quicksilver-800 overflow-hidden relative">
+<header class="bg-gradient-to-tr from-quicksilver-700 to-quicksilver-800 overflow-hidden relative">
     <?php
     $btcMark = get_svg(
     'svg.btc-mark-one-path',
@@ -7,7 +7,7 @@
     );
     echo $btcMark;
     ?>
-    <div class="mx-auto max-w-3xl px-4 py-20 relative z-10">
+    <div class="mx-auto max-w-3xl px-4 py-20 relative z-10 md:px-0">
         <h1 class="text-quicksilver-50">{!! $title !!}</h1>
     </div>
 </header>

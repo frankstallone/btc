@@ -30,18 +30,18 @@ $teamQuery = new WP_Query([
 
 @section('content')
     @include('partials.page-header-about')
-    <div class="bg-gradient-to-tr from-emeraldCity-50 to-emeraldCity-100 py-12 px-4">
-        <div class="mx-auto sm:w-full sm:max-w-xl md:px-0 first-line">
-            <p class="text-xl text-emeraldCity-900 mt-0">Builders Trust Capital is a Private Real Estate Lender. We provide
+    <div class="bg-gradient-to-br from-bigWaves-700 to-bigWaves-800 py-12 px-4">
+        <div class="mx-auto sm:w-full sm:max-w-3xl md:grid md:grid-cols-2 md:gap-8 first-line">
+            <p class="text-xl text-bigWaves-100 mt-0">Builders Trust Capital is a Private Real Estate Lender. We provide
                 loans to developers and builders of
                 single family, multi-family, and mixed-use properties. As a portfolio lender, the loans are underwritten
                 and funded in-house.</p>
-            <p class="text-xl text-emeraldCity-900 my-0">Builders Trust Capital serves New Jersey, Pennsylvania, Maryland,
+            <p class="text-xl text-bigWaves-100 my-0">Builders Trust Capital serves New Jersey, Pennsylvania, Maryland,
                 Virginia, and Washington, DC.</p>
         </div>
     </div>
     <div class="bg-quicksilver-25 px-6 py-12 sm:px-8">
-        <div class="mx-auto grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 md:max-w-6xl">
+        <div class="mx-auto grid grid-cols-1 sm:max-w-xl xl:gap-8 xl:max-w-6xl xl:grid-cols-3">
             <div>
                 <h2>We’re focused on building long-term relationships with our clients</h2>
                 <ul>
@@ -91,7 +91,7 @@ $teamQuery = new WP_Query([
             </div>
         </div>
         <div class="mx-auto sm:w-full sm:max-w-xl my-8 text-center">
-            <h2>Builders Trust Capital Partners</h2>
+            <h2 class="text-3xl">Builders Trust Capital Partners</h2>
         </div>
         <div class="mx-auto grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 md:max-w-6xl">
 
@@ -112,8 +112,8 @@ $teamQuery = new WP_Query([
             {!! get_the_posts_navigation() !!}
 
         </div>
-        <div class="mx-auto sm:w-full sm:max-w-xl my-8 text-center">
-            <h2>Builders Trust Capital Team</h2>
+        <div class="mx-auto sm:w-full sm:max-w-xl mb-8 mt-12 text-center">
+            <h2 class="text-3xl">Builders Trust Capital Team</h2>
         </div>
         <div class="mx-auto grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 md:max-w-6xl">
             @if (!$teamQuery->have_posts())

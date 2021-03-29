@@ -1,10 +1,10 @@
 <article @php(post_class())>
         <header>
-            <h1 class="entry-title md:-mx-32">
+            <h1 class="entry-title mb-0 md:-mx-32">
                 {!! $title !!}
             </h1>
 
-            <figure class="post-thumbnail mt-12 mb-4 sm:-mx-12 md:mb-8 md:-mx-32">
+            <figure class="post-thumbnail mt-4 mb-4 sm:-mx-12 md:mb-8 md:-mx-32">
                 {{-- Lazy-loading attributes should be skipped for thumbnails since they are immediately
                 in the viewport. --}}
                 <?php the_post_thumbnail('post-thumbnail', ['loading' => false]); ?>

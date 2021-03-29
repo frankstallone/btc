@@ -1,4 +1,5 @@
-<article @php(post_class($class='my-0 rounded-sm shadow-lg bg-white' ))>
+<article @php(post_class($class='my-0 rounded-sm shadow-lg hover:shadow-xl transition delay-150 duration-300 bg-white'
+        ))>
         <header class="overflow-hidden">
             <a href="@permalink">
                 @php(the_post_thumbnail('post-thumbnail', ['loading' => false, 'class' => 'my-0 object-cover']))
