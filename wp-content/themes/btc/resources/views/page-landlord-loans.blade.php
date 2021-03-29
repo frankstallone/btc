@@ -23,13 +23,22 @@
 
     </div>
 
-    <div class="pricing-background bg-none sm:block sm:bg-gradient-to-tl sm:from-bigWaves-800 sm:to-bigWaves-600 w-full">
-        <div class="mx-auto px-4 sm:w-full sm:max-w-4xl sm:py-20 sm:px-0">
+    <div
+        class="landlord-pricing-table -mb-72 bg-none sm:block sm:bg-gradient-to-tl sm:from-bigWaves-800 sm:to-bigWaves-600 w-full relative">
+        <?php
+        $btcPattern = get_svg(
+        'svg.btc-pattern-3',
+        'hidden sm:block absolute text-bigWaves-700 fill-current z-0 transform-gpu origin-center
+        opacity-50 sm:h-full sm:top-0 sm:-translate-x-1/4',
+        );
+        echo $btcPattern;
+        ?>
+        <div class="mx-auto px-4 sm:w-full sm:max-w-4xl sm:py-20 sm:px-0 relative z-10">
             <h2 class="text-left m-0 sm:px-0 sm:text-center sm:text-5xl sm:text-bigWaves-50">30-Year DSCR Landlord Loan
                 Program</h2>
         </div>
     </div>
-    <div class="mx-auto flex sm:max-w-3xl justify-center py-8 px-4">
+    <div class="mx-auto flex sm:max-w-3xl justify-center py-8 px-4 relative z-10">
         <div
             class="rounded-lg overflow-hidden bg-white sm:bg-quicksilver-25 border-4 border-bigWaves-300 shadow sm:shadow-lg hover:shadow-xl transition delay-150 duration-300">
             <figure class="mb-0 mt-8">
@@ -52,12 +61,12 @@
                                 Rates as low as 4.75%</td>
                         </tr>
                         <tr class="border-0">
-                            <td class="px-8 py-2 text-lg flex text-quicksilver-600 content-center">
+                            <td class="px-8 py-2 text-lg flex font-semibold content-center">
                                 <?php echo $checkMark; ?>
                                 Points as low as 2% </td>
                         </tr>
                         <tr class="border-0">
-                            <td class="px-8 py-2 mb-8 text-lg flex text-quicksilver-600 content-center">
+                            <td class="px-8 py-2 mb-8 text-lg flex font-semibold content-center">
                                 <?php echo $checkMark; ?>
                                 Credit as low as 650</td>
                         </tr>
