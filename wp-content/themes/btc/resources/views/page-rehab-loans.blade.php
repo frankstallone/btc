@@ -3,7 +3,7 @@
 @section('content')
     <div class="bg-gradient-to-br from-goldRush-50 to-goldRush-100 py-12 px-4">
         <div class="mx-auto sm:w-full sm:max-w-3xl md:px-0 first-line">
-            <h2 class="text-goldRush-700 mt-0 text-3xl">Rehab Loan Programs</h2>
+            <h2 class="text-goldRush-700 mt-0 text-3xl">Rehab Loan Program</h2>
             <p class="text-xl text-goldRush-900 mb-0">Ideal for
                 investors looking
                 to purchase a property,
@@ -14,14 +14,14 @@
         </div>
     </div>
     <div
-        class="mx-auto py-12 px-4 sm:px-0 md:px-4 sm:max-w-xl sm:w-full grid grid-cols-1 gap-4 md:gap-8 md:grid-cols-2 md:max-w-6xl">
+        class="mx-auto py-12 px-4 sm:px-0 md:px-4 sm:max-w-xl sm:w-full grid grid-cols-1 gap-4 md:gap-8 md:grid-cols-3 md:max-w-6xl">
         <div>
             <h2>Builders Trust Capital is a Direct Lender</h2>
             <p>The team at Builders Trust Capital makes the lending decisions. Your loan is underwritten and funded by us.
                 Our principals have funded over _____ projects since 2016 with an approximately 80% repeat client rate, so
                 you can rely on us to deliver consistently every time. </p>
         </div>
-        <div>
+        <div class="md:col-span-2">
             <h2>A More Efficient Loan Approval Process</h2>
             <p>When you choose Builders Trust Capital, you get a fast, straightforward and transparent process.</p>
             <ul>
@@ -36,110 +36,61 @@
     </div>
     <div class="pricing-background bg-none sm:block sm:bg-gradient-to-tl sm:from-bigWaves-800 sm:to-bigWaves-600 w-full">
         <div class="mx-auto px-4 sm:w-full sm:max-w-4xl sm:py-20 sm:px-0">
-            <h2 class="text-left m-0 sm:px-0 sm:text-center sm:text-5xl sm:text-bigWaves-50">Renovation Loan Programs</h2>
+            <h2 class="text-left m-0 sm:px-0 sm:text-center sm:text-5xl sm:text-bigWaves-50">Renovation Loan Program</h2>
         </div>
     </div>
-    <div class="mx-auto grid grid-cols-1 gap-4 xl:gap-8 py-8 px-4 sm:grid-cols-2 sm:max-w-6xl xl:px-0">
+    <div class="mx-auto flex sm:max-w-3xl justify-center py-8 px-4">
         <div
-            class="rounded-lg overflow-hidden bg-white sm:bg-quicksilver-25 shadow sm:shadow-xl border-4 border-bigWaves-300">
-            <div class="px-8 py-8 sm:pb-0 bg-gradient-to-tr from-bigWaves-800 to-bigWaves-600 sm:bg-none">
-                <h2 class="mt-0 mb-0 text-bigWaves-50 sm:font-bold sm:text-2xl sm:text-bigWaves-500">
-                    Preferred
-                </h2>
-            </div>
+            class="rounded-lg overflow-hidden bg-white sm:bg-quicksilver-25 border-4 border-bigWaves-300 shadow sm:shadow-lg hover:shadow-xl transition delay-150 duration-300">
             <figure class="mb-0 mt-8">
                 <table>
                     <tbody>
                         <tr class="border-0">
                             <td class="px-8 py-2 text-xl flex font-semibold content-center">
                                 <?php echo $checkMark; ?>
-                                90% LTC up to 75% LTARV
+                                Up to 90% LTC up to and 75% LTARV <span class="text-alpenglow-500">*</span>
                             </td>
                         </tr>
                         <tr class="border-0">
                             <td class="px-8 py-2 text-xl flex font-semibold content-center">
                                 <?php echo $checkMark; ?>
-                                Rates as low as 9%</td>
+                                Rates as low as 8%</td>
                         </tr>
                         <tr class="border-0">
                             <td class="px-8 py-2 text-xl flex font-semibold content-center">
                                 <?php echo $checkMark; ?>
-                                Points as low as 2%</td>
+                                Points as low as 1%</td>
                         </tr>
                         <tr class="border-0">
                             <td class="px-8 py-2 text-lg flex text-quicksilver-600 content-center">
                                 <?php echo $checkMark; ?>
-                                Loans from $75,000 and up</td>
+                                Loans from $50,000 to $3,000,000</td>
                         </tr>
                         <tr class="border-0">
                             <td class="px-8 py-2 text-lg flex text-quicksilver-600 content-center">
                                 <?php echo $checkMark; ?>
-                                Interest is escrowed</td>
+                                Interest is built into the loan for your convenience</td>
+                        </tr>
+                        <tr class="border-0">
+                            <td class="px-8 py-2 text-lg flex text-quicksilver-600 content-center">
+                                <?php echo $checkMark; ?>
+                                We manage the processing and servicing in-house, ensuring consistent service during and
+                                after origination </td>
                         </tr>
                         <tr class="border-0">
                             <td class="px-8 py-2 mb-8 text-lg flex text-quicksilver-600 content-center">
-                                <?php echo $checkMark; ?>
-                                Loan is managed in-house, not outsourced. Ensures consistent service during and after
-                                origination</td>
+                                <span class="text-alpenglow-500 mr-1">*</span> <em>highly qualified customers may qualify
+                                    for 100% LTC</em>
+                            </td>
                         </tr>
                         <tr class="border-0">
                             <td class="px-8 pt-0 pb-8">
-                                <a href="/application/" class="btn--pricing-table relative"><span
+                                <a href="/application/" class="btn relative"><span
                                         class="flex absolute top-0 right-0 -mt-2 -mr-2 h-5 w-5"> <span
                                             class="animate-ping absolute inline-flex h-full w-full rounded-full bg-alpenglow-400 opacity-75"></span>
                                         <span
                                             class="relative inline-flex rounded-full h-5 w-5 bg-alpenglow-500"></span></span>Get
                                     Funded Now</a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </figure>
-        </div>
-        <div
-            class="rounded-lg overflow-hidden bg-white sm:bg-quicksilver-25 shadow sm:shadow-xl border-4 border-bigWaves-300">
-            <div class="px-8 py-8 sm:pb-0 bg-gradient-to-tr from-bigWaves-800 to-bigWaves-600 sm:bg-none">
-                <h2 class="mt-0 mb-0 text-bigWaves-50 sm:font-bold sm:text-2xl sm:text-quicksilver-600">
-                    Standard
-                </h2>
-            </div>
-            <figure class="mb-0 mt-8">
-                <table>
-                    <tbody>
-                        <tr class="border-0">
-                            <td class="px-8 py-2 text-xl font-semibold flex content-center">
-                                <?php echo $checkMark; ?>
-                                85% LTC up to 75% LTARV</td>
-                        </tr>
-                        <tr class="border-0">
-                            <td class="px-8 py-2 text-xl font-semibold flex content-center">
-                                <?php echo $checkMark; ?>
-                                Rates as low as 10%</td>
-                        </tr>
-                        <tr class="border-0">
-                            <td class="px-8 py-2 text-xl font-semibold flex content-center">
-                                <?php echo $checkMark; ?>
-                                Points as low as 2%</td>
-                        </tr>
-                        <tr class="border-0">
-                            <td class="px-8 py-2 text-lg flex text-quicksilver-600 content-center">
-                                <?php echo $checkMark; ?>
-                                Loans from $75,000 and up</td>
-                        </tr>
-                        <tr class="border-0">
-                            <td class="px-8 py-2 text-lg flex text-quicksilver-600 content-center">
-                                <?php echo $checkMark; ?>
-                                Interest is escrowed</td>
-                        </tr>
-                        <tr class="border-0">
-                            <td class="px-8 py-2 mb-8 text-lg flex text-quicksilver-600 content-center">
-                                <?php echo $checkMark; ?>
-                                Loan is managed in-house, not outsourced.
-                                Ensures consistent service during and after origination</td>
-                        </tr>
-                        <tr class="border-0">
-                            <td class="px-8 pt-0 pb-8">
-                                <a href="/application/" class="btn--pricing-table">Get Funded Now</a>
                             </td>
                         </tr>
                     </tbody>
