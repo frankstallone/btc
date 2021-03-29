@@ -1,12 +1,17 @@
 <?php $btcHome = get_svg(
 'svg.btc-pattern-3',
-'hidden md:block absolute text-bigWaves-700 fill-current z-0 transform-gpu origin-center
-opacity-50 md:h-full md:top-0 md:-translate-x-1/2',
+'hidden sm:block absolute text-bigWaves-700 fill-current z-0 transform-gpu origin-center
+opacity-50 sm:h-full sm:top-0 sm:-translate-x-1/2',
 ); ?>
 <?php $map = get_svg(
 'svg.map-location-dot',
-'hidden md:block absolute text-bigWaves-700 fill-current z-0 transform-gpu origin-center
-opacity-50 md:h-screen md:top-10 md:translate-x-1/4 lg:translate-x-1/2',
+'hidden sm:block absolute text-bigWaves-700 fill-current z-0 transform-gpu origin-center
+opacity-50 sm:h-screen sm:top-10 sm:translate-x-1/4',
+); ?>
+<?php $magnifying = get_svg(
+'svg.magnifying-glass-dollar',
+'hidden sm:block absolute text-bigWaves-800 fill-current z-0 transform-gpu origin-center
+opacity-50 sm:h-screen sm:top-0 sm:-translate-x-1/4',
 ); ?>
 @extends('layouts.app')
 
@@ -99,6 +104,7 @@ opacity-50 md:h-screen md:top-10 md:translate-x-1/4 lg:translate-x-1/2',
     {{-- Section --}}
     <div
         class="flex bg-gradient-to-br from-bigWaves-700 to-bigWaves-900 min-h-80 text-quicksilver-25 py-24 px-4 relative overflow-hidden text-bigWaves-100">
+        <?php echo $magnifying; ?>
         <div class="flex flex-col justify-center lg:max-w-7xl mx-auto w-full z-10">
             <div class="lg:max-w-7xl sm:px-0 relative">
                 <div class="flex flex-col justify-center items-center max-w-7xl mx-auto relative z-10">
