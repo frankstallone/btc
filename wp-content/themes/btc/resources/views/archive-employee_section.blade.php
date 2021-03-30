@@ -34,13 +34,13 @@ $teamQuery = new WP_Query([
 
 @section('content')
     @include('partials.page-header-about')
-    <div class="bg-gradient-to-br from-bigWaves-700 to-bigWaves-800 py-12 px-4">
+    <div class="bg-gradient-to-br from-bigWaves-100 to-bigWaves-200 py-12 px-4">
         <div class="mx-auto sm:w-full sm:max-w-3xl md:grid md:grid-cols-2 md:gap-8 first-line">
-            <p class="text-xl text-bigWaves-100 mt-0">Builders Trust Capital is a Private Real Estate Lender. We provide
+            <p class="text-xl text-bigWaves-800 mt-0">Builders Trust Capital is a Private Real Estate Lender. We provide
                 loans to developers and builders of
                 single family, multi-family, and mixed-use properties. As a portfolio lender, the loans are underwritten
                 and funded in-house.</p>
-            <p class="text-xl text-bigWaves-100 my-0">Builders Trust Capital serves New Jersey, Pennsylvania, Maryland,
+            <p class="text-xl text-bigWaves-800 my-0">Builders Trust Capital serves New Jersey, Pennsylvania, Maryland,
                 Virginia, and Washington, DC.</p>
         </div>
     </div>
