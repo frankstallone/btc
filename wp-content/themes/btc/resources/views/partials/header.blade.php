@@ -29,7 +29,8 @@
         </nav>
         {{-- Mobile navigation based on the footer navigation --}}
         @if (has_nav_menu('footer_navigation'))
-            <nav class="mobile-navigation mobile-nav--closed hidden">
+            <nav
+                class="mobile-navigation mobile-nav--closed w-full flex-col items-center justify-center absolute top-0 bottom-0 left-0 right-0 bg-bigWaves-900 py-10 z-30 hidden">
                 <span class="mobile-nav-button--close absolute top-0 z-40 pt-4 right-0 mr-4 md:hidden">
                     <?php
                     $xmark = get_svg('svg.xmark', 'w-5 text-quicksilver-100');

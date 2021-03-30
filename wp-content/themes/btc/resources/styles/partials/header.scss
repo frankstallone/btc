@@ -20,7 +20,7 @@ header {
 
       // Dropdown Menu
       &.sub-menu {
-        @apply hidden absolute z-10 -ml-4 mt-3 p-8 transform w-screen max-w-sm rounded shadow-xl overflow-hidden border-2 border-quicksilver-800 bg-quicksilver-900 gap-6 sm:gap-8 lg:left-1/2 lg:-translate-x-1/2;
+        @apply hidden absolute z-10 -ml-4 mt-3 p-8 w-screen max-w-sm rounded shadow-xl overflow-hidden border-2 border-quicksilver-800 bg-quicksilver-900 gap-6 sm:gap-8 lg:-left-1/2;
         li {
           a,
           &:visited {

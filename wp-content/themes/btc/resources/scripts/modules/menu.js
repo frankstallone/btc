@@ -39,40 +39,10 @@ export const menu = {
     function openHamburger() {
       if (mobileNavContainer.classList.contains('mobile-nav--closed')) {
         mobileNavContainer.classList.remove('mobile-nav--closed', 'hidden');
-        mobileNavContainer.classList.add(
-          'mobile-nav--open',
-          'w-full',
-          'flex',
-          'flex-col',
-          'items-center',
-          'justify-center',
-          'absolute',
-          'top-0',
-          'bottom-0',
-          'left-0',
-          'right-0',
-          'bg-bigWaves-900',
-          'py-10',
-          'z-30'
-        );
+        mobileNavContainer.classList.add('mobile-nav--open', 'flex');
       } else {
         mobileNavContainer.classList.add('mobile-nav--closed', 'hidden');
-        mobileNavContainer.classList.remove(
-          'mobile-nav--open',
-          'w-full',
-          'flex',
-          'flex-col',
-          'items-center',
-          'justify-center',
-          'absolute',
-          'top-0',
-          'bottom-0',
-          'left-0',
-          'right-0',
-          'bg-bigWaves-900',
-          'py-10',
-          'z-30'
-        );
+        mobileNavContainer.classList.remove('mobile-nav--open', 'flex');
       }
     }
 
@@ -98,12 +68,37 @@ export const menu = {
       '.menu-item-has-children .sub-menu'
     );
 
-    menuItemHasChildren.addEventListener('click', toggleMenu);
+    menuItemHasChildren.addEventListener('click', animateDropDown);
 
-    function toggleMenu(e) {
+    function animateDropDown(e) {
       e.preventDefault();
-      showThisMenu.classList.toggle('grid');
-      return;
+
+      if (
+        !showThisMenu.getAttribute('aria-expanded') ||
+        showThisMenu.getAttribute('aria-expanded') === 'false'
+      ) {
+        showThisMenu.setAttribute('aria-expanded', 'true');
+        anime.timeline().add({
+          targets: showThisMenu,
+          easing: 'easeInOutCirc',
+          translateY: [20, 0],
+          opacity: [0, 1],
+          begin: function () {
+            showThisMenu.classList.toggle('grid');
+          },
+        });
+      } else if (showThisMenu.getAttribute('aria-expanded') === 'true') {
+        showThisMenu.setAttribute('aria-expanded', 'false');
+        anime.timeline().add({
+          targets: showThisMenu,
+          easing: 'easeInOutCirc',
+          translateY: [0, 20],
+          opacity: [1, 0],
+          complete: function () {
+            showThisMenu.classList.toggle('grid');
+          },
+        });
+      }
     }
   },
 };
