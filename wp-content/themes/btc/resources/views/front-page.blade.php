@@ -21,8 +21,7 @@ opacity-50 sm:h-screen sm:top-0 sm:-translate-x-1/4',
         <?php echo $btcHome; ?>
         <div class="flex flex-col justify-center items-center max-w-7xl mx-auto w-full relative z-10">
             <div>
-                <h1
-                    class="text-5xl leading-tight bg-clip-text text-transparent bg-gradient-to-br from-goldRush-50 to-goldRush-200 sm:leading-snug sm:text-7xl font-extrabold">
+                <h1 class="hero text-5xl leading-tight text-goldRush-100 sm:leading-snug sm:text-7xl font-extrabold">
                     Get funded, scale your real estate investments faster
                 </h1>
             </div>
@@ -33,7 +32,8 @@ opacity-50 sm:h-screen sm:top-0 sm:-translate-x-1/4',
                             class="text-3xl leading-snug sm:leading-tight sm:text-4xl font-extrabold text-bigWaves-200 mt-0 mb-8">
                             Do more deals with Builders Trust Capital
                         </h2>
-                        <p class="text-xl sm:text-2xl my-0">As a real estate investor, access to reliable funding quickly
+                        <p class="text-xl sm:text-2xl my-0">As a real estate investor, access to reliable funding
+                            quickly
                             ensures you won’t miss out on an opportunity. When you work with the team at Builders Trust
                             Capital, your real estate investing can grow into a scalable profitable business. You have the
                             leverage to reach your business dreams on your timetable.</p>

@@ -1,3 +1,5 @@
+import anime from 'animejs/lib/anime.es.js';
+
 export const menu = {
   init: function () {
     // Mobile navigation
@@ -9,8 +11,30 @@ export const menu = {
       '.mobile-nav-button--close'
     );
 
-    mobileNavButtonOpen.addEventListener('click', openHamburger);
-    mobileNavButtonClose.addEventListener('click', openHamburger);
+    mobileNavButtonOpen.addEventListener('click', animateHamburgerIn);
+    mobileNavButtonClose.addEventListener('click', animateHamburgerOut);
+
+    function animateHamburgerIn() {
+      anime.timeline().add({
+        targets: '.mobile-nav-button--open svg',
+        easing: 'easeInOutCirc',
+        rotate: [180, 0],
+        complete: function () {
+          openHamburger();
+        },
+      });
+    }
+
+    function animateHamburgerOut() {
+      anime.timeline().add({
+        targets: '.mobile-nav-button--close svg',
+        easing: 'easeInOutCirc',
+        rotate: [180, 0],
+        complete: function () {
+          openHamburger();
+        },
+      });
+    }
 
     function openHamburger() {
       if (mobileNavContainer.classList.contains('mobile-nav--closed')) {
