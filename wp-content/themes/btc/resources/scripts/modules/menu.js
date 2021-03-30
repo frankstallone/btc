@@ -18,6 +18,7 @@ export const menu = {
       anime.timeline().add({
         targets: '.mobile-nav-button--open svg',
         easing: 'easeInOutCirc',
+        scale: [0.75, 1.25, 1],
         rotate: [180, 0],
         complete: function () {
           openHamburger();
@@ -29,6 +30,7 @@ export const menu = {
       anime.timeline().add({
         targets: '.mobile-nav-button--close svg',
         easing: 'easeInOutCirc',
+        scale: [0.75, 1.25, 1],
         rotate: [180, 0],
         complete: function () {
           openHamburger();
