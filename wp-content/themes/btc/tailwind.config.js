@@ -625,6 +625,7 @@ module.exports = {
     extend: {
       backgroundColor: ['active'],
       gridColumn: ['last'],
+      transform: ['hover', 'focus'],
     },
   },
   plugins: [

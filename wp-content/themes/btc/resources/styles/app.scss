@@ -18,6 +18,7 @@
 @layer components {
   /* purgecss start ignore */
   @import 'components/animation';
+  @import 'components/grid-item';
   @import 'partials/forms';
   /* purgecss end ignore */
   @import 'partials/header';
