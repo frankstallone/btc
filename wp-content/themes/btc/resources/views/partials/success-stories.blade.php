@@ -17,7 +17,7 @@ opacity-50 sm:h-full top-0 translate-x-1/3 lg:translate-x-2/3',
             </p>
         </div>
         <div class="mt-6 text-center md:max-w-7xl md:text-left md:px-0 flex flex-wrap lg:flex-nowrap justify-center">
-            <figure class="pt-0 w-full sm:w-1/2 xl:w-1/3">
+            <figure class="success-story pt-0 w-full sm:w-1/2 xl:w-1/3">
                 <div class="mx-4 rounded-lg shadow-xl bg-quicksilver-25 overflow-hidden">
                     <div class="aspect-w-3 aspect-h-2 -mt-8">
                         <img src="/wp-content/themes/btc/public/images/success-stories-01.jpg" class="object-cover"
@@ -32,15 +32,18 @@ opacity-50 sm:h-full top-0 translate-x-1/3 lg:translate-x-2/3',
                             <li class="px-4 font-semibold text-lg flex flex-col justify-center items-center mb-6">
                                 <span
                                     class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-32">Purchased</span>
-                                <span class="text-bigWaves-700 font-display text-5xl">$200,000</span>
+                                <span class="text-bigWaves-700 font-display text-5xl"><span
+                                        class="success-number">$200,000</span></span>
                             </li>
                             <li class="px-4 font-semibold text-lg flex flex-col justify-center items-center mb-6">
                                 <span class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-24">Rehab</span>
-                                <span class="text-bigWaves-700 font-display text-5xl">$60,000</span>
+                                <span class="text-bigWaves-700 font-display text-5xl"><span
+                                        class="success-number">$60,000</span></span>
                             </li>
                             <li class="px-4 font-semibold text-lg flex flex-col justify-center items-center mb-6">
                                 <span class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-24">ARV</span>
-                                <span class="text-bigWaves-700 font-display text-5xl">$350,000</span>
+                                <span class="text-bigWaves-700 font-display text-5xl"><span
+                                        class="success-number">$350,000</span></span>
                             </li>
                             <li
                                 class="pl-0 py-4 mb-0 text-2xl font-semibold font-display text-quicksilver-400 border-t border-quicksilver-100 bg-quicksilver-50">
@@ -52,7 +55,7 @@ opacity-50 sm:h-full top-0 translate-x-1/3 lg:translate-x-2/3',
                 </div>
             </figure>
 
-            <figure class="pt-0 w-full sm:w-1/2 xl:w-1/3">
+            <figure class="success-story pt-0 w-full sm:w-1/2 xl:w-1/3">
                 <div class="mx-4 rounded-lg shadow-xl bg-quicksilver-25 overflow-hidden">
                     <div class="aspect-w-3 aspect-h-2 -mt-8">
                         <img src="/wp-content/themes/btc/public/images/success-stories-02.jpg" class="object-cover"
@@ -67,15 +70,18 @@ opacity-50 sm:h-full top-0 translate-x-1/3 lg:translate-x-2/3',
                             <li class="px-4 font-semibold text-lg flex flex-col justify-center items-center mb-6">
                                 <span
                                     class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-32">Purchased</span>
-                                <span class="text-bigWaves-700 font-display text-5xl">$235,000</span>
+                                <span class="text-bigWaves-700 font-display text-5xl"><span
+                                        class="success-number">$235,000</span></span>
                             </li>
                             <li class="px-4 font-semibold text-lg flex flex-col justify-center items-center  mb-6">
                                 <span class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-24">Rehab</span>
-                                <span class="text-bigWaves-700 font-display text-5xl">$59,800</span>
+                                <span class="text-bigWaves-700 font-display text-5xl"><span
+                                        class="success-number">$59,800</span></span>
                             </li>
                             <li class="px-4 font-semibold text-lg flex flex-col justify-center items-center mb-6">
                                 <span class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-24">ARV</span>
-                                <span class="text-bigWaves-700 font-display text-5xl">$435,000</span>
+                                <span class="text-bigWaves-700 font-display text-5xl"><span
+                                        class="success-number">$435,000</span></span>
                             </li>
                             <li
                                 class="pl-0 py-4 mb-0 text-2xl font-semibold font-display text-quicksilver-400 border-t border-quicksilver-100 bg-quicksilver-50">
@@ -88,7 +94,7 @@ opacity-50 sm:h-full top-0 translate-x-1/3 lg:translate-x-2/3',
                 </figcaption>
             </figure>
 
-            <figure class="pt-0 w-full sm:w-1/2 xl:w-1/3">
+            <figure class="success-story pt-0 w-full sm:w-1/2 xl:w-1/3">
                 <div class="mx-4 rounded-lg shadow-xl bg-quicksilver-25 overflow-hidden">
                     <div class="aspect-w-3 aspect-h-2 -mt-8">
                         <img src="/wp-content/themes/btc/public/images/success-stories-03.jpg" class="object-cover"
@@ -103,15 +109,18 @@ opacity-50 sm:h-full top-0 translate-x-1/3 lg:translate-x-2/3',
                             <li class="px-4 font-semibold text-lg flex flex-col justify-center items-center mb-6">
                                 <span
                                     class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-32">Purchased</span>
-                                <span class="text-bigWaves-700 font-display text-5xl">$228,000</span>
+                                <span class="text-bigWaves-700 font-display text-5xl"><span
+                                        class="success-number">$228,000</span></span>
                             </li>
                             <li class="px-4 font-semibold text-lg flex flex-col justify-center items-center  mb-6">
                                 <span class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-24">Rehab</span>
-                                <span class="text-bigWaves-700 font-display text-5xl">$140,000</span>
+                                <span class="text-bigWaves-700 font-display text-5xl"><span
+                                        class="success-number">$140,000</span></span>
                             </li>
                             <li class="px-4 font-semibold text-lg flex flex-col justify-center items-center mb-6">
                                 <span class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-24">ARV</span>
-                                <span class="text-bigWaves-700 font-display text-5xl">$485,000</span>
+                                <span class="text-bigWaves-700 font-display text-5xl"><span
+                                        class="success-number">$485,000</span></span>
                             </li>
                             <li
                                 class="pl-0 py-4 mb-0 text-2xl font-semibold font-display text-quicksilver-400 border-t border-quicksilver-100 bg-quicksilver-50">

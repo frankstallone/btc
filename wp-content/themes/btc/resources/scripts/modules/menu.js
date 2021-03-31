@@ -6,7 +6,6 @@ export const menu = {
     const mobileNavButtonOpen = document.querySelector(
       '.mobile-nav-button--open'
     );
-    const mobileNavContainer = document.querySelector('.mobile-nav--closed');
     const mobileNavButtonClose = document.querySelector(
       '.mobile-nav-button--close'
     );
@@ -19,6 +18,7 @@ export const menu = {
         targets: '.mobile-nav-button--open svg',
         easing: 'easeInOutCirc',
         scale: [0.75, 1.25, 1],
+        duration: 400,
         rotate: [180, 0],
         complete: function () {
           openHamburger();
@@ -31,6 +31,7 @@ export const menu = {
         targets: '.mobile-nav-button--close svg',
         easing: 'easeInOutCirc',
         scale: [0.75, 1.25, 1],
+        duration: 400,
         rotate: [180, 0],
         complete: function () {
           openHamburger();
@@ -39,12 +40,28 @@ export const menu = {
     }
 
     function openHamburger() {
+      const mobileNavContainer = document.querySelector('.mobile-navigation');
+
       if (mobileNavContainer.classList.contains('mobile-nav--closed')) {
         mobileNavContainer.classList.remove('mobile-nav--closed', 'hidden');
         mobileNavContainer.classList.add('mobile-nav--open', 'flex');
+        anime.timeline().add({
+          targets: mobileNavContainer,
+          easing: 'easeInOutCirc',
+          opacity: [0, 1],
+          duration: 400,
+        });
       } else {
-        mobileNavContainer.classList.add('mobile-nav--closed', 'hidden');
-        mobileNavContainer.classList.remove('mobile-nav--open', 'flex');
+        anime.timeline().add({
+          targets: mobileNavContainer,
+          easing: 'easeInOutCirc',
+          opacity: [1, 0],
+          duration: 400,
+          complete: function () {
+            mobileNavContainer.classList.add('mobile-nav--closed', 'hidden');
+            mobileNavContainer.classList.remove('mobile-nav--open', 'flex');
+          },
+        });
       }
     }
 
