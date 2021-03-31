@@ -4,7 +4,7 @@
 opacity-50 md:h-screen md:-translate-x-1/2',
 ); ?>
 <div
-    class="flex quick-contact bg-gradient-to-bl from-quicksilver-800 to-quicksilver-900 py-24 px-4 min-h-80 relative overflow-hidden">
+    class="css-content-visibility flex quick-contact bg-gradient-to-bl from-quicksilver-800 to-quicksilver-900 py-24 px-4 min-h-80 relative overflow-hidden">
     <?php echo $btcQuick; ?>
     <div class="flex flex-col justify-center max-w-lg md:max-w-prose lg:max-w-7xl mx-auto w-full z-10">
         <div class="mx-auto lg:grid lg:grid-cols-2 lg:grid-rows-2 lg:gap-12">

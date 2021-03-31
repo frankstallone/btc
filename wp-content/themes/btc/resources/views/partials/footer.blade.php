@@ -1,4 +1,4 @@
-<footer class="content-info bg-quicksilver-900 text-quicksilver-50 py-24 px-12">
+<footer class="css-content-visibility content-info bg-quicksilver-900 text-quicksilver-50 py-24 px-12">
     <div class="mx-auto grid grid-cols-1 grid-rows-3 gap-2 m-12 md:grid-cols-3 md:grid-rows-1 md:max-w-6xl">
         <div class="text-center sm:text-left">
             <h2 class="text-lg text-quicksilver-200">Navigation</h2>

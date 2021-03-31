@@ -69,7 +69,7 @@ opacity-50 sm:h-screen sm:top-0 sm:-translate-x-1/4',
     </div>
     {{-- Section --}}
     <div
-        class="flex bg-gradient-to-br from-bigWaves-900 to-bigWaves-700 min-h-80 py-24 px-4 relative overflow-hidden text-bigWaves-100">
+        class="css-content-visibility flex bg-gradient-to-br from-bigWaves-900 to-bigWaves-700 min-h-80 py-24 px-4 relative overflow-hidden text-bigWaves-100">
         <?php echo $map; ?>
         <div class="flex flex-col justify-center items-center max-w-7xl mx-auto relative z-10">
             <div class="w-full">
@@ -103,7 +103,7 @@ opacity-50 sm:h-screen sm:top-0 sm:-translate-x-1/4',
     </div>
     {{-- Section --}}
     <div
-        class="flex bg-gradient-to-br from-bigWaves-700 to-bigWaves-900 min-h-80 text-quicksilver-25 py-24 px-4 relative overflow-hidden text-bigWaves-100">
+        class="css-content-visibility flex bg-gradient-to-br from-bigWaves-700 to-bigWaves-900 min-h-80 text-quicksilver-25 py-24 px-4 relative overflow-hidden text-bigWaves-100">
         <?php echo $magnifying; ?>
         <div class="flex flex-col justify-center lg:max-w-7xl mx-auto w-full z-10">
             <div class="lg:max-w-7xl sm:px-0 relative">

@@ -9,7 +9,7 @@
 opacity-30 md:h-screen md:-translate-x-1/2',
 ); ?>
 <div
-    class="bg-gradient-to-bl from-quicksilver-600 to-quicksilver-700 text-quicksilver-100 py-24 min-h-80 flex flex-col justify-center relative overflow-hidden">
+    class="css-content-visibility bg-gradient-to-bl from-quicksilver-600 to-quicksilver-700 text-quicksilver-100 py-24 min-h-80 flex flex-col justify-center relative overflow-hidden">
     <?php echo $btcMark; ?>
     <div class="flex flex-col justify-center lg:max-w-7xl mx-auto w-full z-10">
         <div class="text-center px-4">

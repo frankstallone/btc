@@ -11,3 +11,11 @@
     @apply font-semibold;
   }
 }
+
+// https://web.dev/content-visibility/
+.css-content-visibility {
+  // CSS version of lazy-loading/defering
+  content-visibility: auto;
+  // All would be 0 height if we do not set intrinsic size
+  contain-intrinsic-size: 1px 1000px;
+}

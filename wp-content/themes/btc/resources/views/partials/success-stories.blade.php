@@ -5,7 +5,7 @@
 opacity-50 sm:h-full top-0 translate-x-1/3 lg:translate-x-2/3',
 ); ?>
 <div
-    class="success-stories flex bg-gradient-to-br from-quicksilver-500 to-quicksilver-600 text-quicksilver-25 py-24 px-4 min-h-80 relative overflow-hidden">
+    class="css-content-visibility success-stories flex bg-gradient-to-br from-quicksilver-500 to-quicksilver-600 text-quicksilver-25 py-24 px-4 min-h-80 relative overflow-hidden">
     <?php echo $btcSuccess; ?>
     <div class="flex flex-col justify-center lg:max-w-7xl mx-auto w-full z-10">
         <div class="lg:max-w-7xl sm:px-0 relative text-center">
