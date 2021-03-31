@@ -49,7 +49,7 @@ export const success = {
           },
           easing: 'easeInOutSine',
           round: 1,
-          duration: 3000,
+          duration: 1000,
         });
       });
     }

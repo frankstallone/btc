@@ -1,5 +1,4 @@
 module.exports = {
-  important: true,
   purge: {
     content: ['./app/**/*.php', './resources/**/*.php', './resources/**/*.js'],
   },

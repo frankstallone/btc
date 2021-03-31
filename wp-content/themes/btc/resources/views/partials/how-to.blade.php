@@ -23,7 +23,7 @@ opacity-30 md:h-screen md:-translate-x-1/2',
                 <div
                     class="bg-alpenglow-900 bg-opacity-20 p-8 mt-12 mr-4 ml-4 rounded-lg xl:p-0 xl:bg-none xl:bg-opacity-0 relative">
                     <div
-                        class="text-bigWaves-50 rounded-xl px-3 py-3 bg-alpenglow-900 bg-opacity-40 inline-block absolute -top-7 transform-gpu translate-x-1/2 right-1/2 shadow-xl xl:static xl:translate-x-0 xl:shadow-none">
+                        class="how-to-steps text-bigWaves-50 rounded-xl px-3 py-3 bg-alpenglow-900 bg-opacity-40 inline-block absolute -top-7 transform-gpu translate-x-1/2 right-1/2 shadow-xl xl:static xl:translate-x-0 xl:shadow-none">
                         <?php echo $circle1; ?>
                     </div>
                     <h3 class="text-2xl text-goldRush-50 my-2">Get Started</h3>
@@ -41,7 +41,7 @@ opacity-30 md:h-screen md:-translate-x-1/2',
                 <div
                     class="bg-alpenglow-900 bg-opacity-20 p-8 mt-12 mr-4 ml-4 rounded-lg xl:p-0 xl:bg-none xl:bg-opacity-0 relative">
                     <div
-                        class="text-bigWaves-50 rounded-xl px-3 py-3 bg-alpenglow-900 bg-opacity-40 inline-block absolute -top-7 transform-gpu translate-x-1/2 right-1/2 shadow-xl xl:static xl:translate-x-0 xl:shadow-none">
+                        class="how-to-steps text-bigWaves-50 rounded-xl px-3 py-3 bg-alpenglow-900 bg-opacity-40 inline-block absolute -top-7 transform-gpu translate-x-1/2 right-1/2 shadow-xl xl:static xl:translate-x-0 xl:shadow-none">
                         <?php echo $circle2; ?>
                     </div>
                     <h3 class="text-2xl text-goldRush-50 my-2">Pre-qualify</h3>
@@ -53,7 +53,7 @@ opacity-30 md:h-screen md:-translate-x-1/2',
                 <div
                     class="bg-alpenglow-900 bg-opacity-20 p-8 mt-12 mr-4 ml-4 rounded-lg xl:p-0 xl:bg-none xl:bg-opacity-0 relative">
                     <div
-                        class="text-bigWaves-50 rounded-xl px-3 py-3 bg-alpenglow-900 bg-opacity-40 inline-block absolute -top-7 transform-gpu translate-x-1/2 right-1/2 shadow-xl xl:static xl:translate-x-0 xl:shadow-none">
+                        class="how-to-steps text-bigWaves-50 rounded-xl px-3 py-3 bg-alpenglow-900 bg-opacity-40 inline-block absolute -top-7 transform-gpu translate-x-1/2 right-1/2 shadow-xl xl:static xl:translate-x-0 xl:shadow-none">
                         <?php echo $circle3; ?>
                     </div>
                     <h3 class="text-2xl text-goldRush-50 my-2">Proof of Funds</h3>
@@ -64,7 +64,7 @@ opacity-30 md:h-screen md:-translate-x-1/2',
                 <div
                     class="bg-alpenglow-900 bg-opacity-20 p-8 mt-12 mr-4 ml-4 rounded-lg xl:p-0 xl:bg-none xl:bg-opacity-0 relative">
                     <div
-                        class="text-bigWaves-50 rounded-xl px-3 py-3 bg-alpenglow-900 bg-opacity-40 inline-block absolute -top-7 transform-gpu translate-x-1/2 right-1/2 shadow-xl xl:static xl:translate-x-0 xl:shadow-none">
+                        class="how-to-steps text-bigWaves-50 rounded-xl px-3 py-3 bg-alpenglow-900 bg-opacity-40 inline-block absolute -top-7 transform-gpu translate-x-1/2 right-1/2 shadow-xl xl:static xl:translate-x-0 xl:shadow-none">
                         <?php echo $circle4; ?>
                     </div>
                     <h3 class="text-2xl text-goldRush-50 my-2">Loan Processing</h3>
@@ -79,7 +79,7 @@ opacity-30 md:h-screen md:-translate-x-1/2',
                 <div
                     class="bg-alpenglow-900 bg-opacity-20 p-8 mt-12 mr-4 ml-4 rounded-lg xl:p-0 xl:bg-none xl:bg-opacity-0 relative">
                     <div
-                        class="text-bigWaves-50 rounded-xl px-3 py-3 bg-alpenglow-900 bg-opacity-40 inline-block absolute -top-7 transform-gpu translate-x-1/2 right-1/2 shadow-xl xl:static xl:translate-x-0 xl:shadow-none">
+                        class="how-to-steps text-bigWaves-50 rounded-xl px-3 py-3 bg-alpenglow-900 bg-opacity-40 inline-block absolute -top-7 transform-gpu translate-x-1/2 right-1/2 shadow-xl xl:static xl:translate-x-0 xl:shadow-none">
                         <?php echo $circle5; ?>
                     </div>
                     <h3 class="text-2xl text-goldRush-50 my-2">Get Funded Now</h3>
