@@ -19,7 +19,7 @@ export const menu = {
         easing: 'easeInOutCirc',
         scale: [0.75, 1.25, 1],
         duration: 500,
-        rotate: [180, 0],
+        rotate: [0, 180],
         complete: () => {
           openHamburger();
         },
@@ -32,7 +32,7 @@ export const menu = {
         easing: 'easeInOutCirc',
         scale: [0.75, 1.25, 1],
         duration: 500,
-        rotate: [180, 0],
+        rotate: [0, 180],
         complete: () => {
           openHamburger();
         },
@@ -47,7 +47,7 @@ export const menu = {
           targets: mobileNavContainer,
           easing: 'easeInOutCirc',
           opacity: [0, 1],
-          duration: 500,
+          duration: 250,
           begin: () => {
             mobileNavContainer.classList.remove('mobile-nav--closed', 'hidden');
             mobileNavContainer.classList.add('mobile-nav--open', 'flex');
@@ -58,7 +58,7 @@ export const menu = {
           targets: mobileNavContainer,
           easing: 'easeInOutCirc',
           opacity: [1, 0],
-          duration: 500,
+          duration: 250,
           complete: () => {
             mobileNavContainer.classList.add('mobile-nav--closed', 'hidden');
             mobileNavContainer.classList.remove('mobile-nav--open', 'flex');
