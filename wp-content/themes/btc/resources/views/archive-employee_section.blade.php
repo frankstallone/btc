@@ -35,8 +35,9 @@ $teamQuery = new WP_Query([
 @section('content')
     @include('partials.page-header-about')
     <div class="bg-gradient-to-br from-bigWaves-100 to-bigWaves-200 py-12 px-4">
-        <div class="mx-auto sm:w-full sm:max-w-3xl md:grid md:grid-cols-2 md:gap-8 first-line">
-            <p class="text-xl text-bigWaves-800 mt-0">Builders Trust Capital is a Private Real Estate Lender. We provide
+        <div class="mx-auto sm:w-full sm:max-w-3xl md:grid md:grid-cols-3 md:gap-8 first-line">
+            <p class="text-xl text-bigWaves-800 mt-0 md:col-span-2">Builders Trust Capital is a Private Real Estate Lender.
+                We provide
                 loans to developers and builders of
                 single family, multi-family, and mixed-use properties. As a portfolio lender, the loans are underwritten
                 and funded in-house.</p>
@@ -46,7 +47,7 @@ $teamQuery = new WP_Query([
     </div>
     <div class="bg-quicksilver-25 px-6 py-12 sm:px-8">
         <div class="mx-auto grid grid-cols-1 sm:max-w-xl xl:gap-8 xl:max-w-6xl xl:grid-cols-3">
-            <div>
+            <div class="xl:col-span-2">
                 <h2>We’re focused on building long-term relationships with our clients</h2>
                 <ul>
                     <li>Complete in-house lending – no second reviews slowing the process or changing the outcome</li>
@@ -76,7 +77,7 @@ $teamQuery = new WP_Query([
                         Loans</a>.</p>
             </div>
 
-            <div>
+            <div class="xl:col-span-2">
                 <h2>The Journey to Builders Trust Capital</h2>
                 <p>In August 2021, the Managing Partners of Ashmore Capital LLC, Peter Christiansen and Anthony Susco,
                     collaborated with a long-time lending industry veteran, Jeremiah O’Brien, to establish a new entity with

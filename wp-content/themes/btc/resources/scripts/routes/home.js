@@ -22,7 +22,7 @@ export default {
       translateX: ['-50%', '-60%'],
       direction: 'alternate',
       easing: 'linear',
-      duration: 4000,
+      duration: 15000,
       loop: true,
     });
   },
