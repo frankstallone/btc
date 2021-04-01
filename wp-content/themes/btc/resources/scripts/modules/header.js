@@ -5,9 +5,8 @@ export const header = {
     // scripts here run on the DOM load event
     const logo = document.querySelector('.brand');
     const mainNavigation = document.querySelector('#menu-primary').children;
-    const mobileNavigation = document.querySelector('.mobile-navigation .nav')
-      .children;
-    const items = Array.from([logo, mainNavigation, mobileNavigation]);
+    const items = Array.from([logo, mainNavigation]);
+
     anime({
       targets: items,
       translateY: [-100, 0],

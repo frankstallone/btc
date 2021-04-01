@@ -18,9 +18,9 @@ export const menu = {
         targets: '.mobile-nav-button--open svg',
         easing: 'easeInOutCirc',
         scale: [0.75, 1.25, 1],
-        duration: 400,
+        duration: 500,
         rotate: [180, 0],
-        complete: function () {
+        complete: () => {
           openHamburger();
         },
       });
@@ -31,9 +31,9 @@ export const menu = {
         targets: '.mobile-nav-button--close svg',
         easing: 'easeInOutCirc',
         scale: [0.75, 1.25, 1],
-        duration: 400,
+        duration: 500,
         rotate: [180, 0],
-        complete: function () {
+        complete: () => {
           openHamburger();
         },
       });
@@ -43,21 +43,23 @@ export const menu = {
       const mobileNavContainer = document.querySelector('.mobile-navigation');
 
       if (mobileNavContainer.classList.contains('mobile-nav--closed')) {
-        mobileNavContainer.classList.remove('mobile-nav--closed', 'hidden');
-        mobileNavContainer.classList.add('mobile-nav--open', 'flex');
         anime({
           targets: mobileNavContainer,
           easing: 'easeInOutCirc',
           opacity: [0, 1],
-          duration: 400,
+          duration: 500,
+          begin: () => {
+            mobileNavContainer.classList.remove('mobile-nav--closed', 'hidden');
+            mobileNavContainer.classList.add('mobile-nav--open', 'flex');
+          },
         });
       } else {
         anime({
           targets: mobileNavContainer,
           easing: 'easeInOutCirc',
           opacity: [1, 0],
-          duration: 400,
-          complete: function () {
+          duration: 500,
+          complete: () => {
             mobileNavContainer.classList.add('mobile-nav--closed', 'hidden');
             mobileNavContainer.classList.remove('mobile-nav--open', 'flex');
           },
@@ -103,7 +105,7 @@ export const menu = {
           translateY: [20, 0],
           opacity: [0, 1],
           duration: 500,
-          begin: function () {
+          begin: () => {
             showThisMenu.style.display = 'grid';
           },
         });
@@ -115,7 +117,7 @@ export const menu = {
           translateY: [0, 20],
           opacity: [1, 0],
           duration: 500,
-          complete: function () {
+          complete: () => {
             showThisMenu.style.display = 'none';
           },
         });
