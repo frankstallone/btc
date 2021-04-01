@@ -1,6 +1,6 @@
 <?php $btcHome = get_svg(
 'svg.btc-pattern-3',
-'hidden sm:block absolute text-bigWaves-700 fill-current z-0 transform-gpu origin-center
+'btc-pattern-hero hidden sm:block absolute text-bigWaves-700 fill-current z-0 transform-gpu origin-center
 opacity-50 sm:h-full sm:top-0 sm:-translate-x-1/2',
 ); ?>
 <?php $map = get_svg(

@@ -37,7 +37,7 @@ export const success = {
           progress: '0',
         };
 
-        anime.timeline().add({
+        anime({
           targets: updatedNumber,
           progress: function () {
             // Remove "$" and "," from string
