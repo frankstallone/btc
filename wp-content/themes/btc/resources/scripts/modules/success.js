@@ -39,12 +39,12 @@ export const success = {
 
         anime({
           targets: updatedNumber,
-          progress: function () {
+          progress: () => {
             // Remove "$" and "," from string
             const cleanNumber = story.innerHTML.slice(1).replace(',', '');
             return cleanNumber;
           },
-          update: function () {
+          update: () => {
             story.innerHTML = formatter.format(updatedNumber.progress);
           },
           easing: 'easeInOutSine',

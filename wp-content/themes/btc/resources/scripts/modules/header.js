@@ -3,9 +3,14 @@ import anime from 'animejs/lib/anime.es.js';
 export const header = {
   init: function () {
     // scripts here run on the DOM load event
+
+    // Pop in all navigation items on page load
     const logo = document.querySelector('.brand');
+    const mobileNavOpenIcon = document.querySelector(
+      '.mobile-nav-button--open'
+    );
     const mainNavigation = document.querySelector('#menu-primary').children;
-    const items = Array.from([logo, mainNavigation]);
+    const items = Array.from([logo, mobileNavOpenIcon, mainNavigation]);
 
     anime({
       targets: items,
