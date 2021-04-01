@@ -1,4 +1,5 @@
 import { menu } from '../modules/menu';
+import { header } from '../modules/header';
 import { how } from '../modules/how';
 import { success } from '../modules/success';
 
@@ -8,6 +9,8 @@ export default {
 
     // Load drop down menu & mobile menu
     menu.init();
+    // Load header anmiation
+    header.init();
     // Load How-to section anmiation
     how.init();
     // Load success stories sectionanimation

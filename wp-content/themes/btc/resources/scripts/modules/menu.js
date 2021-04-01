@@ -14,7 +14,7 @@ export const menu = {
     mobileNavButtonClose.addEventListener('click', animateHamburgerOut);
 
     function animateHamburgerIn() {
-      anime.timeline().add({
+      anime({
         targets: '.mobile-nav-button--open svg',
         easing: 'easeInOutCirc',
         scale: [0.75, 1.25, 1],
@@ -27,7 +27,7 @@ export const menu = {
     }
 
     function animateHamburgerOut() {
-      anime.timeline().add({
+      anime({
         targets: '.mobile-nav-button--close svg',
         easing: 'easeInOutCirc',
         scale: [0.75, 1.25, 1],
@@ -45,14 +45,14 @@ export const menu = {
       if (mobileNavContainer.classList.contains('mobile-nav--closed')) {
         mobileNavContainer.classList.remove('mobile-nav--closed', 'hidden');
         mobileNavContainer.classList.add('mobile-nav--open', 'flex');
-        anime.timeline().add({
+        anime({
           targets: mobileNavContainer,
           easing: 'easeInOutCirc',
           opacity: [0, 1],
           duration: 400,
         });
       } else {
-        anime.timeline().add({
+        anime({
           targets: mobileNavContainer,
           easing: 'easeInOutCirc',
           opacity: [1, 0],
@@ -97,24 +97,26 @@ export const menu = {
         showThisMenu.getAttribute('aria-expanded') === 'false'
       ) {
         showThisMenu.setAttribute('aria-expanded', 'true');
-        anime.timeline().add({
+        anime({
           targets: showThisMenu,
           easing: 'easeInOutCirc',
           translateY: [20, 0],
           opacity: [0, 1],
+          duration: 500,
           begin: function () {
-            showThisMenu.classList.toggle('grid');
+            showThisMenu.style.display = 'grid';
           },
         });
       } else if (showThisMenu.getAttribute('aria-expanded') === 'true') {
         showThisMenu.setAttribute('aria-expanded', 'false');
-        anime.timeline().add({
+        anime({
           targets: showThisMenu,
           easing: 'easeInOutCirc',
           translateY: [0, 20],
           opacity: [1, 0],
+          duration: 500,
           complete: function () {
-            showThisMenu.classList.toggle('grid');
+            showThisMenu.style.display = 'none';
           },
         });
       }
