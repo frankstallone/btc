@@ -23,7 +23,7 @@
         </div>
     </div>
     <div
-        class="rehab-pricing-table -mb-96 bg-none sm:block sm:bg-gradient-to-tl sm:from-bigWaves-800 sm:to-bigWaves-600 w-full relative">
+        class="rehab-pricing-table sm:-mb-96 bg-none sm:block sm:bg-gradient-to-tl sm:from-bigWaves-800 sm:to-bigWaves-600 w-full relative">
         <?php
         $btcPattern = get_svg(
         'svg.btc-pattern-3',

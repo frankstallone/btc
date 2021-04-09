@@ -35,7 +35,7 @@
         </div>
     </div>
     <div
-        class="rehab-pricing-table -mb-96 bg-none sm:block sm:bg-gradient-to-tl sm:from-bigWaves-800 sm:to-bigWaves-600 w-full relative">
+        class="rehab-pricing-table sm:-mb-96 bg-none sm:block sm:bg-gradient-to-tl sm:from-bigWaves-800 sm:to-bigWaves-600 w-full relative">
         <?php
         $btcPattern = get_svg(
         'svg.btc-pattern-3',
@@ -48,7 +48,7 @@
             <h2 class="text-left m-0 sm:px-0 sm:text-center sm:text-5xl sm:text-bigWaves-50">Renovation Loan Program</h2>
         </div>
     </div>
-    <div class="mx-auto flex sm:max-w-3xl justify-center py-8 px-4 relative z-10">
+    <div class="mx-auto flex sm:max-w-3xl justify-center my-8 px-4 relative z-10">
         <div
             class="rounded-lg overflow-hidden bg-white sm:bg-quicksilver-25 border-4 border-bigWaves-300 shadow sm:shadow-lg hover:shadow-xl transition delay-150 duration-300">
             <figure class="mt-8 mr-8 mb-0 ml-8">

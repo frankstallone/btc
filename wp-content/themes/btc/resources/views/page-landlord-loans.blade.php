@@ -24,7 +24,7 @@
     </div>
 
     <div
-        class="landlord-pricing-table -mb-72 bg-none sm:block sm:bg-gradient-to-tl sm:from-bigWaves-800 sm:to-bigWaves-600 w-full relative">
+        class="landlord-pricing-table sm:-mb-72 bg-none sm:block sm:bg-gradient-to-tl sm:from-bigWaves-800 sm:to-bigWaves-600 w-full relative">
         <?php
         $btcPattern = get_svg(
         'svg.btc-pattern-3',
