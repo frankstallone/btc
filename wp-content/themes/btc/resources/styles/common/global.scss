@@ -19,3 +19,17 @@
   // All would be 0 height if we do not set intrinsic size
   contain-intrinsic-size: 1px 1000px;
 }
+
+.custom-underline {
+  &::after {
+    content: '';
+    // width: 110%;
+    z-index: -1;
+    @apply -left-1 -bottom-1 w-2/3 h-1 absolute bg-alpenglow-900 bg-opacity-75 transform-gpu skew-x-12;
+  }
+  @media (min-width: 640px) {
+    &::after {
+      @apply hidden;
+    }
+  }
+}

@@ -50,6 +50,9 @@ export const success = {
           easing: 'easeInOutSine',
           round: 1,
           duration: 1000,
+          begin: () => {
+            console.log('ran');
+          },
         });
       });
     }
