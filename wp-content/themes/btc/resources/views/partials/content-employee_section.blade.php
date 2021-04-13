@@ -2,9 +2,9 @@
         <header class="overflow-hidden">
             <a href="@permalink">
                 @php(the_post_thumbnail('post-thumbnail', ['loading' => false, 'class' => 'my-0 object-cover']))
-                    @if (!has_post_thumbnail())
+                    {{-- @if (!has_post_thumbnail())
                         <img src="http://placekitten.com/400/500" alt="" class="my-0 object-cover">
-                    @endif
+                    @endif --}}
                 </a>
 
                 <h2 class="entry-title px-6 mt-6 mb-0">
