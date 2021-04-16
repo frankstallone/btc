@@ -25,7 +25,8 @@ opacity-50 sm:h-screen sm:top-0 sm:-translate-x-1/4',
                 <source class="w-full h-full object-cover my-0" width="1000px" height="556px"
                     srcset="/wp-content/themes/btc/public/images/test-photo.webp" type="image/webp" />
                 <img class="w-full h-full object-cover my-0" width="1000px" height="556px"
-                    src="/wp-content/themes/btc/public/images/test-photo.jpg" />
+                    src="/wp-content/themes/btc/public/images/test-photo.jpg"
+                    alt="Photograph: 3d render of living room in construction process with layered scheme of walls and floor 3d illustration" />
             </picture>
             <div class="absolute inset-0 bg-gradient-to-br from-bigWaves-900 to-bigWaves-700"
                 style="mix-blend-mode: multiply" aria-hidden="true"></div>
