@@ -23,8 +23,8 @@ opacity-50 sm:h-screen sm:top-0 sm:-translate-x-1/4',
             {{-- <img class="w-full h-full object-cover my-0" src="/wp-content/themes/btc/public/images/test-photo.jpg" alt="" /> --}}
             <picture>
                 <source class="w-full h-full object-cover my-0"
-                    srcset="/wp-content/themes/btc/public/images/test-photo.webp" />
-                <img class="w-full h-full object-cover my-0" src="/wp-content/themes/btc/public/images/test-photo.jpg" />
+                    srcset="/wp-content/themes/btc/public/images/test-photo.webp" type="image/webp" />
+                <img class="w-full h-full object-cover my-0" src="/wp-content/themes/btc/public/images/test-photo.jpg" type="image/jpeg" />
             </picture>
             <div class="absolute inset-0 bg-gradient-to-br from-bigWaves-900 to-bigWaves-700"
                 style="mix-blend-mode: multiply" aria-hidden="true"></div>
