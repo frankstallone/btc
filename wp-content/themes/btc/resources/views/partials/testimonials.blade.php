@@ -19,7 +19,7 @@ opacity-50 sm:h-full top-0 translate-x-1/3 lg:translate-x-2/3',
                 <div
                     class="transform-gpu translate-x-1/2 absolute -top-24 right-1/2 bg-quicksilver-25 p-2 rounded-full w-32 h-32 border border-quicksilver-100 shadow-md">
                     <img src="/wp-content/themes/btc/public/images/avatar-01.jpeg"
-                        class="object-cover rounded-full my-0 border border-quicksilver-100"
+                        class="object-cover rounded-full my-0 border border-quicksilver-100 w-auto h-auto"
                         alt="Photo of Raphael Akinsete">
                 </div>
                 <blockquote class="border-none px-8 mt-2">
@@ -56,7 +56,7 @@ opacity-50 sm:h-full top-0 translate-x-1/3 lg:translate-x-2/3',
                 <div
                     class="transform-gpu translate-x-1/2 absolute -top-24 right-1/2 bg-quicksilver-25 p-2 rounded-full w-32 h-32 border border-quicksilver-100 shadow-md">
                     <img src="/wp-content/themes/btc/public/images/avatar-02.jpeg"
-                        class="object-cover rounded-full my-0 border border-quicksilver-100"
+                        class="object-cover rounded-full my-0 border border-quicksilver-100 w-auto h-auto"
                         alt="Photo of Raphael Akinsete">
                 </div>
                 <blockquote class="border-none px-8 mt-2">
@@ -89,7 +89,7 @@ opacity-50 sm:h-full top-0 translate-x-1/3 lg:translate-x-2/3',
                 <div
                     class="transform-gpu translate-x-1/2 absolute -top-24 right-1/2 bg-quicksilver-25 p-2 rounded-full w-32 h-32 border border-quicksilver-100 shadow-md">
                     <img src="/wp-content/themes/btc/public/images/avatar-03.jpeg"
-                        class="object-cover rounded-full my-0 border border-quicksilver-100"
+                        class="object-cover rounded-full my-0 border border-quicksilver-100 w-auto h-auto"
                         alt="Photo of Raphael Akinsete">
                 </div>
                 <blockquote class="border-none px-8 mt-2">
@@ -120,7 +120,7 @@ opacity-50 sm:h-full top-0 translate-x-1/3 lg:translate-x-2/3',
                 <div
                     class="transform-gpu translate-x-1/2 absolute -top-24 right-1/2 bg-quicksilver-25 p-2 rounded-full w-32 h-32 border border-quicksilver-100 shadow-md">
                     <img src="/wp-content/themes/btc/public/images/avatar-04.jpeg"
-                        class="object-cover rounded-full my-0 border border-quicksilver-100"
+                        class="object-cover rounded-full my-0 border border-quicksilver-100 w-auto h-auto"
                         alt="Photo of Raphael Akinsete">
                 </div>
                 <blockquote class="border-none px-8 mt-2">
