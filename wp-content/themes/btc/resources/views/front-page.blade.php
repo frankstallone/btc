@@ -16,9 +16,14 @@ opacity-50 sm:h-screen sm:top-0 sm:-translate-x-1/4',
 @extends('layouts.app')
 
 @section('content')
-    <div
-        class="flex bg-gradient-to-br from-bigWaves-700 to-bigWaves-900 min-h-screen py-24 px-4 relative overflow-hidden text-quicksilver-25">
-        <?php echo $btcHome; ?>
+    <div class="flex min-h-screen py-24 px-4 relative overflow-hidden text-quicksilver-25">
+        {{-- Testing this photo from Adobe Stock series: https://stock.adobe.com/images/3d-render-of-living-room-in-construction-process-with-layered-scheme-of-walls-and-floor-3d-illustration/419835994 --}}
+        {{-- More @ https://stock.adobe.com/search?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3A3d%5D=1&filters%5Binclude_stock_enterprise%5D=0&filters%5Bis_editorial%5D=0&filters%5Bfree_collection%5D=0&order=relevance&serie_id=419835859 --}}
+        <div class="absolute inset-0">
+            <img class="w-full h-full object-cover my-0" src="/wp-content/themes/btc/public/images/test-photo.jpg" alt="" />
+            <div class="absolute inset-0 bg-gradient-to-br from-bigWaves-900 to-bigWaves-700"
+                style="mix-blend-mode: multiply" aria-hidden="true"></div>
+        </div>
         <div class="flex flex-col justify-center items-center max-w-7xl mx-auto w-full relative z-10">
             <div>
                 <h1 class="hero text-5xl leading-tight text-goldRush-100 sm:leading-snug sm:text-7xl font-extrabold">
@@ -103,7 +108,7 @@ opacity-50 sm:h-screen sm:top-0 sm:-translate-x-1/4',
     </div>
     {{-- Section --}}
     <div
-        class="css-content-visibility flex bg-gradient-to-br from-bigWaves-700 to-bigWaves-900 min-h-80 text-quicksilver-25 py-24 px-4 relative overflow-hidden text-bigWaves-100">
+        class="css-content-visibility flex bg-gradient-to-br from-bigWaves-700 to-bigWaves-900 min-h-80 py-24 px-4 relative overflow-hidden text-bigWaves-100">
         <?php echo $magnifying; ?>
         <div class="flex flex-col justify-center lg:max-w-7xl mx-auto w-full z-10">
             <div class="lg:max-w-7xl sm:px-0 relative">
