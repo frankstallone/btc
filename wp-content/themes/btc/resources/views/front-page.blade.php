@@ -21,6 +21,11 @@ opacity-50 sm:h-screen sm:top-0 sm:-translate-x-1/4',
         {{-- More @ https://stock.adobe.com/search?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3A3d%5D=1&filters%5Binclude_stock_enterprise%5D=0&filters%5Bis_editorial%5D=0&filters%5Bfree_collection%5D=0&order=relevance&serie_id=419835859 --}}
         <div class="absolute inset-0">
             {{-- <img class="w-full h-full object-cover my-0" src="/wp-content/themes/btc/public/images/test-photo.jpg" alt="" /> --}}
+            <picture>
+                <source class="w-full h-full object-cover my-0"
+                    srcset="/wp-content/themes/btc/public/images/test-photo.webp" />
+                <img class="w-full h-full object-cover my-0" src="/wp-content/themes/btc/public/images/test-photo.jpg" />
+            </picture>
             <div class="absolute inset-0 bg-gradient-to-br from-bigWaves-900 to-bigWaves-700"
                 style="mix-blend-mode: multiply" aria-hidden="true"></div>
         </div>
