@@ -24,6 +24,8 @@ opacity-50 sm:h-screen sm:top-0 sm:-translate-x-1/4',
             <picture>
                 <source class="w-full h-full object-cover my-0"
                     srcset="/wp-content/themes/btc/public/images/test-photo.webp" />
+                <source class="w-full h-full object-cover my-0"
+                    srcset="/wp-content/themes/btc/public/images/test-photo.jpg" />
                 <img class="w-full h-full object-cover my-0" src="/wp-content/themes/btc/public/images/test-photo.jpg" />
             </picture>
             <div class="absolute inset-0 bg-gradient-to-br from-bigWaves-900 to-bigWaves-700"
