@@ -3,7 +3,7 @@
 @section('content')
     <div class="bg-gradient-to-br from-goldRush-50 to-goldRush-100 py-12 px-4">
         <div class="mx-auto sm:w-full sm:max-w-3xl md:px-0 first-line">
-            <h2 class="text-goldRush-700 mt-0 text-3xl">Rehab Loan Program</h2>
+            <h2 class="text-goldRush-700 mt-0 text-3xl">Rehab Loan Programs</h2>
             <p class="text-xl text-goldRush-900 mb-0">Ideal for
                 investors looking
                 to purchase a property,
@@ -36,16 +36,29 @@
     </div>
     <div
         class="rehab-pricing-table sm:-mb-96 bg-none sm:block sm:bg-gradient-to-tl sm:from-bigWaves-800 sm:to-bigWaves-600 w-full relative">
-        <?php
-        $btcPattern = get_svg(
-        'svg.btc-pattern-3',
-        'hidden sm:block absolute text-bigWaves-700 fill-current z-0 transform-gpu origin-center
-        opacity-50 sm:h-full sm:top-0 sm:-translate-x-1/4',
-        );
-        echo $btcPattern;
-        ?>
+        <div class="hidden sm:block absolute inset-0">
+            <picture>
+                <img class="w-full h-full object-cover my-0" width="3072px" height="1709px"
+                    sizes="(max-width: 3072px) 100vw, 3072px" srcset="
+                          /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_640.jpg   640w,
+                          /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_1229.jpg 1229w,
+                          /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_1566.jpg 1566w,
+                          /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_1884.jpg 1884w,
+                          /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2163.jpg 2163w,
+                          /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2355.jpg 2355w,
+                          /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2668.jpg 2668w,
+                          /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2964.jpg 2964w,
+                          /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_3019.jpg 3019w,
+                          /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_3072.jpg 3072w
+                        "
+                    src="/wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_3072.jpg"
+                    alt="Photograph: 3d render of living room in construction process with layered scheme of walls and floor 3d illustration" />
+            </picture>
+            <div class="hidden sm:block absolute inset-0 bg-gradient-to-br from-bigWaves-800 to-bigWaves-600"
+                style="mix-blend-mode: multiply" aria-hidden="true"></div>
+        </div>
         <div class="mx-auto px-4 sm:w-full sm:max-w-4xl sm:py-20 sm:px-0 relative z-10">
-            <h2 class="text-left m-0 sm:px-0 sm:text-center sm:text-5xl sm:text-bigWaves-50">Renovation Loan Program</h2>
+            <h2 class="text-left m-0 sm:px-0 sm:text-center sm:text-5xl sm:text-bigWaves-50">Renovation Loan Programs</h2>
         </div>
     </div>
     <div class="mx-auto flex sm:max-w-3xl justify-center my-8 px-4 relative z-10">

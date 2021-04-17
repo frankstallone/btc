@@ -3,7 +3,7 @@
 @section('content')
     <div class="bg-gradient-to-br from-goldRush-50 to-goldRush-100 py-12 px-4">
         <div class="mx-auto sm:w-full sm:max-w-3xl md:px-0 first-line">
-            <h2 class="text-goldRush-700 mt-0 text-3xl">Landlord Loan Program</h2>
+            <h2 class="text-goldRush-700 mt-0 text-3xl">Landlord Loan Programs</h2>
             <p class="text-xl text-goldRush-900 mb-0">Ideal for investors and builders who are seeking leverage to buy a
                 turn-key rental property or to refinance and pull out cash from a completed buy-and-hold investment
                 property.</p>
@@ -25,17 +25,29 @@
 
     <div
         class="landlord-pricing-table sm:-mb-72 bg-none sm:block sm:bg-gradient-to-tl sm:from-bigWaves-800 sm:to-bigWaves-600 w-full relative">
-        <?php
-        $btcPattern = get_svg(
-        'svg.btc-pattern-3',
-        'hidden sm:block absolute text-bigWaves-700 fill-current z-0 transform-gpu origin-center
-        opacity-50 sm:h-full sm:top-0 sm:-translate-x-1/4',
-        );
-        echo $btcPattern;
-        ?>
+        <div class="hidden sm:block absolute inset-0">
+            <picture>
+                <img class="w-full h-full object-cover my-0" width="3072px" height="1709px"
+                    sizes="(max-width: 3072px) 100vw, 3072px" srcset="
+                /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_640.jpg   640w,
+                /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_1123.jpg 1123w,
+                /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_1500.jpg 1500w,
+                /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_1810.jpg 1810w,
+                /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2119.jpg 2119w,
+                /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2394.jpg 2394w,
+                /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2631.jpg 2631w,
+                /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2849.jpg 2849w,
+                /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_3068.jpg 3068w,
+                /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_3072.jpg 3072w
+              " src="/wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_3072.jpg"
+                    alt="Photograph: 3d render of bathroom in construction process with layered scheme of walls and floor 3d illustration" />
+            </picture>
+            <div class="hidden sm:block absolute inset-0 bg-gradient-to-br from-bigWaves-800 to-bigWaves-600"
+                style="mix-blend-mode: multiply" aria-hidden="true"></div>
+        </div>
         <div class="mx-auto px-4 sm:w-full sm:max-w-4xl sm:py-20 sm:px-0 relative z-10">
             <h2 class="text-left m-0 sm:px-0 sm:text-center sm:text-5xl sm:text-bigWaves-50">30-Year DSCR Landlord Loan
-                Program</h2>
+                Programs</h2>
         </div>
     </div>
     <div class="mx-auto flex sm:max-w-3xl justify-center py-8 px-4 relative z-10">

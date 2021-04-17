@@ -24,16 +24,28 @@
     </div>
     <div
         class="rehab-pricing-table sm:-mb-96 bg-none sm:block sm:bg-gradient-to-tl sm:from-bigWaves-800 sm:to-bigWaves-600 w-full relative">
-        <?php
-        $btcPattern = get_svg(
-        'svg.btc-pattern-3',
-        'hidden sm:block absolute text-bigWaves-700 fill-current z-0 transform-gpu origin-center
-        opacity-50 sm:h-full sm:top-0 sm:-translate-x-1/4',
-        );
-        echo $btcPattern;
+        <div class="hidden sm:block absolute inset-0">
+            <picture>
+                <img class="w-full h-full object-cover my-0" width="3072px" height="1709px"
+                    sizes="(max-width: 3072px) 100vw, 3072px" srcset="/wp-content/themes/btc/public/images/3d-bedroom-in-construction_k8msuu_c_scale,w_640.jpg 640w,
+                        /wp-content/themes/btc/public/images/3d-bedroom-in-construction_k8msuu_c_scale,w_1056.jpg 1056w,
+                        /wp-content/themes/btc/public/images/3d-bedroom-in-construction_k8msuu_c_scale,w_1384.jpg 1384w,
+                        /wp-content/themes/btc/public/images/3d-bedroom-in-construction_k8msuu_c_scale,w_1673.jpg 1673w,
+                        /wp-content/themes/btc/public/images/3d-bedroom-in-construction_k8msuu_c_scale,w_2061.jpg 2061w,
+                        /wp-content/themes/btc/public/images/3d-bedroom-in-construction_k8msuu_c_scale,w_2316.jpg 2316w,
+                        /wp-content/themes/btc/public/images/3d-bedroom-in-construction_k8msuu_c_scale,w_2563.jpg 2563w,
+                        /wp-content/themes/btc/public/images/3d-bedroom-in-construction_k8msuu_c_scale,w_2811.jpg 2811w,
+                        /wp-content/themes/btc/public/images/3d-bedroom-in-construction_k8msuu_c_scale,w_3030.jpg 3030w,
+                        /wp-content/themes/btc/public/images/3d-bedroom-in-construction_k8msuu_c_scale,w_3072.jpg 3072w"
+                    src="/wp-content/themes/btc/public/images/3d-bedroom-in-construction_k8msuu_c_scale,w_3072.jpg"
+                    alt="Photograph: 3d render of bedroom in construction process with layered scheme of walls and floor 3d illustration" />
+            </picture>
+            <div class="hidden sm:block absolute inset-0 bg-gradient-to-br from-bigWaves-800 to-bigWaves-600"
+                style="mix-blend-mode: multiply" aria-hidden="true"></div>
+        </div>
         ?>
         <div class="mx-auto px-4 sm:w-full sm:max-w-4xl sm:py-20 sm:px-0 relative z-10">
-            <h2 class="text-left m-0 sm:px-0 sm:text-center sm:text-5xl sm:text-bigWaves-50">New Construction Loan Program
+            <h2 class="text-left m-0 sm:px-0 sm:text-center sm:text-5xl sm:text-bigWaves-50">New Construction Loan Programs
             </h2>
         </div>
     </div>
