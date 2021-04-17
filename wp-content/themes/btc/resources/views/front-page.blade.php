@@ -22,12 +22,21 @@ opacity-50 sm:h-screen sm:top-0 sm:-translate-x-1/4',
         <div class="absolute inset-0">
             {{-- <img class="w-full h-full object-cover my-0" src="/wp-content/themes/btc/public/images/test-photo.jpg" alt="" /> --}}
             <picture>
-                <source class="w-full h-full object-cover my-0" width="1000px" height="556px"
-                    srcset="/wp-content/themes/btc/public/images/test-photo.webp" type="image/webp" />
-                <img class="w-full h-full object-cover my-0" width="1000px" height="556px"
-                    src="/wp-content/themes/btc/public/images/test-photo.jpg"
+                <img class="w-full h-full object-cover my-0" sizes="(max-width: 3072px) 100vw, 3072px" srcset="
+          /wp-content/themes/btc/public/images/test-photo_pkmdya_c_scale,w_640.jpg   640w,
+          /wp-content/themes/btc/public/images/test-photo_pkmdya_c_scale,w_1120.jpg 1120w,
+          /wp-content/themes/btc/public/images/test-photo_pkmdya_c_scale,w_1521.jpg 1521w,
+          /wp-content/themes/btc/public/images/test-photo_pkmdya_c_scale,w_1764.jpg 1764w,
+          /wp-content/themes/btc/public/images/test-photo_pkmdya_c_scale,w_2028.jpg 2028w,
+          /wp-content/themes/btc/public/images/test-photo_pkmdya_c_scale,w_2337.jpg 2337w,
+          /wp-content/themes/btc/public/images/test-photo_pkmdya_c_scale,w_2599.jpg 2599w,
+          /wp-content/themes/btc/public/images/test-photo_pkmdya_c_scale,w_2814.jpg 2814w,
+          /wp-content/themes/btc/public/images/test-photo_pkmdya_c_scale,w_3053.jpg 3053w,
+          /wp-content/themes/btc/public/images/test-photo_pkmdya_c_scale,w_3072.jpg 3072w
+        " src="/wp-content/themes/btc/public/images/test-photo_pkmdya_c_scale,w_3072.jpg"
                     alt="Photograph: 3d render of living room in construction process with layered scheme of walls and floor 3d illustration" />
             </picture>
+
             <div class="absolute inset-0 bg-gradient-to-br from-bigWaves-900 to-bigWaves-700"
                 style="mix-blend-mode: multiply" aria-hidden="true"></div>
         </div>
