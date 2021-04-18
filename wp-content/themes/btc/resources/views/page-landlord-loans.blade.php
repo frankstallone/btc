@@ -29,21 +29,21 @@
             <picture>
                 <img class="w-full h-full object-cover my-0" width="3072px" height="1709px"
                     sizes="(max-width: 3072px) 100vw, 3072px" srcset="
-                /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_640.jpg   640w,
-                /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_1123.jpg 1123w,
-                /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_1500.jpg 1500w,
-                /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_1810.jpg 1810w,
-                /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2119.jpg 2119w,
-                /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2394.jpg 2394w,
-                /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2631.jpg 2631w,
-                /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2849.jpg 2849w,
-                /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_3068.jpg 3068w,
-                /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_3072.jpg 3072w
-              " src="/wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_3072.jpg"
+                    /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_640.jpg   640w,
+                    /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_1123.jpg 1123w,
+                    /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_1500.jpg 1500w,
+                    /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_1810.jpg 1810w,
+                    /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2119.jpg 2119w,
+                    /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2394.jpg 2394w,
+                    /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2631.jpg 2631w,
+                    /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2849.jpg 2849w,
+                    /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_3068.jpg 3068w,
+                    /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_3072.jpg 3072w
+                  " src="/wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_3072.jpg"
                     alt="Photograph: 3d render of bathroom in construction process with layered scheme of walls and floor 3d illustration" />
             </picture>
-            <div class="hidden sm:block absolute inset-0 bg-gradient-to-br from-bigWaves-800 to-bigWaves-600"
-                style="mix-blend-mode: multiply" aria-hidden="true"></div>
+            <div class="hidden sm:block absolute inset-0 bg-gradient-to-b from-bigWaves-900 to-bigWaves-600"
+                style="mix-blend-mode: hard-light" aria-hidden="true"></div>
         </div>
         <div class="mx-auto px-4 sm:w-full sm:max-w-4xl sm:py-20 sm:px-0 relative z-10">
             <h2 class="text-left m-0 sm:px-0 sm:text-center sm:text-5xl sm:text-bigWaves-50">30-Year DSCR Landlord Loan
