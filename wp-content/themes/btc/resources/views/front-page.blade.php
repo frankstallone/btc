@@ -47,7 +47,7 @@ opacity-50 sm:h-screen sm:top-0 sm:-translate-x-1/4',
                 <div>
                     <div class="sm:p-8 sm:bg-bigWaves-900 sm:bg-opacity-70 rounded-lg mb-12">
                         <h2
-                            class="custom-underline relative text-3xl leading-snug sm:leading-tight sm:text-4xl font-extrabold text-bigWaves-200 mt-0 mb-8">
+                            class="relative text-3xl leading-snug sm:leading-tight sm:text-4xl font-extrabold text-bigWaves-200 mt-0 mb-8">
                             Do more deals with Builders Trust Capital
                         </h2>
                         <p class="text-xl sm:text-2xl my-0">As a real estate investor, access to reliable funding
@@ -66,7 +66,7 @@ opacity-50 sm:h-screen sm:top-0 sm:-translate-x-1/4',
                 <div>
                     <div class="sm:p-8 sm:bg-bigWaves-900 sm:bg-opacity-70 rounded-lg mb-12">
                         <h2
-                            class="custom-underline relative text-3xl leading-snug sm:leading-tight sm:text-4xl font-extrabold text-bigWaves-200 mt-0 mb-8">
+                            class="relative text-3xl leading-snug sm:leading-tight sm:text-4xl font-extrabold text-bigWaves-200 mt-0 mb-8">
                             Grow with a Lender Specialized in Private Real Estate
                         </h2>
                         <p class="text-xl sm:text-2xl my-0">Developers and builders of single family, multi-family, and

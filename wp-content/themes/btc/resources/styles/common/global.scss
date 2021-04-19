@@ -20,6 +20,7 @@
   contain-intrinsic-size: 1px 1000px;
 }
 
+// Add to headings with .relative class for underlining
 .custom-underline {
   &::after {
     content: '';
