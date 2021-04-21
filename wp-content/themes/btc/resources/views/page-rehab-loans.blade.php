@@ -18,7 +18,7 @@
         <div>
             <h2>Builders Trust Capital is a Direct Lender</h2>
             <p>The team at Builders Trust Capital makes the lending decisions. Your loan is underwritten and funded by us.
-                Our principals have funded over _____ projects since 2016 with an approximately 80% repeat client rate, so
+                Our principals have funded over 195 projects since 2016 with an approximately 47% repeat client rate, so
                 you can rely on us to deliver consistently every time. </p>
         </div>
         <div class="md:col-span-2">
@@ -40,17 +40,17 @@
             <picture>
                 <img class="w-full h-full object-cover my-0" width="3072px" height="1709px"
                     sizes="(max-width: 3072px) 100vw, 3072px" srcset="
-                                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_640.jpg   640w,
-                                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_1229.jpg 1229w,
-                                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_1566.jpg 1566w,
-                                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_1884.jpg 1884w,
-                                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2163.jpg 2163w,
-                                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2355.jpg 2355w,
-                                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2668.jpg 2668w,
-                                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2964.jpg 2964w,
-                                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_3019.jpg 3019w,
-                                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_3072.jpg 3072w
-                                  "
+                                      /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_640.jpg   640w,
+                                      /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_1229.jpg 1229w,
+                                      /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_1566.jpg 1566w,
+                                      /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_1884.jpg 1884w,
+                                      /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2163.jpg 2163w,
+                                      /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2355.jpg 2355w,
+                                      /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2668.jpg 2668w,
+                                      /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2964.jpg 2964w,
+                                      /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_3019.jpg 3019w,
+                                      /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_3072.jpg 3072w
+                                      "
                     src="/wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_3072.jpg"
                     alt="Photograph: 3d render of living room in construction process with layered scheme of walls and floor 3d illustration" />
             </picture>
