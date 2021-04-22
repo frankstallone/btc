@@ -56,7 +56,8 @@ add_action('after_setup_theme', function () {
         'clean-up',
         'nav-walker',
         'nice-search',
-        'relative-urls'
+        'relative-urls',
+        'google-analytics' => 'UA-115540627-1',
     ]);
 
     /**
