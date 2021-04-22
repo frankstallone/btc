@@ -17,9 +17,7 @@
         class="mx-auto py-12 px-4 sm:px-0 md:px-4 sm:max-w-xl sm:w-full grid grid-cols-1 gap-4 md:gap-8 md:grid-cols-3 md:max-w-6xl">
         <div>
             <h2>Builders Trust Capital is a Direct Lender</h2>
-            <p>The team at Builders Trust Capital makes the lending decisions. Your loan is underwritten and funded by us.
-                Our principals have funded over 195 projects since 2016 with an approximately 47% repeat client rate, so
-                you can rely on us to deliver consistently every time. </p>
+            <p>The team at Builders Trust Capital makes the lending decisions. Your loan is underwritten and funded by us. Our principals have funded over 675 projects since 2016 so you can rely on our experience to deliver consistently every time.</p>
         </div>
         <div class="md:col-span-2">
             <h2>A More Efficient Loan Approval Process</h2>
