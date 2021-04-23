@@ -3,11 +3,6 @@
 'btc-pattern-hero hidden sm:block absolute text-bigWaves-700 fill-current z-0 transform-gpu origin-center
 opacity-50 sm:h-full sm:top-0 sm:-translate-x-1/2',
 ); ?>
-<?php $map = get_svg(
-'svg.map-location-dot',
-'hidden sm:block absolute text-bigWaves-700 fill-current z-0 transform-gpu origin-center
-opacity-50 sm:h-screen sm:top-10 sm:translate-x-1/4',
-); ?>
 <?php $magnifying = get_svg(
 'svg.magnifying-glass-dollar',
 'hidden sm:block absolute text-bigWaves-800 fill-current z-0 transform-gpu origin-center
@@ -21,17 +16,17 @@ opacity-50 sm:h-screen sm:top-0 sm:-translate-x-1/4',
             <picture>
                 <img class="w-full h-full object-cover my-0" width="3072px" height="1709px"
                     sizes="(max-width: 3072px) 100vw, 3072px" srcset="
-          /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_640.jpg   640w,
-          /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_1229.jpg 1229w,
-          /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_1566.jpg 1566w,
-          /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_1884.jpg 1884w,
-          /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2163.jpg 2163w,
-          /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2355.jpg 2355w,
-          /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2668.jpg 2668w,
-          /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2964.jpg 2964w,
-          /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_3019.jpg 3019w,
-          /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_3072.jpg 3072w
-        " src="/wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_3072.jpg"
+              /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_640.jpg   640w,
+              /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_1229.jpg 1229w,
+              /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_1566.jpg 1566w,
+              /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_1884.jpg 1884w,
+              /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2163.jpg 2163w,
+              /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2355.jpg 2355w,
+              /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2668.jpg 2668w,
+              /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2964.jpg 2964w,
+              /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_3019.jpg 3019w,
+              /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_3072.jpg 3072w
+            " src="/wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_3072.jpg"
                     alt="Photograph: 3d render of living room in construction process with layered scheme of walls and floor 3d illustration" />
             </picture>
             <div class="absolute inset-0 bg-gradient-to-br from-bigWaves-900 to-bigWaves-700"
@@ -82,40 +77,6 @@ opacity-50 sm:h-screen sm:top-0 sm:-translate-x-1/4',
                         </p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    {{-- Section --}}
-    <div
-        class="css-content-visibility flex bg-gradient-to-br from-bigWaves-900 to-bigWaves-700 min-h-80 py-24 px-4 relative overflow-hidden text-bigWaves-100">
-        <?php echo $map; ?>
-        <div class="flex flex-col justify-center items-center max-w-7xl mx-auto relative z-10">
-            <div class="w-full">
-                <h2 class="text-4xl leading-tight sm:leading-snug sm:text-5xl font-extrabold text-goldRush-50">
-                    Grow with a Lender Specialized in Private Real Estate
-                </h2>
-            </div>
-            <div class="mx-auto lg:grid lg:grid-cols-2 lg:gap-8 xl:gap-12">
-                <div>
-                    <div class="sm:p-8 sm:bg-bigWaves-900 sm:bg-opacity-70 rounded-lg mb-12">
-                        <p class="text-xl sm:text-2xl my-0">Developers and builders of single family, multi-family, and
-                            mixed-use properties come to Builders Trust Capital for B2B mortgage loans and services. As a
-                            portfolio lender, the loans are underwritten and funded in-house.
-                        </p>
-                    </div>
-                </div>
-                <div>
-                    <div class="sm:p-8 sm:bg-bigWaves-900 sm:bg-opacity-70 rounded-lg mb-12">
-                        <p class="text-xl sm:text-2xl my-0">We’re private real estate lenders serving borrowers in New
-                            Jersey, Pennsylvania, Maryland, Virginia, and Washington, DC. <a href="/about"
-                                class="text-bigWaves-100 underline hover:text-goldRush-100 hover:no-underline active:no-underline active:text-goldRush-100">Learn
-                                more about
-                                Builders Trust Capital</a>.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="max-w-xl w-full">
-                <a href="/application/" class="btn">Get Funded Now</a>
             </div>
         </div>
     </div>
