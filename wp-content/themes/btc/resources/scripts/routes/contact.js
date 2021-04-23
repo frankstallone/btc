@@ -24,6 +24,10 @@ export default {
     const mapOptions = {
       center: latLong,
       zoom: 15,
+      fullscreenControl: false,
+      zoomControl: false,
+      streetViewControl: false,
+      mapTypeControl: false,
     };
     loader
       .load()
