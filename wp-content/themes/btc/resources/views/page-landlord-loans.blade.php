@@ -16,8 +16,8 @@
         <ul>
             <li>Minimal, simple forms so you can pre-qualify quickly</li>
             <li>All fees disclosed upfront to help you budget projects accurately</li>
-            <li>Receive a complimentary profit assessment using Builders Trust </li>
-            <li>Capital proprietary calculator and ROI coaching on your investment property</li>
+            <li>Receive a complimentary profit assessment using Builders Trust Capital's proprietary calculator and ROI
+                coaching on your investment property</li>
             <li>Get landlord loans funded in as little as 20 business days</li>
         </ul>
 
@@ -29,17 +29,18 @@
             <picture>
                 <img class="w-full h-full object-cover my-0" width="3072px" height="1709px"
                     sizes="(max-width: 3072px) 100vw, 3072px" srcset="
-                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_640.jpg   640w,
-                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_1123.jpg 1123w,
-                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_1500.jpg 1500w,
-                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_1810.jpg 1810w,
-                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2119.jpg 2119w,
-                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2394.jpg 2394w,
-                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2631.jpg 2631w,
-                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2849.jpg 2849w,
-                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_3068.jpg 3068w,
-                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_3072.jpg 3072w
-                      " src="/wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_3072.jpg"
+                                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_640.jpg   640w,
+                                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_1123.jpg 1123w,
+                                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_1500.jpg 1500w,
+                                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_1810.jpg 1810w,
+                                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2119.jpg 2119w,
+                                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2394.jpg 2394w,
+                                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2631.jpg 2631w,
+                                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2849.jpg 2849w,
+                                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_3068.jpg 3068w,
+                                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_3072.jpg 3072w
+                                      "
+                    src="/wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_3072.jpg"
                     alt="Photograph: 3d render of bathroom in construction process with layered scheme of walls and floor 3d illustration" />
             </picture>
             <div class="hidden sm:block absolute inset-0 bg-gradient-to-b from-bigWaves-900 to-bigWaves-600"
@@ -73,12 +74,12 @@
                                 Rates as low as 4.75%</td>
                         </tr>
                         <tr class="border-0">
-                            <td class="px-8 py-2 text-lg flex font-semibold content-center">
+                            <td class="px-8 py-2 text-xl flex font-semibold content-center">
                                 <?php echo $checkMark; ?>
                                 Points as low as 2% </td>
                         </tr>
                         <tr class="border-0">
-                            <td class="px-8 py-2 mb-8 text-lg flex font-semibold content-center">
+                            <td class="px-8 py-2 mb-8 text-xl flex font-semibold content-center">
                                 <?php echo $checkMark; ?>
                                 Credit as low as 650</td>
                         </tr>
@@ -126,6 +127,7 @@
         <h3>Flexibility</h3>
         <ul>
             <li>Offer <em>interest only</em> options to suit your funding needs</li>
+            <li>Offer 5/1 ARMS, 7/1 ARMs, 10/1 ARMS, and 30-year loans without balloons</li>
             <li>Ability to cross collateralize other property to reduce cash to close</li>
         </ul>
     </div>
