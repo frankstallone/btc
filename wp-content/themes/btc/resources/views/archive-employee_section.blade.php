@@ -48,7 +48,7 @@ $teamQuery = new WP_Query([
     <div class="bg-quicksilver-25 px-6 py-12 sm:px-8">
         <div class="mx-auto grid grid-cols-1 sm:max-w-xl xl:gap-8 xl:max-w-6xl xl:grid-cols-3">
             <div class="xl:col-span-2">
-                <h2>We’re focused on building long-term relationships with our clients</h2>
+                <h2>We're focused on building long-term relationships with our clients</h2>
                 <ul>
                     <li>Complete in-house lending – no second reviews slowing the process or changing the outcome</li>
                     <li>Big-company capability with small-office personalized service</li>
@@ -57,8 +57,8 @@ $teamQuery = new WP_Query([
                     <li>Fast draw speeds – you have access to construction draws in as little as 24 hours</li>
                     <li>Flexible, custom loan programs to maximize leverage and minimize cash to close</li>
                     <li>Competitive leverage on Loan-to-Cost (LTC) and Loan-to-Value (LTV) </li>
-                    <li>Construction expertise – Kurt Schwiedop, Vice President of Construction, earned the 2020 Best
-                        Builder / Construction Company in Gloucester County, New Jersey</li>
+                    <li>Construction expertise – Builders Trust Capital’s head of construction earned the 2020 Best Builder
+                        / Construction Company in Gloucester County, New Jersey</li>
                     <li>Deep local market knowledge – you work with experts who know your market </li>
                 </ul>
             </div>
@@ -79,7 +79,7 @@ $teamQuery = new WP_Query([
 
             <div class="xl:col-span-2">
                 <h2>The Journey to Builders Trust Capital</h2>
-                <p>In August 2021, the Managing Partners of Ashmore Capital LLC, Peter Christiansen and Anthony Susco,
+                <p>In August 2021, the Managing Partners of Ashmore Partners LLC, Peter Christiansen and Anthony Susco,
                     collaborated with a long-time lending industry veteran, Jeremiah O’Brien, to establish a new entity with
                     a distinct approach to funding professional builders and developers. </p>
                 <p>The pandemic exposed weaknesses in the correspondent model. Good investors had difficulty procuring

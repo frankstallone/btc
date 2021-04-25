@@ -16,17 +16,17 @@ opacity-50 sm:h-screen sm:top-0 sm:-translate-x-1/4',
             <picture>
                 <img class="w-full h-full object-cover my-0" width="3072px" height="1709px"
                     sizes="(max-width: 3072px) 100vw, 3072px" srcset="
-              /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_640.jpg   640w,
-              /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_1229.jpg 1229w,
-              /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_1566.jpg 1566w,
-              /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_1884.jpg 1884w,
-              /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2163.jpg 2163w,
-              /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2355.jpg 2355w,
-              /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2668.jpg 2668w,
-              /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2964.jpg 2964w,
-              /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_3019.jpg 3019w,
-              /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_3072.jpg 3072w
-            " src="/wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_3072.jpg"
+                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_640.jpg   640w,
+                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_1229.jpg 1229w,
+                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_1566.jpg 1566w,
+                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_1884.jpg 1884w,
+                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2163.jpg 2163w,
+                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2355.jpg 2355w,
+                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2668.jpg 2668w,
+                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2964.jpg 2964w,
+                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_3019.jpg 3019w,
+                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_3072.jpg 3072w
+                " src="/wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_3072.jpg"
                     alt="Photograph: 3d render of living room in construction process with layered scheme of walls and floor 3d illustration" />
             </picture>
             <div class="absolute inset-0 bg-gradient-to-br from-bigWaves-900 to-bigWaves-700"
@@ -103,13 +103,13 @@ opacity-50 sm:h-screen sm:top-0 sm:-translate-x-1/4',
                         <div
                             class="mx-auto flex flex-col justify-center text-center md:text-left space-y-4 lg:space-y-8 w-full max-w-xl">
                             <div class="flex-1">
-                                <a href="/rehab-loans/" class="btn">Rehabilitation Loans</a>
+                                <a href="/rehab-loans/" class="btn">Renovation Loans</a>
                             </div>
                             <div class="flex-1">
-                                <a href="/landlord-loans/" class="btn">Landlord Loans</a>
+                                <a href="/landlord-loans/" class="btn">Rental Loans</a>
                             </div>
                             <div class="flex-1">
-                                <a href="/construction-loans/" class="btn">Construction Loans</a>
+                                <a href="/construction-loans/" class="btn">New Construction Loans</a>
                             </div>
                         </div>
                     </div>

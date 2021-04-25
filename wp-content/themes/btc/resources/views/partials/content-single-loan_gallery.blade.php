@@ -15,7 +15,7 @@
                 @endfield
             </figure><!-- .post-thumbnail -->
 
-            @include('partials/entry-meta')
+            @include('partials/entry-meta-gallery')
         </header>
 
         <div class="entry-content">

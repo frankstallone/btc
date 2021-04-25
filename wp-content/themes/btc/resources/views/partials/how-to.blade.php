@@ -29,7 +29,7 @@ opacity-30 md:h-screen md:-translate-x-1/2',
                     <h3 class="text-2xl text-goldRush-50 my-2">Get Started</h3>
                     <p class="text-lg">
                         <a href="/contact" class="text-quicksilver-100 hover:text-quicksilver-50">Fill in the form</a>
-                        or all us at <a href="tel:+1-856-422-3232"
+                        or call us at <a href="tel:+1-856-422-3232"
                             class="text-quicksilver-100 hover:text-quicksilver-50">856-422-3232</a> so we can
                         contact you and begin working on your loan. We're local and happy to meet with
                         you to learn your funding needs.

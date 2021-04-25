@@ -43,9 +43,10 @@
             $btcFullLogo = get_svg('svg.btc-full-logo-right', 'w-72 fill-current text-quicksilver-200');
             echo $btcFullLogo;
             ?>
-            <h2 class="text-base text-quicksilver-200">All rights reserved Builders Trust Capital 2021.</h2>
-            <p><small>*Disclaimer: Builders Trust Capital currently provides funding in these states: Pennsylvania, New
-                    Jersey and Delaware. All rates and fees advertised are subject to change and are dependent on a
+            <h2 class="text-base text-quicksilver-200">All rights reserved Builders Trust Capital™️ 2021.</h2>
+            <p><small>*Disclaimer: Builders Trust Capital currently provides funding in these states: New
+                    Jersey, Pennsylvania, Maryland, Washington DC, and Virginia. All rates and fees advertised are
+                    subject to change and are dependent on a
                     review
                     of a borrower’s financial status and project parameters.</small></p>
         </div>

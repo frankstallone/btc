@@ -8,16 +8,17 @@
                 investors looking
                 to purchase a property,
                 renovate and then
-                sell or rent the renovated property for a profit. For borrowers who have already purchased a property and
-                are looking to free up cash in the short term or to complete additional renovations, Builders Trust Capital
-                also offers a short-term refinance product with construction loans. </p>
+                sell or rent the renovated property for a profit. Builders Trust Capital also offers a short term refinance
+                loan product with construction. </p>
         </div>
     </div>
     <div
         class="mx-auto py-12 px-4 sm:px-0 md:px-4 sm:max-w-xl sm:w-full grid grid-cols-1 gap-4 md:gap-8 md:grid-cols-3 md:max-w-6xl">
         <div>
             <h2>Builders Trust Capital is a Direct Lender</h2>
-            <p>The team at Builders Trust Capital makes the lending decisions. Your loan is underwritten and funded by us. Our principals have funded over 675 projects since 2016 so you can rely on our experience to deliver consistently every time.</p>
+            <p>The team at Builders Trust Capital makes the lending decisions. Your loan is underwritten and funded by us.
+                Our principals have funded over 675 projects since 2016 so you can rely on our experience to deliver
+                consistently every time.</p>
         </div>
         <div class="md:col-span-2">
             <h2>A More Efficient Loan Approval Process</h2>
@@ -38,17 +39,17 @@
             <picture>
                 <img class="w-full h-full object-cover my-0" width="3072px" height="1709px"
                     sizes="(max-width: 3072px) 100vw, 3072px" srcset="
-                                      /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_640.jpg   640w,
-                                      /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_1229.jpg 1229w,
-                                      /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_1566.jpg 1566w,
-                                      /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_1884.jpg 1884w,
-                                      /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2163.jpg 2163w,
-                                      /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2355.jpg 2355w,
-                                      /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2668.jpg 2668w,
-                                      /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2964.jpg 2964w,
-                                      /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_3019.jpg 3019w,
-                                      /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_3072.jpg 3072w
-                                      "
+                                                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_640.jpg   640w,
+                                                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_1229.jpg 1229w,
+                                                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_1566.jpg 1566w,
+                                                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_1884.jpg 1884w,
+                                                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2163.jpg 2163w,
+                                                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2355.jpg 2355w,
+                                                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2668.jpg 2668w,
+                                                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_2964.jpg 2964w,
+                                                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_3019.jpg 3019w,
+                                                  /wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_3072.jpg 3072w
+                                                  "
                     src="/wp-content/themes/btc/public/images/3d-living-room-in-construction_fjoscv_c_scale,w_3072.jpg"
                     alt="Photograph: 3d render of living room in construction process with layered scheme of walls and floor 3d illustration" />
             </picture>
@@ -68,7 +69,7 @@
                         <tr class="border-0">
                             <td class="px-8 py-2 text-xl flex font-semibold content-center">
                                 <?php echo $checkMark; ?>
-                                Up to 90% LTC up to and 75% LTARV <span class="text-alpenglow-500">*</span>
+                                Up to 90% LTC and 75% LTARV <span class="text-alpenglow-500">*</span>
                             </td>
                         </tr>
                         <tr class="border-0">
@@ -124,7 +125,7 @@
         <div>
             <h3>Speed &amp; Approval</h3>
             <ul>
-                <li>Once your appraisal is ordered, you can typically close within 21 business
+                <li>Once your appraisal is ordered, you can typically close within 20 business
                     days</li>
                 <li>Streamlined loan approval because we handle every step in-house</li>
                 <li>No extra requirements

@@ -47,8 +47,7 @@ opacity-50 sm:h-full top-0 translate-x-1/3 lg:translate-x-2/3',
                         echo $star;
                         ?></div>
                     <strong>Raphael Akinsete</strong> recommends Builders Trust Capital <small
-                        class="text-right mt-2 text-quicksilver-300 block">Oct.
-                        11, 2020</small>
+                        class="text-right mt-2 text-quicksilver-300 block">Oct. 2020</small>
                 </figcaption>
             </figure>
             <figure
@@ -86,17 +85,17 @@ opacity-50 sm:h-full top-0 translate-x-1/3 lg:translate-x-2/3',
             </figure>
             <figure
                 class="my-0 border border-quicksilver-100 rounded-lg shadow-xl pt-8 bg-quicksilver-25 relative mt-24">
-                {{-- <div
+                <div
                     class="transform-gpu translate-x-1/2 absolute -top-24 right-1/2 bg-quicksilver-25 p-2 rounded-full w-32 h-32 border border-quicksilver-100 shadow-md">
-                    <img src="/wp-content/themes/btc/public/images/avatar-03.jpeg" width="128px" height="128px"
+                    <img src="/wp-content/themes/btc/public/images/avatar-tim-128.jpg" width="128px" height="128px"
                         class="object-cover rounded-full my-0 border border-quicksilver-100 w-auto h-auto"
                         alt="Photo of Raphael Akinsete">
-                </div> --}}
+                </div>
                 <blockquote class="border-none px-8 mt-2">
                     <p class="text-lg my-0">
-                        They are a well organized lending company that provide great communication and will work with
-                        you to
-                        achieve success. I will definitely be using them again.
+                        Ashmore Partners lives up to its name. They have truly been a partner to me with my projects.
+                        The process from underwriting to construction inspections has never wavered from their initial
+                        promise and Ive always been met with professionalism and efficiency. Rare in this space.
                     </p>
                 </blockquote>
                 <figcaption
@@ -110,9 +109,9 @@ opacity-50 sm:h-full top-0 translate-x-1/3 lg:translate-x-2/3',
                         echo $star;
                         echo $star;
                         ?></div>
-                    <strong>John Allen</strong> recommends Builders Trust Capital <small
-                        class="text-right mt-2 text-quicksilver-300 block">Mar.
-                        2020</small>
+                    <strong>Timothy Rosenblum</strong> recommends Builders Trust Capital <small
+                        class="text-right mt-2 text-quicksilver-300 block">April.
+                        2021</small>
                 </figcaption>
             </figure>
             <figure

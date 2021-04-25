@@ -12,7 +12,7 @@ opacity-50 sm:h-full top-0 translate-x-1/3 lg:translate-x-2/3',
             <h2 class="mt-0 relative z-10 text-3xl text-quicksilver-25">Builders Trust Capital Client Success
                 Stories</h2>
             <p class="mx-auto z-10 text-2xl md:max-w-2xl">
-                Partner with an efficient, personable team who delivers <strong>$120,000,000</strong> in
+                Partner with an efficient, personable team who has delivers <strong>$120,000,000</strong> in
                 real estate loans
             </p>
         </div>
