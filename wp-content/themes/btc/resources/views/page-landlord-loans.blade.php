@@ -122,6 +122,7 @@
             <li>Offer <em>interest only</em> options to suit your funding needs</li>
             <li>Offer 5/1 ARMS, 7/1 ARMs, 10/1 ARMS, and 30-year loans without balloons</li>
             <li>Ability to cross collateralize other property to reduce cash to close</li>
+            <li>Flexible options for property seasoning requirements</li>
         </ul>
     </div>
 
