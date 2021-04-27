@@ -96,7 +96,7 @@ $teamQuery = new WP_Query([
             </div>
         </div>
         <div class="mx-auto sm:w-full sm:max-w-xl my-8 text-center">
-            <h2 class="text-3xl">Builders Trust Capital Partners</h2>
+            <h2 id="partners" class="text-3xl">Builders Trust Capital Partners</h2>
         </div>
         <div class="mx-auto grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 md:max-w-6xl">
 
@@ -118,7 +118,7 @@ $teamQuery = new WP_Query([
 
         </div>
         <div class="mx-auto sm:w-full sm:max-w-xl mb-8 mt-12 text-center">
-            <h2 class="text-3xl">Builders Trust Capital Team</h2>
+            <h2 id="team" class="text-3xl">Builders Trust Capital Team</h2>
         </div>
         <div class="mx-auto grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 md:max-w-6xl">
             @if (!$teamQuery->have_posts())

@@ -2,7 +2,7 @@ import { Loader } from '@googlemaps/js-api-loader';
 
 const contentString = `<div class="p-2 font-sans text-lg text-center">
 <strong>Builders Trust Capital</strong>
-<p>121 Johnson Road Suite 1, <br />
+<p>121 Johnson Road, Suite 1, <br />
 Turnersville, NJ 08012 <br />
 <a href="https://www.google.com/maps/search/?api=1&query=121+Johnson+Rd+%231,+Turnersville,+NJ+08012" target="_blank">Get Directions</a>
 </p>

@@ -29,17 +29,17 @@
             <picture>
                 <img class="w-full h-full object-cover my-0" width="3072px" height="1709px"
                     sizes="(max-width: 3072px) 100vw, 3072px" srcset="
-                                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_640.jpg   640w,
-                                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_1123.jpg 1123w,
-                                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_1500.jpg 1500w,
-                                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_1810.jpg 1810w,
-                                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2119.jpg 2119w,
-                                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2394.jpg 2394w,
-                                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2631.jpg 2631w,
-                                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2849.jpg 2849w,
-                                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_3068.jpg 3068w,
-                                        /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_3072.jpg 3072w
-                                      "
+                                            /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_640.jpg   640w,
+                                            /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_1123.jpg 1123w,
+                                            /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_1500.jpg 1500w,
+                                            /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_1810.jpg 1810w,
+                                            /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2119.jpg 2119w,
+                                            /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2394.jpg 2394w,
+                                            /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2631.jpg 2631w,
+                                            /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_2849.jpg 2849w,
+                                            /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_3068.jpg 3068w,
+                                            /wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_3072.jpg 3072w
+                                          "
                     src="/wp-content/themes/btc/public/images/3d-bathroom-in-construction_j0rc7m_c_scale,w_3072.jpg"
                     alt="Photograph: 3d render of bathroom in construction process with layered scheme of walls and floor 3d illustration" />
             </picture>
@@ -101,29 +101,29 @@
     <div
         class="mx-auto pt-12 px-4 sm:px-0 md:px-4 sm:max-w-xl sm:w-full grid grid-cols-1 gap-4 md:gap-8 md:grid-cols-3 md:max-w-6xl">
         <div>
-            <h2>Succeed in Your Next Real Estate Deal</h2>
-            <p>The team at Builders Trust Capital is focused on building a long-term relationship with you. Continuing to
-                partner with us has its advantages. We leverage our knowledge of your business, project, and financials to
-                help serve you better. </p>
         </div>
         <div class="md:col-span-2">
-            <h3>Speed &amp; Approval</h3>
-            <ul>
-                <li>Once your project is complete, get access to competitive permanent financing through our network of
-                    capital providers</li>
-                <li>Existing clients enjoy a faster application process</li>
-                <li>Obtain a loan that fits your needs </li>
-                <li>No extra requirements
-                    <ul>
-                        <li>Tax Returns – <em>not required</em></li>
-                        <li>DTI Calculations or Income Qualification – <em>not required</em></li>
-                        <li>Seasoning of Funds – <em>not required</em></li>
-                    </ul>
-                </li>
-            </ul>
         </div>
     </div>
     <div class="standard-content">
+        <h2>Succeed in Your Next Real Estate Deal</h2>
+        <p>The team at Builders Trust Capital is focused on building a long-term relationship with you. Continuing to
+            partner with us has its advantages. We leverage our knowledge of your business, project, and financials to
+            help serve you better. </p>
+        <h3>Speed &amp; Approval</h3>
+        <ul>
+            <li>Once your project is complete, get access to competitive permanent financing through our network of
+                capital providers</li>
+            <li>Existing clients enjoy a faster application process</li>
+            <li>Obtain a loan that fits your needs </li>
+            <li>No extra requirements
+                <ul>
+                    <li>Tax Returns – <em>not required</em></li>
+                    <li>DTI Calculations or Income Qualification – <em>not required</em></li>
+                    <li>Seasoning of Funds – <em>not required</em></li>
+                </ul>
+            </li>
+        </ul>
         <h3>Flexibility</h3>
         <ul>
             <li>Offer <em>interest only</em> options to suit your funding needs</li>
