@@ -98,13 +98,6 @@
             </figure>
         </div>
     </div>
-    <div
-        class="mx-auto pt-12 px-4 sm:px-0 md:px-4 sm:max-w-xl sm:w-full grid grid-cols-1 gap-4 md:gap-8 md:grid-cols-3 md:max-w-6xl">
-        <div>
-        </div>
-        <div class="md:col-span-2">
-        </div>
-    </div>
     <div class="standard-content">
         <h2>Succeed in Your Next Real Estate Deal</h2>
         <p>The team at Builders Trust Capital is focused on building a long-term relationship with you. Continuing to
