@@ -49,7 +49,7 @@
 </div>
 <div class="bg-emeraldCity-200 py-2 text-emeraldCity-700">
     <section class="sm:w-full sm:max-w-7xl sm:mx-auto px-4">
-        ✨ Looking for Ashmore Partners? That's us! New name, same great people. <a href="#"
+        ✨ Looking for Ashmore Partners? That's us! New name, same great people. <a href="/how-to-pick-the-right-lender/"
             class="text-emeraldCity-700 hover:text-emeraldCity-800 hover:no-underline">Read more on our blog</a>.
     </section>
 </div>
