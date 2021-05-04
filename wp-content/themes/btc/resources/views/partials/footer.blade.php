@@ -29,7 +29,7 @@
                     echo $ig;
                     ?>
                 </a>
-                <a href="https://www.glinkedin.com/company/builderstrustcapital/"
+                <a href="https://www.linkedin.com/company/builderstrustcapital/"
                     class="text-quicksilver-50 hover:text-goldRush-200 no-underline">
                     <?php
                     $linkedin = get_svg('svg.linkedin-in', 'w-6 h-6 inline');
