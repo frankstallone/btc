@@ -41,18 +41,15 @@ export const success = {
           targets: updatedNumber,
           progress: () => {
             // Remove "$" and "," from string
-            const cleanNumber = story.innerHTML.slice(1).replace(',', '');
+            const cleanNumber = story.innerHTML.slice(1).replace(/,/g, '');
             return cleanNumber;
           },
           update: () => {
             story.innerHTML = formatter.format(updatedNumber.progress);
           },
           easing: 'easeInOutSine',
-          round: 1,
+          round: 10,
           duration: 1000,
-          begin: () => {
-            console.log('ran');
-          },
         });
       });
     }

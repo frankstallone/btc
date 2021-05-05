@@ -33,23 +33,22 @@ opacity-50 sm:h-full top-0 translate-x-1/3 lg:translate-x-2/3',
                                 <span
                                     class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-32">Purchased</span>
                                 <span class="text-bigWaves-700 font-display text-5xl"><span
-                                        class="success-number">$200,000</span></span>
+                                        class="success-number">$185,000</span></span>
                             </li>
                             <li class="px-4 font-semibold text-lg flex flex-col justify-center items-center mb-6">
                                 <span class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-24">Rehab</span>
                                 <span class="text-bigWaves-700 font-display text-5xl"><span
-                                        class="success-number">$60,000</span></span>
+                                        class="success-number">$150,000</span></span>
                             </li>
                             <li class="px-4 font-semibold text-lg flex flex-col justify-center items-center mb-6">
                                 <span class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-24">ARV</span>
                                 <span class="text-bigWaves-700 font-display text-5xl"><span
-                                        class="success-number">$350,000</span></span>
+                                        class="success-number">$475,000</span></span>
                             </li>
                             <li
                                 class="pl-0 py-4 mb-0 text-2xl font-semibold font-display text-quicksilver-400 border-t border-quicksilver-100 bg-quicksilver-50">
-                                Fix & Flip <small class="text-quicksilver-300 font-sans font-light text-base block">Cape
-                                    May
-                                    Courthouse, NJ</small></li>
+                                Fix & Flip <small class="text-quicksilver-300 font-sans font-light text-base block">
+                                    Philadelphia, PA</small></li>
                         </ul>
                     </figcaption>
                 </div>
@@ -71,23 +70,22 @@ opacity-50 sm:h-full top-0 translate-x-1/3 lg:translate-x-2/3',
                                 <span
                                     class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-32">Purchased</span>
                                 <span class="text-bigWaves-700 font-display text-5xl"><span
-                                        class="success-number">$235,000</span></span>
+                                        class="success-number">$1,675,000</span></span>
                             </li>
                             <li class="px-4 font-semibold text-lg flex flex-col justify-center items-center  mb-6">
                                 <span class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-24">Rehab</span>
                                 <span class="text-bigWaves-700 font-display text-5xl"><span
-                                        class="success-number">$59,800</span></span>
+                                        class="success-number">$450,000</span></span>
                             </li>
                             <li class="px-4 font-semibold text-lg flex flex-col justify-center items-center mb-6">
                                 <span class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-24">ARV</span>
                                 <span class="text-bigWaves-700 font-display text-5xl"><span
-                                        class="success-number">$435,000</span></span>
+                                        class="success-number">$3,955,000</span></span>
                             </li>
                             <li
                                 class="pl-0 py-4 mb-0 text-2xl font-semibold font-display text-quicksilver-400 border-t border-quicksilver-100 bg-quicksilver-50">
-                                Fix & Flip <small
-                                    class="text-quicksilver-300 font-sans font-light text-base block">Morristown,
-                                    NJ</small>
+                                Fix & Flip <small class="text-quicksilver-300 font-sans font-light text-base block">Cape
+                                    May, NJ</small>
                             </li>
                         </ul>
                 </div>
@@ -110,23 +108,22 @@ opacity-50 sm:h-full top-0 translate-x-1/3 lg:translate-x-2/3',
                                 <span
                                     class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-32">Purchased</span>
                                 <span class="text-bigWaves-700 font-display text-5xl"><span
-                                        class="success-number">$228,000</span></span>
+                                        class="success-number">$550,000</span></span>
                             </li>
                             <li class="px-4 font-semibold text-lg flex flex-col justify-center items-center  mb-6">
                                 <span class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-24">Rehab</span>
                                 <span class="text-bigWaves-700 font-display text-5xl"><span
-                                        class="success-number">$140,000</span></span>
+                                        class="success-number">$208,286</span></span>
                             </li>
                             <li class="px-4 font-semibold text-lg flex flex-col justify-center items-center mb-6">
                                 <span class="border border-quicksilver-100 rounded-full px-4 py2 mb-2 w-24">ARV</span>
                                 <span class="text-bigWaves-700 font-display text-5xl"><span
-                                        class="success-number">$485,000</span></span>
+                                        class="success-number">$1,005,000</span></span>
                             </li>
                             <li
                                 class="pl-0 py-4 mb-0 text-2xl font-semibold font-display text-quicksilver-400 border-t border-quicksilver-100 bg-quicksilver-50">
                                 Fix & Flip <small
-                                    class="text-quicksilver-300 font-sans font-light text-base block">Matawan,
-                                    NJ
+                                    class="text-quicksilver-300 font-sans font-light text-base block">Haddonfield, NJ
                                 </small></li>
                         </ul>
                     </figcaption>
