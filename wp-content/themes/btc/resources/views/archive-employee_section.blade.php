@@ -79,7 +79,7 @@ $teamQuery = new WP_Query([
 
             <div class="xl:col-span-2">
                 <h2>The Journey to Builders Trust Capital</h2>
-                <p>In August 2021, the Managing Partners of Ashmore Partners LLC, Peter Christiansen and Anthony Susco,
+                <p>In August 2020, the Managing Partners of Ashmore Partners LLC, Peter Christiansen and Anthony Susco,
                     collaborated with a long-time lending industry veteran, Jeremiah O’Brien, to establish a new entity with
                     a distinct approach to funding professional builders and developers. </p>
                 <p>The pandemic exposed weaknesses in the correspondent model. Good investors had difficulty procuring
