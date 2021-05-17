@@ -93,7 +93,7 @@ opacity-50 sm:h-full top-0 translate-x-1/3 lg:translate-x-2/3',
                 </div>
                 <blockquote class="border-none px-8 mt-2">
                     <p class="text-lg my-0">
-                        Ashmore Partners lives up to its name. They have truly been a partner to me with my projects.
+                        Builders Trust Capital lives up to its name. They have truly been a partner to me with my projects.
                         The process from underwriting to construction inspections has never wavered from their initial
                         promise and Ive always been met with professionalism and efficiency. Rare in this space.
                     </p>
