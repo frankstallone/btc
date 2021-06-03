@@ -42,7 +42,7 @@ $teamQuery = new WP_Query([
                 single family, multi-family, and mixed-use properties. As a portfolio lender, the loans are underwritten
                 and funded in-house.</p>
             <p class="text-xl text-bigWaves-800 my-0">Builders Trust Capital serves New Jersey, Pennsylvania, Maryland,
-                Virginia, and Washington, DC.</p>
+                Virginia, Washington, DC and Florida.</p>
         </div>
     </div>
     <div class="bg-quicksilver-25 px-6 py-12 sm:px-8">
