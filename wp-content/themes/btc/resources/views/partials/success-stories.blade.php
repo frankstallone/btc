@@ -64,13 +64,10 @@ opacity-50 sm:h-full top-0 translate-x-1/3 lg:translate-x-2/3',
             <figure class="success-story pt-0 w-full sm:w-1/2 xl:w-1/3">
                 <div class="mx-4 rounded-lg shadow-xl bg-quicksilver-25 overflow-hidden">
                     <div class="aspect-w-3 aspect-h-2 -mt-8">
-                        <img sizes="(max-width: 1200px) 100vw, 1200px" srcset="
+                        <img sizes="(max-width: 835px) 100vw, 835px" srcset="
 /wp-content/themes/btc/public/images/success-stories-02_yceben_c_scale,w_200.jpg 200w,
-/wp-content/themes/btc/public/images/success-stories-02_yceben_c_scale,w_613.jpg 613w,
-/wp-content/themes/btc/public/images/success-stories-02_yceben_c_scale,w_835.jpg 835w,
-/wp-content/themes/btc/public/images/success-stories-02_yceben_c_scale,w_1126.jpg 1126w,
-/wp-content/themes/btc/public/images/success-stories-02_yceben_c_scale,w_1200.jpg 1200w"
-                            src="/wp-content/themes/btc/public/images/success-stories-02_yceben_c_scale,w_1200.jpg"
+/wp-content/themes/btc/public/images/success-stories-02_yceben_c_scale,w_613.jpg 613w"
+                            src="/wp-content/themes/btc/public/images/success-stories-02_yceben_c_scale,w_835.jpg"
                             class="object-cover"
                             alt="Builders Trust Capital Success Story Photo: 10 Anderson, Morristown NJ">
                     </div>
@@ -109,13 +106,10 @@ opacity-50 sm:h-full top-0 translate-x-1/3 lg:translate-x-2/3',
             <figure class="success-story pt-0 w-full sm:w-1/2 xl:w-1/3">
                 <div class="mx-4 rounded-lg shadow-xl bg-quicksilver-25 overflow-hidden">
                     <div class="aspect-w-3 aspect-h-2 -mt-8">
-                        <img sizes="(max-width: 1200px) 100vw, 1200px" srcset="
+                        <img sizes="(max-width: 814px) 100vw, 814px" srcset="
 /wp-content/themes/btc/public/images/success-stories-03_ey6y2m_c_scale,w_200.jpg 200w,
-/wp-content/themes/btc/public/images/success-stories-03_ey6y2m_c_scale,w_573.jpg 573w,
-/wp-content/themes/btc/public/images/success-stories-03_ey6y2m_c_scale,w_814.jpg 814w,
-/wp-content/themes/btc/public/images/success-stories-03_ey6y2m_c_scale,w_1036.jpg 1036w,
-/wp-content/themes/btc/public/images/success-stories-03_ey6y2m_c_scale,w_1200.jpg 1200w"
-                            src="/wp-content/themes/btc/public/images/success-stories-03_ey6y2m_c_scale,w_1200.jpg"
+/wp-content/themes/btc/public/images/success-stories-03_ey6y2m_c_scale,w_573.jpg 573w"
+                            src="/wp-content/themes/btc/public/images/success-stories-03_ey6y2m_c_scale,w_814.jpg"
                             class="object-cover"
                             alt="Builders Trust Capital Success Story Photo: 10 Anderson, Morristown NJ">
                     </div>
