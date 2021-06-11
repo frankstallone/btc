@@ -20,7 +20,14 @@ opacity-50 sm:h-full top-0 translate-x-1/3 lg:translate-x-2/3',
             <figure class="success-story pt-0 w-full sm:w-1/2 xl:w-1/3">
                 <div class="mx-4 rounded-lg shadow-xl bg-quicksilver-25 overflow-hidden">
                     <div class="aspect-w-3 aspect-h-2 -mt-8">
-                        <img src="/wp-content/themes/btc/public/images/success-stories-01.jpg" class="object-cover"
+                        <img sizes="(max-width: 653px) 100vw, 653px" srcset="
+/wp-content/themes/btc/public/images/success-stories-01_dr6rid_c_scale,w_200.jpg 200w,
+/wp-content/themes/btc/public/images/success-stories-01_dr6rid_c_scale,w_364.jpg 364w,
+/wp-content/themes/btc/public/images/success-stories-01_dr6rid_c_scale,w_494.jpg 494w,
+/wp-content/themes/btc/public/images/success-stories-01_dr6rid_c_scale,w_577.jpg 577w,
+/wp-content/themes/btc/public/images/success-stories-01_dr6rid_c_scale,w_653.jpg 653w"
+                            src="/wp-content/themes/btc/public/images/success-stories-01_dr6rid_c_scale,w_653.jpg"
+                            class="object-cover"
                             alt="Builders Trust Capital Success Story Photo: 1185 Route 9 South, Cape May Courthouse, NJ">
                     </div>
                     <figcaption class="mt-20 relative">
@@ -57,7 +64,14 @@ opacity-50 sm:h-full top-0 translate-x-1/3 lg:translate-x-2/3',
             <figure class="success-story pt-0 w-full sm:w-1/2 xl:w-1/3">
                 <div class="mx-4 rounded-lg shadow-xl bg-quicksilver-25 overflow-hidden">
                     <div class="aspect-w-3 aspect-h-2 -mt-8">
-                        <img src="/wp-content/themes/btc/public/images/success-stories-02.jpg" class="object-cover"
+                        <img sizes="(max-width: 1200px) 100vw, 1200px" srcset="
+/wp-content/themes/btc/public/images/success-stories-02_yceben_c_scale,w_200.jpg 200w,
+/wp-content/themes/btc/public/images/success-stories-02_yceben_c_scale,w_613.jpg 613w,
+/wp-content/themes/btc/public/images/success-stories-02_yceben_c_scale,w_835.jpg 835w,
+/wp-content/themes/btc/public/images/success-stories-02_yceben_c_scale,w_1126.jpg 1126w,
+/wp-content/themes/btc/public/images/success-stories-02_yceben_c_scale,w_1200.jpg 1200w"
+                            src="/wp-content/themes/btc/public/images/success-stories-02_yceben_c_scale,w_1200.jpg"
+                            class="object-cover"
                             alt="Builders Trust Capital Success Story Photo: 10 Anderson, Morristown NJ">
                     </div>
                     <figcaption class="mt-20 relative">
@@ -95,7 +109,14 @@ opacity-50 sm:h-full top-0 translate-x-1/3 lg:translate-x-2/3',
             <figure class="success-story pt-0 w-full sm:w-1/2 xl:w-1/3">
                 <div class="mx-4 rounded-lg shadow-xl bg-quicksilver-25 overflow-hidden">
                     <div class="aspect-w-3 aspect-h-2 -mt-8">
-                        <img src="/wp-content/themes/btc/public/images/success-stories-03.jpg" class="object-cover"
+                        <img sizes="(max-width: 1200px) 100vw, 1200px" srcset="
+/wp-content/themes/btc/public/images/success-stories-03_ey6y2m_c_scale,w_200.jpg 200w,
+/wp-content/themes/btc/public/images/success-stories-03_ey6y2m_c_scale,w_573.jpg 573w,
+/wp-content/themes/btc/public/images/success-stories-03_ey6y2m_c_scale,w_814.jpg 814w,
+/wp-content/themes/btc/public/images/success-stories-03_ey6y2m_c_scale,w_1036.jpg 1036w,
+/wp-content/themes/btc/public/images/success-stories-03_ey6y2m_c_scale,w_1200.jpg 1200w"
+                            src="/wp-content/themes/btc/public/images/success-stories-03_ey6y2m_c_scale,w_1200.jpg"
+                            class="object-cover"
                             alt="Builders Trust Capital Success Story Photo: 10 Anderson, Morristown NJ">
                     </div>
                     <figcaption class="mt-20 relative">
