@@ -129,7 +129,7 @@ opacity-50 sm:h-full top-0 translate-x-1/3 lg:translate-x-2/3',
                     <p class="text-lg my-0">
                         Builders Trust Capital is an incredibly responsive and flexible lender for RE investors. They
                         have
-                        been able to work with my unique situations and helped us closed on properties no one else
+                        been able to work with my unique situations and helped us close on properties no one else
                         could.
                         They know their local area well and can offer guidance. I highly suggest them.
                     </p>
